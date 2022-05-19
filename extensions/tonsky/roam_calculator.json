@@ -1,0 +1,11 @@
+{
+  "name": "Test Extension 1",
+  "short_description": "Prints 'Test message 1'",
+  "author": "Joshua Brown",
+  "tags": [
+    "test",
+    "print"
+  ],
+  "source_url": "https://github.com/tonsky/roam-calculator",
+  "source_commit": "1298ad8862544c963d1049b1ffe56363320b03c9"
+}
