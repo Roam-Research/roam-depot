@@ -2,8 +2,8 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'extensions/*/*.json'
+    # paths:
+    #   - 'extensions/*/*.json'
 
 jobs:
   publish:
@@ -27,8 +27,9 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: git diff --name-status HEAD~1
+      # - run: git diff --name-status HEAD~1
+      - run: git diff --name-status 1b0fe00ce2aced6f0200edee9490c3d783a2c78d 9dca15a322ea4cd182788196643330b4097cb9c5
 
-      - run: clj --version
+      - run: clojure --version
 
       - run: bb --version
