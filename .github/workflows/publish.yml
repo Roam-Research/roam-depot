@@ -9,14 +9,14 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          echo "JAVA_HOME=$JAVA_HOME_11_X64" >> $GITHUB_ENV
-          echo "$JAVA_HOME_11_X64/bin" >> $GITHUB_PATH
+      # - run: |
+      #     echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
+      #     echo "$JAVA_HOME_17_X64/bin" >> $GITHUB_PATH
 
-      - run: |
-          curl -sLO https://download.clojure.org/install/linux-install-1.11.1.1113.sh
-          chmod +x linux-install-1.11.1.1113.sh
-          sudo ./linux-install-1.11.1.1113.sh
+      # - run: |
+      #     curl -sLO https://download.clojure.org/install/linux-install-1.11.1.1113.sh
+      #     chmod +x linux-install-1.11.1.1113.sh
+      #     sudo ./linux-install-1.11.1.1113.sh
 
       - run: |
           curl -sLO https://raw.githubusercontent.com/babashka/babashka/master/install
@@ -27,9 +27,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      # - run: git diff --name-status HEAD~1
-      - run: git diff --name-status 1b0fe00ce2aced6f0200edee9490c3d783a2c78d 9dca15a322ea4cd182788196643330b4097cb9c5
-
-      - run: clojure --version
+      # - run: clojure --version
 
       - run: bb --version
+      
+      # - run: git diff --name-status HEAD~1
+      - run: git diff --name-status 9dca15a322ea4cd182788196643330b4097cb9c5 1b0fe00ce2aced6f0200edee9490c3d783a2c78d | bb -f ./script/publish.clj
+
