@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "firebase-admin": "^10.2.0",
+    "node-fetch": "^3.2.4"
+  },
+  "type": "module"
+}
