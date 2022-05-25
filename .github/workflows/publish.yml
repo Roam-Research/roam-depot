@@ -28,18 +28,10 @@ jobs:
 
       - run: yarn install
 
-      - run: |
-          echo $FIREBASE_SERVICE_KEY > ./firebase-key.json
+      - run: echo $FIREBASE_SERVICE_KEY > ./firebase-key.json
         env:
           FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
 
-      # - run: clojure --version
-
-      # - run: bb --version
-      
-      # - run: git diff --name-status HEAD~1
-      # - run: git diff --name-status 9dca15a322ea4cd182788196643330b4097cb9c5 1b0fe00ce2aced6f0200edee9490c3d783a2c78d | bb -f ./script/publish.clj
-
-      - run: ./script/token.sh
+      - run: bb -f ./script/publish.clj HEAD~1
         env:
           FIREBASE_WEB_API_KEY: ${{ secrets.FIREBASE_WEB_API_KEY }}
