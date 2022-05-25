@@ -1,7 +1,7 @@
 {
   "name": "Test Extension 1",
   "short_description": "Prints 'Test message 1'",
-  "author": "Joshua Brown",
+  "author": "Nikita Prokopov",
   "tags": [
     "test",
     "print"
