@@ -3,8 +3,8 @@
   "short_description": "Prints 'Test message 1'",
   "author": "Nikita Prokopov",
   "tags": [
-    "test",
-    "print"
+    "print",
+    "test"
   ],
   "source_url": "https://github.com/tonsky/roam-calculator",
   "source_repo": "https://github.com/tonsky/roam-calculator.git",

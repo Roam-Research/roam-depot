@@ -1,23 +1,53 @@
-#! bb
-
-(ns publish
+(ns upload
+  (:refer-clojure :exclude [ref])
   (:require
-    [babashka.curl :as curl]
-    [babashka.fs :as fs]
     [cheshire.core :as json]
     [clojure.java.io :as io]
     [clojure.java.shell :as shell]
     [clojure.string :as str])
   (:import
-    [java.io File]))
+    [java.io File FileInputStream]
+    [java.nio.file Files Path]
+    [com.google.auth.oauth2 GoogleCredentials]
+    [com.google.firebase FirebaseOptions FirebaseApp]
+    [com.google.firebase.database DatabaseReference DatabaseReference$CompletionListener FirebaseDatabase ValueEventListener]
+    [com.google.cloud.storage BlobId BlobInfo Blob$BlobSourceOption Bucket BucketInfo Storage Storage$BlobTargetOption StorageOptions]))
+
+(when (or (zero? (count *command-line-args*))
+        (odd? (count *command-line-args*)))
+  (println "Usage:")
+  (println)
+  (println "  ./script/publish.sh --key <path-to-key> [--from <sha>] [--to <sha>] [--realtime <name>] [--storage <name>]")
+  (System/exit 1))
+
+(def args-map
+  (apply array-map *command-line-args*))
+
+(def credentials
+  (GoogleCredentials/fromStream (io/input-stream (get args-map "--key"))))
+
+(def sha-from
+  (get args-map "--from" "HEAD~1"))
+
+(def sha-to
+  (get args-map "--to" "HEAD"))
+
+(def realtime-name
+  (get args-map "--realtime" "firescript-577a2.firebaseio.com"))
+
+(def storage-name
+  (get args-map "--storage" "firescript-577a2.appspot.com"))
+
+(def mime-types
+  {"md"  "text/markdown"
+   "js"  "application/js"
+   "css" "application/css"})
 
 (def root
-  (-> *file* fs/canonicalize fs/parent fs/parent fs/file))
+  (-> *file* io/file .getParentFile .getParentFile))
 
-(alter-var-root #'shell/*sh-dir* (constantly root))
-
-(def db-url
-  "https://firescript-577a2.firebaseio.com/")
+(alter-var-root #'shell/*sh-dir*
+  (constantly root))
 
 (defn sh [& cmd]
   (apply println "[ sh ]" cmd)
@@ -29,76 +59,91 @@
       (str/trim out)
       (throw (Exception. (str "Command '" (str/join " " cmd) "' failed with exit code " exit))))))
 
-(def token
-  (sh "/bin/bash" (str (fs/file root "script" "token.sh"))))
+(defn ref-get [ref]
+  (println "[ get ]" (str ref))
+  (let [p (promise)]
+    (.addListenerForSingleValueEvent ref
+      (reify ValueEventListener
+        (onCancelled [_ error]
+          (deliver p (.toException error)))
+        (onDataChange [_ snapshot]
+          (deliver p (.getValue snapshot)))))
+    (if (instance? Throwable @p)
+      (throw (ex-info (str "Failed to get " ref " with: " @p)))
+      @p)))
 
-(def diff
-  (apply sh "git" "diff" "--name-status" *command-line-args*))
+(defn ref-set! [ref value]
+  (println "[ set ]" (str ref))
+  (let [p (promise)]
+    (.setValue ref value
+      (reify DatabaseReference$CompletionListener
+        (onComplete [_ error ref]
+          (deliver p error))))
+    (when-some [error @p]
+      (throw (ex-info (str "Failed to set " ref " with: " error) {:error error})))))
 
-(defn request [method url & [body]]
-  (println "[" method "]" url)
-  (let [f       (case method
-                 :get curl/get
-                 :put curl/put
-                 :post curl/post)
-        url'    (str url "?auth=" token)
-        headers {"Content-Type" "application/json; charset=utf-8"
-                 "Accept" "application/json"}
-        body'   (some-> body json/generate-string)]
-    (some->
-      (f url' (cond-> {:headers headers}
-                body' (assoc :body body')))
-      (:body)
-      (json/parse-string true))))
+(defn ref [db & path]
+  (.getReference db (str/join "/" path)))
 
-(defn publish [id data]
-  (let [{:keys [version] :as resp} (request :get (str db-url "extensions/" id ".json"))
-        version' (-> (or version "0") parse-long inc str)]
-    (when-not (fs/exists? (fs/file root "checkout"))
-      (sh "git" "clone" (:source_repo data) "checkout"))
-    (shell/with-sh-dir (fs/file root "checkout")
-      (sh "git" "-c" "advice.detachedHead=false" "checkout" (:source_commit data)))
-    (let [url       (str db-url "extension_files/" id "+" version' ".json")
-          readme    (fs/file root "checkout" "README.md")
-          changelog (fs/file root "checkout" "CHANGELOG.md")
-          js        (fs/file root "checkout" "extension.js")
-          css       (fs/file root "checkout" "extension.css")]
-      (request :put url
-        (cond-> {}
-          (fs/exists? readme)
-          (assoc :readme_md (slurp readme))
-          
-          (fs/exists? changelog)
-          (assoc :changelog_md (slurp changelog))
-          
-          (fs/exists? js)
-          (assoc :extension_js (slurp js))
-          
-          (fs/exists? css)
-          (assoc :extension_css (slurp css)))))
-    (let [url   (str db-url "extension_versions/" id "+" version' ".json")
-          data' (assoc data
-                  :extension id
-                  :version version')]
-      (request :put url data'))
-    (let [url   (str db-url "extensions/" id ".json")
-          data' (assoc data
-                  :version version')]
-      (request :put url data'))))
+(defn upload [version-id & files]
+  (let [storage (-> (StorageOptions/newBuilder)
+                  (.setCredentials credentials)
+                  (.build)
+                  (.getService))]
+    (doseq [file files
+            :when (.exists file)
+            :let [path    (.toPath file)
+                  bytes   (Files/readAllBytes path)
+                  name    (str (.getFileName path))
+                  [_ ext] (re-matches #".*\.(\w+)" name)
+                  o       (str "extension_files/" version-id "/" name)
+                  id      (BlobId/of storage-name o)
+                  mime    (mime-types ext)
+                  info    (-> (BlobInfo/newBuilder id)
+                            (.setContentType mime)
+                            (.build))]]
+      (println "[ upload ]" (str path) "as" mime "of" (count bytes) "bytes")
+      (.create storage info bytes (make-array Storage$BlobTargetOption 0)))))
 
-(defn -main []
-  (doseq [[mode path] (->> diff
-                        (str/split-lines)
-                        (map #(str/split % #"\t")))
-          :when (str/starts-with? path "extensions/")
-          :let [[_ user repo] (re-matches #"extensions/([^/]+)/([^/]+)\.json" path)
-                id   (str user "+" repo)
-                data (-> (fs/file root path)
-                       (slurp)
-                       (json/parse-string true))]]
-    (cond
-      (= "A" mode) (publish id data)
-      (= "M" mode) (publish id data)
-      (str/starts-with? "R" mode) :nop)))
+(defn publish [db ext-id data]
+  (let [{:strs [version]} (ref-get (ref db "extensions" ext-id))
+        version' (-> (or version "0") parse-long inc str)
+        version-id (str ext-id "+" version')
+        data'    (assoc data
+                   "extension" ext-id
+                   "version" version')]
+    (when-not (.exists (io/file root "checkout"))
+      (sh "git" "clone" (get data "source_repo") "checkout"))
+    (shell/with-sh-dir (io/file root "checkout")
+      (sh "git" "-c" "advice.detachedHead=false" "checkout" (get data "source_commit")))
+    (upload version-id
+      (io/file root "checkout" "README.md")
+      (io/file root "checkout" "CHANGELOG.md")
+      (io/file root "checkout" "extension.js")
+      (io/file root "checkout" "extension.css"))
+    (ref-set! (ref db "extension_versions" version-id) data')
+    (ref-set! (ref db "extensions" ext-id) data')))
+
+(defn -main [& args]
+  (let [opts (-> (FirebaseOptions/builder)
+               (.setCredentials credentials)
+               (.setDatabaseUrl (str "https://" realtime-name "/"))
+               (.build))
+        app  (FirebaseApp/initializeApp opts)
+        db   (FirebaseDatabase/getInstance)]
+    (doseq [[mode path] (->> (sh "git" "diff" "--name-status" sha-from sha-to)
+                          (str/split-lines)
+                          (map #(str/split % #"\t")))
+            :when (str/starts-with? path "extensions/")
+            :let [[_ user repo] (re-matches #"extensions/([^/]+)/([^/]+)\.json" path)
+                  ext-id   (str user "+" repo)
+                  data (-> (io/file root path)
+                         (slurp)
+                         (json/parse-string))]]
+      (cond
+        (= "A" mode) (publish db ext-id data)
+        (= "M" mode) (publish db ext-id data)
+        (str/starts-with? "R" mode) :nop))
+    (shutdown-agents)))
 
 (-main)
