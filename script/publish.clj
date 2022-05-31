@@ -1,4 +1,4 @@
-(ns upload
+(ns publish
   (:refer-clojure :exclude [ref])
   (:require
     [cheshire.core :as json]
@@ -8,6 +8,7 @@
   (:import
     [java.io File FileInputStream]
     [java.nio.file Files Path]
+    [com.google.firebase.auth FirebaseAuth]
     [com.google.auth.oauth2 GoogleCredentials]
     [com.google.firebase FirebaseOptions FirebaseApp]
     [com.google.firebase.database DatabaseReference DatabaseReference$CompletionListener FirebaseDatabase ValueEventListener]
@@ -17,7 +18,7 @@
         (odd? (count *command-line-args*)))
   (println "Usage:")
   (println)
-  (println "  ./script/publish.sh --key <path-to-key> [--from <sha>] [--to <sha>] [--realtime <name>] [--storage <name>]")
+  (println "  clojure -M script/publish.clj --key <path-to-key> [--from <sha>] [--to <sha>] [--realtime <name>] [--storage <name>]")
   (System/exit 1))
 
 (def args-map
@@ -107,20 +108,17 @@
 
 (defn publish [db ext-id data]
   (let [{:strs [version]} (ref-get (ref db "extensions" ext-id))
-        version' (-> (or version "0") parse-long inc str)
+        version'   (-> (or version "0") parse-long inc str)
         version-id (str ext-id "+" version')
-        data'    (assoc data
-                   "extension" ext-id
-                   "version" version')]
-    (when-not (.exists (io/file root "checkout"))
-      (sh "git" "clone" (get data "source_repo") "checkout"))
-    (shell/with-sh-dir (io/file root "checkout")
-      (sh "git" "-c" "advice.detachedHead=false" "checkout" (get data "source_commit")))
+        data'      (assoc data
+                     "extension" ext-id
+                     "version" version')
+        dir        (io/file root "checkout" ext-id)]
     (upload version-id
-      (io/file root "checkout" "README.md")
-      (io/file root "checkout" "CHANGELOG.md")
-      (io/file root "checkout" "extension.js")
-      (io/file root "checkout" "extension.css"))
+      (io/file dir "README.md")
+      (io/file dir "CHANGELOG.md")
+      (io/file dir "extension.js")
+      (io/file dir "extension.css"))
     (ref-set! (ref db "extension_versions" version-id) data')
     (ref-set! (ref db "extensions" ext-id) data')))
 
@@ -144,6 +142,7 @@
         (= "A" mode) (publish db ext-id data)
         (= "M" mode) (publish db ext-id data)
         (str/starts-with? "R" mode) :nop))
+    
     (shutdown-agents)))
 
 (-main)

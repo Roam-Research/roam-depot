@@ -6,7 +6,7 @@ on:
       - 'extensions/*/*.json'
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
     steps:
       - run: |
@@ -21,6 +21,34 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+
+      - run: clojure -M script/build.clj
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: checkout
+          path: checkout
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
+          echo "$JAVA_HOME_17_X64/bin" >> $GITHUB_PATH
+
+      - run: |
+          curl -sLO https://download.clojure.org/install/linux-install-1.11.1.1113.sh
+          chmod +x linux-install-1.11.1.1113.sh
+          sudo ./linux-install-1.11.1.1113.sh
+
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: checkout
 
       - run: echo $FIREBASE_SERVICE_KEY > ./firebase-key.json
         env:
