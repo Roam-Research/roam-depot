@@ -24,7 +24,7 @@
           :when (str/starts-with? path "extensions/")
           :let [[_ user repo] (re-matches #"extensions/([^/]+)/([^/]+)\.json" path)
                 ext-id        (str user "+" repo)
-                data          (-> (io/file path)
-                                (slurp)
-                                (json/parse-string))]]
+                file          (io/file path)
+                data          (when (.exists file)
+                                (json/parse-string (slurp file)))]]
       [mode ext-id data])))

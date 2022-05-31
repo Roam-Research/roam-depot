@@ -20,8 +20,8 @@
 
 (defn -main [& {:as args-map}]
   (doseq [[mode ext-id data] (core/diff args-map)]
-    (cond
-      (= "A" mode) (build ext-id data)
-      (= "M" mode) (build ext-id data)
-      (str/starts-with? "R" mode) :nop))
+    (case mode
+      "A" (build ext-id data)
+      "M" (build ext-id data)
+      nil))
   (shutdown-agents))

@@ -111,9 +111,9 @@
                       (.build)
                       (.getService))]
     (doseq [[mode ext-id data] (core/diff args-map)]
-      (cond
-        (= "A" mode) (publish db storage ext-id data)
-        (= "M" mode) (publish db storage ext-id data)
-        (str/starts-with? "R" mode) (unpublish db ext-id)))
-  
+      (case mode
+        "A" (publish db storage ext-id data)
+        "M" (publish db storage ext-id data)
+        "D" (unpublish db ext-id)
+        nil))  
     (shutdown-agents)))

@@ -1,3 +1,4 @@
 firebase-key.json
 node_modules
-checkout
+checkout/*
+!checkout/.keep
