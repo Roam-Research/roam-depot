@@ -22,7 +22,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: clojure -M script/build.clj
+      - run: clojure -M -m community-extensions.build
 
       - uses: actions/upload-artifact@v3
         with:
@@ -54,4 +54,4 @@ jobs:
         env:
           FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
 
-      - run: clojure -M script/publish.clj --key ./firebase-key.json
+      - run: clojure -M -m community-extensions.publish --key ./firebase-key.json
