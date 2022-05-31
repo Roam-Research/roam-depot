@@ -33,6 +33,19 @@
       (throw (ex-info (str "Failed to get " ref " with: " @p)))
       @p)))
 
+(defn ref-find [ref ^String key ^String value]
+  (println "[ find ]" (str ref) key "=" value)
+  (let [p (promise)]
+    (.addListenerForSingleValueEvent (-> ref (.orderByChild key) (.equalTo value))
+      (reify ValueEventListener
+        (onCancelled [_ error]
+          (deliver p (.toException error)))
+        (onDataChange [_ snapshot]
+          (deliver p (.getValue snapshot)))))
+    (if (instance? Throwable @p)
+      (throw (ex-info (str "Failed to get " ref " with: " @p)))
+      @p)))
+
 (defn ref-set! [ref value]
   (println "[ set ]" (str ref))
   (let [p (promise)]
@@ -73,8 +86,12 @@
     (.create storage info bytes (make-array Storage$BlobTargetOption 0))))
 
 (defn publish [db storage ext-id data]
-  (let [{:strs [version]} (ref-get (ref db "extensions" ext-id))
-        version'   (-> (or version "0") parse-long inc str)
+  (let [version    (->> (ref-find (ref db "extension_versions") "extension" ext-id)
+                     (vals)
+                     (map #(get % "version"))
+                     (map parse-long)
+                     (reduce max 0))
+        version'   (str (inc version))
         version-id (str ext-id "+" version')
         data'      (assoc data
                      "extension" ext-id

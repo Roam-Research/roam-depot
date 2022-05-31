@@ -9,14 +9,19 @@
   (apply array-map *command-line-args*))
 
 (defn build [ext-id data]
-  (let [dir (io/file "checkout" ext-id)
+  (let [dir     (io/file "checkout" ext-id)
+        exists? (.exists dir)
         {repo "source_repo"
          commit "source_commit"} data]
-    (when-not (.exists dir)
+    (when-not exists?
       (.mkdirs dir)
       (core/sh "git" "clone" repo (str "checkout/" ext-id)))
     (shell/with-sh-dir dir
-      (core/sh "git" "-c" "advice.detachedHead=false" "checkout" commit))))
+      (when exists?
+        (core/sh "git" "fetch" "--all"))
+      (core/sh "git" "-c" "advice.detachedHead=false" "checkout" commit)
+      (when (.exists (io/file dir "build.sh"))
+        (core/sh "./build.sh")))))
 
 (defn -main [& {:as args-map}]
   (doseq [[mode ext-id data] (core/diff args-map)]
