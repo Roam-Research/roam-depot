@@ -70,7 +70,8 @@
   (.getReference db (str/join "/" path)))
 
 (defn upload [storage version-id & files]
-  (doseq [file files
+  (vec
+    (for [file files
           :when (.exists file)
           :let [path    (.toPath file)
                 bytes   (Files/readAllBytes path)
@@ -82,8 +83,10 @@
                 info    (-> (BlobInfo/newBuilder id)
                           (.setContentType mime)
                           (.build))]]
-    (println "[ upload ]" (str path) "as" mime "of" (count bytes) "bytes")
-    (.create storage info bytes (make-array Storage$BlobTargetOption 0))))
+      (do
+        (println "[ upload ]" (str path) "as" mime "of" (count bytes) "bytes")
+        (.create storage info bytes (make-array Storage$BlobTargetOption 0))
+        o))))
 
 (defn publish [db storage ext-id data]
   (let [version    (->> (ref-find (ref db "extension_versions") "extension" ext-id)
@@ -93,15 +96,16 @@
                      (reduce max 0))
         version'   (str (inc version))
         version-id (str ext-id "+" version')
+        dir        (io/file "checkout" ext-id)
+        files      (upload storage version-id
+                     (io/file dir "README.md")
+                     (io/file dir "CHANGELOG.md")
+                     (io/file dir "extension.js")
+                     (io/file dir "extension.css"))
         data'      (assoc data
                      "extension" ext-id
-                     "version" version')
-        dir        (io/file "checkout" ext-id)]
-    (upload storage version-id
-      (io/file dir "README.md")
-      (io/file dir "CHANGELOG.md")
-      (io/file dir "extension.js")
-      (io/file dir "extension.css"))
+                     "version"   version'
+                     "files"     files)]
     (ref-set! (ref db "extension_versions" version-id) data')
     (ref-set! (ref db "extensions" ext-id) data')))
 
