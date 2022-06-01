@@ -1,5 +1,8 @@
 {:deps
- {cheshire/cheshire                     {:mvn/version "5.11.0"}
-  com.google.firebase/firebase-admin    {:mvn/version "8.1.0"}
-  com.google.cloud/google-cloud-storage {:mvn/version "2.7.1"}
-  org.slf4j/slf4j-simple                {:mvn/version "1.7.36"}}}
+ {cheshire/cheshire {:mvn/version "5.11.0"}}
+ :aliases
+ {:firebase
+  {:extra-deps
+   {com.google.firebase/firebase-admin    {:mvn/version "8.1.0"}
+    com.google.cloud/google-cloud-storage {:mvn/version "2.7.1"}
+    org.slf4j/slf4j-simple                {:mvn/version "1.7.36"}}}}}

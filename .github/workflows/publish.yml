@@ -25,7 +25,7 @@ jobs:
       - run: clojure -P
         name: Fetch deps
 
-      - run: clojure -M -m community-extensions.build
+      - run: ./script/build.sh
 
       - uses: actions/upload-artifact@v3
         with:
@@ -54,11 +54,11 @@ jobs:
           name: checkout
           path: checkout
 
-      - run: clojure -P
-        name: Fetch deps
-
       - run: echo $FIREBASE_SERVICE_KEY > ./firebase-key.json
         env:
           FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
 
-      - run: clojure -M -m community-extensions.publish --key ./firebase-key.json
+      - run: clojure -P
+        name: Fetch deps
+
+      - run: ./script/publish.sh --key ./firebase-key.json
