@@ -86,7 +86,7 @@
       (do
         (println "[ upload ]" (str path) "as" mime "of" (count bytes) "bytes")
         (.create storage info bytes (make-array Storage$BlobTargetOption 0))
-        o))))
+        name))))
 
 (defn publish [db storage ext-id data]
   (let [version    (->> (ref-find (ref db "extension_versions") "extension" ext-id)
