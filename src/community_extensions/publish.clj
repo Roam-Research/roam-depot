@@ -102,6 +102,8 @@
                      (io/file dir "CHANGELOG.md")
                      (io/file dir "extension.js")
                      (io/file dir "extension.css"))
+        _          (when (empty? files)
+                     (throw (ex-info (str "No files found for extension " ext-id) {})))
         data'      (assoc data
                      "extension" ext-id
                      "version"   version'
