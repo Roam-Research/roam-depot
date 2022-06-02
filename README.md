@@ -13,12 +13,15 @@ E.g. https://github.com/tonsky/roam-calculator:
 
 If your extension has a build process, you can provide a single `build.sh` that should generate files above.
 
-Your extension should export as default a map with `onload` and `onunload` functions
-All state setup in `onload` should be removed in `onunload`
+Your extension should export as default a map with `onload` and `onunload` functions.
+
+All state setup in `onload` should be removed in `onunload`.
 
 ```javascript
-export default {onload: () => {},
-                onunload: () => {}}
+export default {
+  onload: () => {},
+  onunload: () => {}
+};
 ```
 
 ### In this repo
