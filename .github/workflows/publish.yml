@@ -58,7 +58,7 @@ jobs:
         env:
           FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
 
-      - run: clojure -P
+      - run: clojure -P -M:firebase
         name: Fetch deps
 
       - run: ./script/publish.sh --key ./firebase-key.json

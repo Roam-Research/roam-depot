@@ -73,18 +73,24 @@
   (vec
     (for [file files
           :when (.exists file)
-          :let [path    (.toPath file)
-                bytes   (Files/readAllBytes path)
-                name    (str (.getFileName path))
-                [_ ext] (re-matches #".*\.(\w+)" name)
-                o       (str "extension_files/" version-id "/" name)
-                id      (BlobId/of "firescript-577a2.appspot.com" o)
-                mime    (mime-types ext)
-                info    (-> (BlobInfo/newBuilder id)
-                          (.setContentType mime)
-                          (.build))]]
+          :let [name      (.getName file)
+                [_ ext]   (re-matches #".*\.(\w+)" name)
+                o         (str "extension_files/" version-id "/" name)
+                id        (BlobId/of "firescript-577a2.appspot.com" o)
+                mime      (mime-types ext)
+                compress? (>= (.length file) 1024)
+                info      (cond-> (BlobInfo/newBuilder id)
+                            true      (.setContentType mime)
+                            compress? (.setContentEncoding "gzip")
+                            true      (.build))
+                _         (when compress?
+                            (core/sh "gzip" "--best" "--keep" (.getPath file)))
+                path      (if compress?
+                            (Path/of (str (.getPath file) ".gz") (make-array String 0))
+                            (.toPath file))
+                bytes     (Files/readAllBytes path)]]
       (do
-        (println "[ upload ]" (str path) "as" mime "of" (count bytes) "bytes")
+        (println (str "[ upload ] " name " (" (.length file) " bytes) as " mime " (" (count bytes) " bytes)"))
         (.create storage info bytes (make-array Storage$BlobTargetOption 0))
         name))))
 
