@@ -57,6 +57,10 @@ with the following content:
 
 Then make a Pull Request with this change. After it’s merged, your extension will be published in the Roam Marketplace.
 
+## Examples
+
+ - [Bitcoin Price Tracker](https://github.com/panterarocks49/roam-extension-bitcoin-price)
+
 # Community Theme
 
 We do not support themes yet, we hope to add them soon. Please do not submit a theme as an extension.
