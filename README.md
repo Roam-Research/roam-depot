@@ -24,6 +24,8 @@ export default {
 };
 ```
 
+[see full documentation](https://roamresearch.com/#/app/developer-documentation/page/5BB8h4I7b)
+
 ### build.sh
 
 If `build.sh` exists in the root of your repo, it will be invoked before looking for `extension.js`/`extension.css` files.
