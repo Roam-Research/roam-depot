@@ -1,3 +1,5 @@
+name: Publish to Marketplace
+
 on:
   push:
     branches:

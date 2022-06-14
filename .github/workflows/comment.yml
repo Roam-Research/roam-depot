@@ -1,0 +1,46 @@
+name: Comment on PRs
+
+on:
+  pull_request_target:
+    branches:    
+      - main
+    paths:
+      - 'extensions/*/*.json'
+
+jobs:
+  comment:
+    runs-on: ubuntu-20.04
+    steps:
+      - run: |
+          echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
+          echo "$JAVA_HOME_17_X64/bin" >> $GITHUB_PATH
+
+      - run: |
+          curl -sLO https://download.clojure.org/install/linux-install-1.11.1.1113.sh
+          chmod +x linux-install-1.11.1.1113.sh
+          sudo ./linux-install-1.11.1.1113.sh
+
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Add comment to PR
+        env:
+          URL: ${{ github.event.pull_request.comments_url }}
+          PR: ${{ github.event.pull_request.number }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -x
+          echo $URL
+          echo $PR
+          git fetch origin pull/$PR/head:pr-$PR
+          git branch -a
+          git diff remotes/origin/main..pr-$PR
+          DIFF=`git diff remotes/origin/main..pr-$PR`
+          curl --fail --silent --location \
+            -X POST \
+            -H "Content-Type: application/json" \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            https://api.github.com/repos/Roam-Research/roam-marketplace/issues/$PR/comments \
+            --data '{ "body": "$DIFF" }'
