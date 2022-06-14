@@ -24,23 +24,28 @@ jobs:
         with:
           fetch-depth: 0
 
+      - run: clojure -P
+        name: Fetch deps
+
       - name: Add comment to PR
         env:
           URL: ${{ github.event.pull_request.comments_url }}
           PR: ${{ github.event.pull_request.number }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -x
-          echo $URL
-          echo $PR
-          git fetch origin pull/$PR/head:pr-$PR
-          git branch -a
-          git diff remotes/origin/main..pr-$PR
-          DIFF=`git diff remotes/origin/main..pr-$PR`
-          curl --fail --silent --location \
-            -X POST \
-            -H "Content-Type: application/json" \
-            -H "Accept: application/vnd.github.v3+json" \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            https://api.github.com/repos/Roam-Research/roam-marketplace/issues/$PR/comments \
-            --data '{ "body": "$DIFF" }'
+          ./script/comment.sh --pr $PR
+        # run: |
+        #   set -x
+        #   echo $URL
+        #   echo $PR
+        #   git fetch origin pull/$PR/head:pr-$PR
+        #   git branch -a
+        #   git diff remotes/origin/main..pr-$PR
+        #   DIFF=`git diff remotes/origin/main..pr-$PR`
+        #   curl --fail --silent --location \
+        #     -X POST \
+        #     -H "Content-Type: application/json" \
+        #     -H "Accept: application/vnd.github.v3+json" \
+        #     -H "Authorization: token $GITHUB_TOKEN" \
+        #     https://api.github.com/repos/Roam-Research/roam-marketplace/issues/$PR/comments \
+        #     --data '{ "body": "$DIFF" }'

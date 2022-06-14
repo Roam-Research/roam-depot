@@ -28,3 +28,8 @@
                 data          (when (.exists file)
                                 (json/parse-string (slurp file)))]]
       [mode ext-id data])))
+
+(defn slurp-json [path]
+  (-> path
+    (slurp)
+    (json/parse-string true)))
