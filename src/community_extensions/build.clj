@@ -21,13 +21,12 @@
         (core/sh "git" "fetch" "--all"))
       (core/sh "git" "-c" "advice.detachedHead=false" "checkout" commit)
       (when (.exists (io/file dir "build.sh"))
-        (core/sh "ls -la")
-        (core/sh "pwd")
+        (prn (core/sh "ls -la"))
+        (prn (core/sh "pwd"))
         (core/sh "chmod +x build.sh")
         (core/sh "./build.sh")))))
 
 (defn -main [& {:as args-map}]
-  (prn args-map)
   (doseq [[mode ext-id data] (core/diff args-map)]
     (case mode
       "A" (build ext-id data)
