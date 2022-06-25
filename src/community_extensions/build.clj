@@ -1,9 +1,8 @@
 (ns community-extensions.build
   (:require
-    [clojure.java.io :as io]
-    [clojure.java.shell :as shell]
-    [clojure.string :as str]
-    [community-extensions.core :as core]))
+   [clojure.java.io :as io]
+   [clojure.java.shell :as shell]
+   [community-extensions.core :as core]))
 
 (def args-map
   (apply array-map *command-line-args*))
@@ -21,9 +20,7 @@
         (core/sh "git" "fetch" "--all"))
       (core/sh "git" "-c" "advice.detachedHead=false" "checkout" commit)
       (when (.exists (io/file dir "build.sh"))
-        (prn (core/sh "ls -la"))
-        (prn (core/sh "pwd"))
-        (core/sh "chmod +x build.sh")
+        (core/sh "chmod" "+x" "build.sh")
         (core/sh "./build.sh")))))
 
 (defn -main [& {:as args-map}]
