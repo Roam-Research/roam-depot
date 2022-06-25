@@ -21,6 +21,7 @@
         (core/sh "git" "fetch" "--all"))
       (core/sh "git" "-c" "advice.detachedHead=false" "checkout" commit)
       (when (.exists (io/file dir "build.sh"))
+        (core/sh "chmod +x build.sh")
         (core/sh "./build.sh")))))
 
 (defn -main [& {:as args-map}]
