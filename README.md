@@ -50,10 +50,11 @@ with the following content:
   "name": "Test Extension 1",
   "short_description": "Prints 'Test message 1'",
   "author": "Nikita Prokopov",
-  "tags": ["print", "test"],
+  "tags": ["print", "test"], //optional
   "source_url": "https://github.com/tonsky/roam-calculator",
   "source_repo": "https://github.com/tonsky/roam-calculator.git",
-  "source_commit": "d5ecd16363975b2e7a097d46e5f411c95e16682d"
+  "source_commit": "d5ecd16363975b2e7a097d46e5f411c95e16682d",
+  "stripe_account": "acct_1LGASrQVCl6NYjck" // optional
 }
 ```
 
