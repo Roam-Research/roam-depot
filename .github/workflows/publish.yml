@@ -32,7 +32,9 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: checkout
-          path: checkout
+          path: |
+            checkout
+            !checkout/**/node_modules/*
 
   publish:
     needs: build
