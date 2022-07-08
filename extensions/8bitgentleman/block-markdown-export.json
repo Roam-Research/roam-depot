@@ -1,0 +1,10 @@
+{
+    "name": "Block Markdown Export",
+    "short_description": "Right-Click menu plugin: Exports a block and all its children as flat markdown",
+    "author": "Matt Vogel",
+    "tags": ["right-click menu", "export", "markdown"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-block-export",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-block-export.git",
+    "source_commit": "5c59119af74a7a5bbecdc0cdcdb8110e3dee352d",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }
