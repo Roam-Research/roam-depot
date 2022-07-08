@@ -1,0 +1,10 @@
+{
+    "name": "HTML Table Import",
+    "short_description": "Right-Click menu plugin: Converts an HTML table copied to the clipboard into a Roam Table format.",
+    "author": "Matt Vogel",
+    "tags": ["right-click menu", "import"],
+    "source_url": "https://github.com/8bitgentleman/roam-depo-html-table",
+    "source_repo": "https://github.com/8bitgentleman/roam-depo-html-table.git",
+    "source_commit": "6db1db13361a011b7f913ffdc22cde117c6b0888",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }
