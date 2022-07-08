@@ -1,0 +1,10 @@
+{
+  "name": "Bionic Text",
+  "short_description": "Display all texts on your current Roam page in a similar way as Bionic Reading",
+  "author": "Fabrice Gallet",
+  "tags": ["reading", "focus"],
+  "source_url": "https://github.com/fbgallet/roam-extension-bionic-text",
+  "source_repo": "https://github.com/fbgallet/roam-extension-bionic-text.git",
+  "source_commit": "1d5081264468248f25d3d06ba4dc941c2ce1efe9",
+  "stripe_account": "acct_1LJHuRQerhPsAmG6"
+}
