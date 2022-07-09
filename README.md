@@ -1,5 +1,7 @@
 # Community Extension
 
+[Full Documentation](https://roamresearch.com/#/app/developer-documentation/page/5BB8h4I7b)
+
 To submit an extension, you need to create a Github repo for it and make a PR to this repo.
 
 ## In your own extension repo
@@ -23,8 +25,6 @@ export default {
   onunload: () => {}
 };
 ```
-
-[see full documentation](https://roamresearch.com/#/app/developer-documentation/page/5BB8h4I7b)
 
 ### build.sh
 
