@@ -1,0 +1,9 @@
+{
+    "name": "Random Block",
+    "short_description": "Adds a Random Block button to the left sidebar",
+    "author": "Abhay Prasanna",
+    "tags": ["button", "random"],
+    "source_url": "https://github.com/abhayprasanna/roam-random-block",
+    "source_repo": "https://github.com/abhayprasanna/roam-random-block.git",
+    "source_commit": "f0dd84b008978e18cf9aee79a1d3437107080ef4"
+}
