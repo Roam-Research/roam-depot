@@ -1,0 +1,8 @@
+{
+  "name": "Matter",
+  "short_description": "The official Matter <> Roam extension",
+  "author": "The Matter Team <hello@getmatter.com>",
+  "source_url": "https://github.com/getmatterapp/roam-matter",
+  "source_repo": "https://github.com/getmatterapp/roam-matter.git",
+  "source_commit": "491e9970d7728eb6934d30e31b13a2c8750af229"
+}
