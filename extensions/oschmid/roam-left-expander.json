@@ -1,0 +1,9 @@
+
+{
+  "name": "Left Expander",
+  "short_description": "Move your mouse anywhere along the left side to expand the sidebar. Handy if you like the left sidebar collapsed when writing but find youself hunting for the tiny menu button to expand it.",
+  "author": "Oliver Schmid",
+  "source_url": "https://github.com/oschmid/roam-left-expander",
+  "source_repo": "https://github.com/oschmid/roam-left-expander.git",
+  "source_commit": "2348cd0ac6ee7003af7e25a59d7a024191f499fd"
+}
