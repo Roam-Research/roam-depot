@@ -1,0 +1,11 @@
+{
+    "name": "Tweet Extractor",
+    "short_description": "Extracts text and metadata from a tweet saved in your graph.",
+    "author": "Matt Vogel",
+    "tags": ["twitter"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-tweet-extract",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-tweet-extract.git",
+    "source_commit": "fd7f4fbe32ac6f367c17ce3eb1cf904dcd89d197",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+
+}
