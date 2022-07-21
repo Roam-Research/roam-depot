@@ -1,0 +1,10 @@
+{
+    "name": "Hide/Show Left Sidebar Buttons",
+    "short_description": "Roam Research plugin to hide/show the individual buttons in the left sidebar",
+    "author": "Matt Vogel",
+    "tags": ["left sidebar"],
+    "source_url": "https://github.com/8bitgentleman/hide-left-sidebar-buttons",
+    "source_repo": "https://github.com/8bitgentleman/hide-left-sidebar-buttons.git",
+    "source_commit": "ad00be5f53a9a71e1b4895f54a71aaa21154bcce",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }
