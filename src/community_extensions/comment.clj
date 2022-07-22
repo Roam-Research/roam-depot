@@ -16,7 +16,7 @@
   (let [branch  (str "pr-" pr)
         _       (core/sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))
         changes (vec
-                 (for [[mode path] (->> (core/sh "git" "diff" "--name-status" "remotes/origin/main" branch)
+                 (for [[mode path] (->> (core/sh "git" "diff" "--name-status" (str "$(git merge-base " branch " remotes/origin/main)") branch)
                                         (str/split-lines)
                                         (map #(str/split % #"\t")))
                        :when (str/starts-with? path "extensions/")]
