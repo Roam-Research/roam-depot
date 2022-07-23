@@ -27,5 +27,8 @@ jobs:
       - run: clojure -P
         name: Fetch deps
 
-      - run: ./script/prBuild.sh
-
+      - name: Build PR Extension
+        env:
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          ./script/prBuild.sh --pr $PR
