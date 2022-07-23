@@ -27,7 +27,8 @@
 
 (defn diff [{pr "--pr"}]
   (let [branch (str "pr-" pr)
-        _      (core/sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))]
+        _      (core/sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))
+        _      (core/sh "git" "checkout" branch)]
     (for [[mode path] (->> (core/sh "git" "diff" "--name-status" "--merge-base" "remotes/origin/main" branch)
                            (str/split-lines)
                            (map #(str/split % #"\t")))
@@ -40,9 +41,7 @@
       [mode ext-id data])))
 
 (defn -main [& {:as args-map}]
-  (prn "args" args-map)
   (let [dif (diff args-map)]
-    (prn dif)
     (doseq [[mode ext-id data] dif]
       (prn mode ext-id data)
       #_
