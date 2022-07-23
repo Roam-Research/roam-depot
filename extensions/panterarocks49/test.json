@@ -1,0 +1,13 @@
+{
+    "name": "TEST Query Builder",
+    "short_description": "Introduces new user interfaces for building queries in Roam",
+    "author": "David Vargas",
+    "tags": [
+        "queries",
+        "widgets"
+    ],
+    "source_url": "https://github.com/dvargas92495/roamjs-query-builder",
+    "source_repo": "https://github.com/dvargas92495/roamjs-query-builder.git",
+    "source_commit": "8e6d4510dabc7c2303fac3ed5d149bf765c247f8",
+    "stripe_account": "acct_1LGDNwQhxYPoO7v8"
+}
