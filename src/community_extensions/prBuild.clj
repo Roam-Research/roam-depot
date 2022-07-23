@@ -24,7 +24,7 @@
         (core/sh "./build.sh")))))
 
 (defn -main [& {:as args-map}]
-  (prn args-map)
+  (println args-map)
   #_
   (doseq [[mode ext-id data] (core/diff args-map)]
     (case mode
