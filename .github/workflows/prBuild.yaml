@@ -32,3 +32,10 @@ jobs:
           PR: ${{ github.event.pull_request.number }}
         run: |
           ./script/prBuild.sh --pr $PR
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: checkout
+          path: |
+            checkout
+            !checkout/**/node_modules/*

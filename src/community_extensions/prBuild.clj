@@ -41,12 +41,9 @@
       [mode ext-id data])))
 
 (defn -main [& {:as args-map}]
-  (let [dif (diff args-map)]
-    (doseq [[mode ext-id data] dif]
-      (prn mode ext-id data)
-      #_
-      (case mode
-        "A" (build ext-id data)
-        "M" (build ext-id data)
-        nil)))
+  (doseq [[mode ext-id data] (diff args-map)]
+    (case mode
+      "A" (build ext-id data)
+      "M" (build ext-id data)
+      nil))
   (shutdown-agents))
