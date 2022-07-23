@@ -24,11 +24,12 @@
         (core/sh "./build.sh")))))
 
 (defn -main [& {:as args-map}]
-  (println args-map)
-  #_
-  (doseq [[mode ext-id data] (core/diff args-map)]
-    (case mode
-      "A" (build ext-id data)
-      "M" (build ext-id data)
-      nil))
+  (let [dif (core/diff args-map)]
+    (prn dif)
+    (doseq [[mode ext-id data] dif]
+      (prn mode ext-id data)
+      (case mode
+        "A" (build ext-id data)
+        "M" (build ext-id data)
+        nil)))
   (shutdown-agents))
