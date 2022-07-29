@@ -2,9 +2,9 @@
   "name": "Universal Quick Capture for Roam Research",
   "short_description": "Quick Capture using Todoist",
   "author": "Mark Lavercombe",
-  "tags": ["capture"], //optional
-  "source_url": "https://github.com/tonsky/roam-calculator",
-  "source_repo": "https://github.com/tonsky/roam-calculator.git",
-  "source_commit": "d5ecd16363975b2e7a097d46e5f411c95e16682d",
-  "stripe_account": "acct_1LGASrQVCl6NYjck" // optional
+  "tags": ["capture"],
+  "source_url": "https://github.com//mlava/roam-universal-quick-capture",
+  "source_repo": "https://github.com//mlava/roam-universal-quick-capture.git",
+  "source_commit": "341bce63217c9194af84eb31ebefaa9ae5a3cc34",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
 }
