@@ -1,0 +1,10 @@
+{
+  "name": "Unsplash image import",
+  "short_description": "Import an image from Unsplash",
+  "author": "Mark Lavercombe",
+  "tags": ["image", "import"],
+  "source_url": "https://github.com/mlava/roam-unsplash",
+  "source_repo": "https://github.com/mlava/roam-unsplash.git",
+  "source_commit": "fbafeba591df0bf594a868bbfc3da93dd5aee79c",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
