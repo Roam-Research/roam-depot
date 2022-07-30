@@ -1,0 +1,12 @@
+{
+    "name": "Fabricius",
+    "short_description": "Create and sync flashcards with Anki.",
+    "author": "chronologos",
+    "tags": [
+        "anki"
+    ],
+    "source_url": "https://github.com/chronologos/Fabricius",
+    "source_repo": "https://github.com/chronologos/Fabricius.git",
+    "source_commit": "f3c5a48d810344042b412da368af59e3c4e46842",
+    "stripe_account": "acct_1LRNvhQn1AhRopmA"
+}
