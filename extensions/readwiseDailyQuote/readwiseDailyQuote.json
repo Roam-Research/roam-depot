@@ -1,0 +1,12 @@
+{
+    "name": "Readwise Daily Quote",
+    "short_description": "Show a quote from your Readwise account in your Daily Note page",
+    "author": "Tedis Agolli",
+    "tags": [
+        "readwise",
+        "quote"
+    ],
+    "source_url": "https://github.com/TedisAgolli/roam-readwise-daily-quote",
+    "source_repo": "https://github.com/TedisAgolli/roam-readwise-daily-quote.git",
+    "source_commit": "fec4f58b74c0f6ccc086cb01cf4fb773160837ab"
+}
