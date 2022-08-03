@@ -1,0 +1,10 @@
+{
+  "name": "phonetonote",
+  "short_description": "mobile quick capture as a service",
+  "author": "scott block",
+  "tags": ["phonetonote", "ptn"],
+  "source_url": "https://github.com/phonetonote/ptn-roam-depot",
+  "source_repo": "https://github.com/phonetonote/ptn-roam-depot.git",
+  "source_commit": "d1f04e91528f4804d4dbcb82df2f90711d560e12",
+  "stripe_account": "acct_1LKwanQVF0QOKIg5"
+}

@@ -1,8 +1,0 @@
-{
-    "name": "Bitcoin Price Tracker",
-    "short_description": "Adds a bitcoin price tracker to the left sidebar",
-    "author": "Joshua Brown",
-    "source_url": "https://github.com/panterarocks49/roam-extension-bitcoin-price",
-    "source_repo": "https://github.com/panterarocks49/roam-extension-bitcoin-price.git",
-    "source_commit": "45800f7e418ea60971227ed76dae4e8dcb3df0f5"
-}
