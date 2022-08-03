@@ -1,0 +1,10 @@
+{
+  "name": "Send to Readwise",
+  "short_description": "Send a block from Roam Research to Readwise.io",
+  "author": "Mark Lavercombe",
+  "tags": ["readwise", "export"],
+  "source_url": "https://github.com/mlava/roam-send-readwise",
+  "source_repo": "https://github.com/mlava/roam-send-readwise.git",
+  "source_commit": "c9ef4c15c89031166c0f57b621ecdac7e3cd5796",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
