@@ -1,6 +1,6 @@
 {
   "name": "Universal Selector",
-  "short_description": "Select attribute value among existing values or turn any list in your graph into a dropdown",
+  "short_description": "Turn any list or attribute values into a dropdown for easy selection and changes",
   "author": "Fabrice Gallet",
   "tags": ["list", "dropdown", "database"],
   "source_url": "https://github.com/fbgallet/roam-extension-universal-dropdown",
