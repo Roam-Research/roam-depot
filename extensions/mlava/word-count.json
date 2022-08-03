@@ -1,0 +1,10 @@
+{
+  "name": "Word Count",
+  "short_description": "Calculate any page's word count",
+  "author": "Mark Lavercombe",
+  "tags": ["count"],
+  "source_url": "https://github.com/mlava/roam-word-count",
+  "source_repo": "https://github.com/mlava/roam-word-count.git",
+  "source_commit": "9a512a57622ca674592c3a53614d14e69e1da0d4",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
