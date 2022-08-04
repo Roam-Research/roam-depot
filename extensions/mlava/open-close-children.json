@@ -1,0 +1,10 @@
+{
+  "name": "Open or Close Block Children",
+  "short_description": "Command Palette extension to allow opening or closing of all children of a block",
+  "author": "Mark Lavercombe",
+  "tags": ["blocks"],
+  "source_url": "https://github.com/mlava/roam-open-close-children",
+  "source_repo": "https://github.com/mlava/roam-open-close-children.git",
+  "source_commit": "07573c32ec659e3f29acc10d46afb084035b2c6e",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
