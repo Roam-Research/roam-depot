@@ -1,0 +1,10 @@
+{
+  "name": "Color Highlighter",
+  "short_description": "Highlight text or write text with different colors easily in Roam.",
+  "author": "Fabrice Gallet",
+  "tags": ["color", "highlight"],
+  "source_url": "https://github.com/fbgallet/roam-extension-color-highlighter",
+  "source_repo": "https://github.com/fbgallet/roam-extension-color-highlighter.git",
+  "source_commit": "912716b3de2ab29c3c2529acb9bac7970f5c741b",
+  "stripe_account": "acct_1LJHuRQerhPsAmG6"
+}
