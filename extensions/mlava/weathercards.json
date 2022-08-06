@@ -1,0 +1,10 @@
+{
+  "name": "Weathercards",
+  "short_description": "Import Weather conditions and forecast from Open Weather Map",
+  "author": "Mark Lavercombe",
+  "tags": ["weather", "import"],
+  "source_url": "https://github.com/mlava/weathercards",
+  "source_repo": "https://github.com/mlava/weathercards.git",
+  "source_commit": "e2383d66e7f6e0f395486eba7f1d5449fa49c23a",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
