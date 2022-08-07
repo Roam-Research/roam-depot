@@ -1,0 +1,9 @@
+{
+    "name": "Reddit Unofficial",
+    "short_description": "Pull posts from subreddits into your Roam graph",
+    "author": "Cameron Flint",
+    "tags": ["reddit"],
+    "source_url": "https://github.com/camflint/roam-reddit-unofficial",
+    "source_repo": "https://github.com/camflint/roam-reddit-unofficial.git",
+    "source_commit": "2d924bc0f055d03aaad7086e2c415f356ffa5c68"
+}
