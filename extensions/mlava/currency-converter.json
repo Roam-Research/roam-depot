@@ -1,0 +1,10 @@
+{
+  "name": "Currency Converter",
+  "short_description": "Convert common currencies into your base currency",
+  "author": "Mark Lavercombe",
+  "tags": ["currency", "conversion"],
+  "source_url": "https://github.com/mlava/currency-converter",
+  "source_repo": "https://github.com/mlava/currency-converter.git",
+  "source_commit": "294dd3da67e8305e296e124738eaa58ed706eeeb",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
