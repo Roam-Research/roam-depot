@@ -5,6 +5,6 @@
   "tags": ["webhook", "export"],
   "source_url": "https://github.com/mlava/json-webhooks",
   "source_repo": "https://github.com/mlava/json-webhooks.git",
-  "source_commit": "0907ef0404df8f62c30caf34f96a4618d4a8a20f",
+  "source_commit": "b64cccb17903b6be1a1b119af5e22609e47f147d",
   "stripe_account": "acct_1LNVRQQVHUZMIiOR"
 }
