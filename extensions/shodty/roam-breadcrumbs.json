@@ -1,14 +1,10 @@
 {
-    "name": "Roam Breadcrumbs",
-    "short_description": "Creates a navbar of recent page/block visits for easy recall.",
-    "author": "shodty",
-    "tags": [
-        "breadcrumbs",
-        "nav",
-        "ui"
-    ],
-    "source_url": "https://github.com/shodty/roam-breadcrumbs",
-    "source_repo": "https://github.com/shodty/roam-breadcrumbs.git",
-    "source_commit": "9f00d7c81e2fbbd1371741bcdb9789fa925b6c11",
-    "stripe_account": "acct_1LSlsEQh8thFi2hw"
+  "name": "Roam Breadcrumbs",
+  "short_description": "Creates a navbar of recent page/block visits for easy recall.",
+  "author": "shodty",
+  "tags": ["breadcrumbs", "nav", "ui"],
+  "source_url": "https://github.com/shodty/roam-breadcrumbs",
+  "source_repo": "https://github.com/shodty/roam-breadcrumbs.git",
+  "source_commit": "f500479dfae7ffe56b59e41399508505bc4981c8",
+  "stripe_account": "acct_1LSlsEQh8thFi2hw"
 }
