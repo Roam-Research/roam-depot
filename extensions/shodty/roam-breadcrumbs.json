@@ -1,5 +1,5 @@
 {
-  "name": "Roam Breadcrumbs",
+  "name": "Blockcrumbs",
   "short_description": "Creates a navbar of recent page/block visits for easy recall.",
   "author": "shodty",
   "tags": ["breadcrumbs", "nav", "ui"],
