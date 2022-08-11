@@ -1,0 +1,10 @@
+{
+  "name": "Replace Block Reference with original and bring nested items along",
+  "short_description": "Swap the original text and block reference, and move child blocks along with it.",
+  "author": "Mark Lavercombe",
+  "tags": ["block references", "blockref"],
+  "source_url": "https://github.com/mlava/replace-blockrefs",
+  "source_repo": "https://github.com/mlava/replace-blockrefs.git",
+  "source_commit": "6688738d8b99f0b5c9764127624dc9c972c57895",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
