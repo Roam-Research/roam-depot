@@ -1,0 +1,10 @@
+{
+    "name": "Multi Language and Math OCR",
+    "short_description": "OCR for up to two languages and math formula",
+    "author": "CCC",
+    "tags": ["ocr", "math"],
+    "source_url": "https://github.com/c3founder/ccc-roam-ocr",
+    "source_repo": "https://github.com/c3founder/ccc-roam-ocr.git",
+    "source_commit": "ba678260227e0533293bd1d2b9d5ef80456c0fda",
+    "stripe_account": "acct_1J9MGIR0uF0qXa3a"
+}
