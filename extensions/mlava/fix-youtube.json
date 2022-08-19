@@ -1,0 +1,10 @@
+{
+  "name": "Fix YouTube Links",
+  "short_description": "Check a page for YouTube links and fix them to render properly",
+  "author": "Mark Lavercombe",
+  "tags": ["youtube", "embed"],
+  "source_url": "https://github.com/mlava/fix-youtube",
+  "source_repo": "https://github.com/mlava/fix-youtube.git",
+  "source_commit": "992b0958d7f5c09dc71019abc4d7332ad9d34f0c",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
