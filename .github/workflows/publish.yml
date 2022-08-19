@@ -33,8 +33,10 @@ jobs:
         with:
           name: checkout
           path: |
-            checkout
-            !checkout/**/node_modules/*
+            checkout/*/README.md
+            checkout/*/CHANGELOG.md
+            checkout/*/extension.js
+            checkout/*/extension.css
 
   publish:
     needs: build
