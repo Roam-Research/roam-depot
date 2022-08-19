@@ -1,0 +1,10 @@
+{
+  "name": "Universal Selector",
+  "short_description": "Turn any list or attribute values into a dropdown for easy selection and changes",
+  "author": "Fabrice Gallet",
+  "tags": ["list", "dropdown", "database"],
+  "source_url": "https://github.com/fbgallet/roam-extension-universal-dropdown",
+  "source_repo": "https://github.com/fbgallet/roam-extension-universal-dropdown.git",
+  "source_commit": "2b4729eab63f48bdec56ebf929aa637c9744462a",
+  "stripe_account": "acct_1LJHuRQerhPsAmG6"
+}
