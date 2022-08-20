@@ -2,7 +2,7 @@
   "name": "Find & Replace",
   "short_description": "Find & Replace in current block selection, in current page, in current workspace or in the whole graph. Prepend or append in bulk.",
   "author": "Fabrice Gallet",
-  "tags": ["productivity", "regex", "search", "bulk"],
+  "tags": ["productivity", "regex", "search", "bulk", "prepend", "append"],
   "source_url": "https://github.com/fbgallet/roam-extension-find-replace",
   "source_repo": "https://github.com/fbgallet/roam-extension-find-replace.git",
   "source_commit": "d92c35595115b1139819719620e4e2ec5ebc029b",
