@@ -1,0 +1,10 @@
+{
+  "name": "Todoist Task Management",
+  "short_description": "Integrate Roam Research and Todoist for task management",
+  "author": "Mark Lavercombe",
+  "tags": ["tasks", "todoist", "todo"],
+  "source_url": "https://github.com/mlava/todoist-task-management",
+  "source_repo": "https://github.com/mlava/todoist-task-management.git",
+  "source_commit": "f3ad33606735bcaac5b80545b28316764265dd70",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
