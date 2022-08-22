@@ -1,0 +1,10 @@
+{
+    "name": "Memo",
+    "short_description": "A simple spaced repetition plugin for Roam.",
+    "author": "Jose Browne",
+    "tags": ["spaced repetition"],
+    "source_url": "https://github.com/digitalmaster/roam-memo",
+    "source_repo": "https://github.com/digitalmaster/roam-memo.git",
+    "source_commit": "77b752059f75a777f419aab4fe7c134cc600d599",
+    "stripe_account": "acct_1LZNprQe7Pm7RMMV"
+  }
