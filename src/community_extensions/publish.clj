@@ -167,12 +167,12 @@
                       (.setCredentials credentials)
                       (.build)
                       (.getService))]
-    (if-some [{pr "--pr"} args-map]
+    (if-some [pr (get args-map "--pr")]
       (doseq [[mode ext-id data] (core/diff args-map)]
         (case mode
           "A" (publish-pr db storage ext-id pr data)
           "M" (publish-pr db storage ext-id pr data)
-          nil))  
+          nil))
       (doseq [[mode ext-id data] (core/diff args-map)]
         (case mode
           "A" (publish db storage ext-id data)

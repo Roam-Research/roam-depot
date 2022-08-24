@@ -1,0 +1,10 @@
+{
+  "name": "Random Quote",
+  "short_description": "Import a Random Quote from Quotable.io",
+  "author": "Mark Lavercombe",
+  "tags": ["quote", "import"],
+  "source_url": "https://github.com/mlava/random-quote",
+  "source_repo": "https://github.com/mlava/random-quote.git",
+  "source_commit": "727557caae03f2b2cba61e07807e5a29781ffe9a",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
