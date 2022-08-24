@@ -1,0 +1,10 @@
+{
+  "name": "Pexels image embed",
+  "short_description": "Embed an image from Pexels",
+  "author": "Mark Lavercombe",
+  "tags": ["embed", "image"],
+  "source_url": "https://github.com/mlava/pexels-import",
+  "source_repo": "https://github.com/mlava/pexels-import.git",
+  "source_commit": "e0f7a0e6af139b3afb263e55f46e37967dea7000",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
