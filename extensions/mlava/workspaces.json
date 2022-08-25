@@ -1,0 +1,10 @@
+{
+  "name": "Workspaces",
+  "short_description": "Define workspaces to return to in the click of a button",
+  "author": "Mark Lavercombe",
+  "tags": ["workspaces"],
+  "source_url": "https://github.com/mlava/workspaces",
+  "source_repo": "https://github.com/mlava/workspaces.git",
+  "source_commit": "635e3711fd24c9314c8af54d433fd8894a778aed",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
