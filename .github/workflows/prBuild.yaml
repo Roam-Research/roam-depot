@@ -1,8 +1,8 @@
-name: Publish to Marketplace
+name: Build Extension Pull Request
 
 on:
-  push:
-    branches:
+  pull_request_target:
+    branches:    
       - main
     paths:
       - 'extensions/*/*.json'
@@ -27,7 +27,11 @@ jobs:
       - run: clojure -P
         name: Fetch deps
 
-      - run: ./script/build.sh
+      - name: Build PR Extension
+        env:
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          ./script/build.sh --pr $PR
 
       - uses: actions/upload-artifact@v3
         with:
@@ -67,4 +71,6 @@ jobs:
       - run: clojure -P -M:firebase
         name: Fetch deps
 
-      - run: ./script/publish.sh --key ./firebase-key.json
+      - run: ./script/publish.sh --key ./firebase-key.json --pr $PR
+        env:
+          PR: ${{ github.event.pull_request.number }}
