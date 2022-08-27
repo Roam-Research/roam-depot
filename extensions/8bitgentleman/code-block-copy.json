@@ -1,0 +1,10 @@
+{
+    "name": "Code Block Copy Button",
+    "short_description": "Adds a button to copy the contents of a code clock to the clipboard",
+    "author": "Matt Vogel",
+    "tags": ["code-block"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-copy-code-block",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-copy-code-block.git",
+    "source_commit": "c36a2181ce96f8e7c77eb2fa9d13f3d2090cdf4b",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+}
