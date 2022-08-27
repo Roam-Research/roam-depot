@@ -1,0 +1,10 @@
+{
+  "name": "Roamist",
+  "short_description": "Two way sync between Roam Research and Todoist",
+  "author": "Kodai Nakamura",
+  "tags": ["Todoist"],
+  "source_url": "https://github.com/kdnk/roamist",
+  "source_repo": "https://github.com/kdnk/roamist.git",
+  "source_commit": "7bcb39cfb5ab29236f3d583d5d04dc4f50c14c50",
+  "stripe_account": "acct_1LUV8bQjEUw5hmL6"
+}
