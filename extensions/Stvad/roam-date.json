@@ -1,6 +1,6 @@
 {
     "name": "Date UX improvements",
-    "short_description": "Introduces UX improvements for interacting with Dates. Including a widget to easily change dates on mobile, natural language date creation and easier daily notes navigation",
+    "short_description": "Introduces UX improvements for interacting with Dates. Including a widget to easily change dates on mobile, natural language date creation and easier daily notes page navigation",
     "author": "Vlad Sitalo",
     "tags": [
         "date",
