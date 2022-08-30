@@ -1,0 +1,8 @@
+{
+  "name": "Roam AI",
+  "short_description": "An AI co-pilot.",
+  "author": "John Yeung (@Lay_Bacc)",
+  "source_url": "https://github.com/LayBacc/roam-ai",
+  "source_repo": "https://github.com/LayBacc/roam-ai.git",
+  "source_commit": "95ec4b9a1de7f1ac1a9fc17a0490b1cc00c6be88"
+}
