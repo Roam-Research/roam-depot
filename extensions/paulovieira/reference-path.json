@@ -1,0 +1,9 @@
+{
+	"name": "Reference path",
+	"short_description": "Display the reference path for the block being edited",
+	"author": "Paulo Vieira",
+	"tags": ["reference path"],
+	"source_url": "https://github.com/paulovieira/roam-reference-path",
+	"source_repo": "https://github.com/paulovieira/roam-reference-path.git",
+	"source_commit": "f6a4a854ab3e3345c6684ebf7d009a6a63f7650e"
+}
