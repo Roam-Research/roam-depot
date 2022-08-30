@@ -1,0 +1,10 @@
+{
+    "name": "Table Import",
+    "short_description": "Right-Click menu plugin: Toggles all block text to Uppercase or lowercase",
+    "author": "Matt Vogel",
+    "tags": ["right-click menu", "formatting"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-toggle-uppercase",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-toggle-uppercase.git",
+    "source_commit": "8184bbcf8acd0e89f5057d1a904a50bcf8335ca8",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }
