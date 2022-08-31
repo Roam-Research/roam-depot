@@ -1,0 +1,10 @@
+{
+  "name": "Banner Headers",
+  "short_description": "Define an image to use as a page banner heading image",
+  "author": "Mark Lavercombe",
+  "tags": ["images", "header"],
+  "source_url": "https://github.com/mlava/banner-headers",
+  "source_repo": "https://github.com/mlava/banner-headers.git",
+  "source_commit": "196f31be89719f3cc65bbd978bf1270d940d2037",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
