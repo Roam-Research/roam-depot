@@ -1,5 +1,5 @@
 {
-    "name": "Table Import",
+    "name": "Toggle Text Uppercase/Lowercase",
     "short_description": "Right-Click menu plugin: Toggles all block text to Uppercase or lowercase",
     "author": "Matt Vogel",
     "tags": ["right-click menu", "formatting"],
