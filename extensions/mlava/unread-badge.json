@@ -5,6 +5,6 @@
   "tags": ["unread", "badge", "gtd", "processing"],
   "source_url": "https://github.com/mlava/unread-badge",
   "source_repo": "https://github.com/mlava/unread-badge.git",
-  "source_commit": "cd5702a8e1c44073b4cab4d18051dbd2469086f1",
+  "source_commit": "0e23b2ce75ebc54cbd6c178f6e41d761fe1ef6c2",
   "stripe_account": "acct_1LNVRQQVHUZMIiOR"
 }
