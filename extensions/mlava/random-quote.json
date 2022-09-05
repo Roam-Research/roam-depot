@@ -1,10 +1,10 @@
 {
   "name": "Random Quote",
-  "short_description": "Import a Random Quote from Quotable.io",
+  "short_description": "Import a Random Quote from Quotable.io or stoic-quotes.com",
   "author": "Mark Lavercombe",
-  "tags": ["quote", "import"],
+  "tags": ["quote", "import", "stoicism"],
   "source_url": "https://github.com/mlava/random-quote",
   "source_repo": "https://github.com/mlava/random-quote.git",
-  "source_commit": "727557caae03f2b2cba61e07807e5a29781ffe9a",
+  "source_commit": "5a9a4a42a06b1577307b0a62e34d02ce9dd788f5",
   "stripe_account": "acct_1LNVRQQVHUZMIiOR"
 }
