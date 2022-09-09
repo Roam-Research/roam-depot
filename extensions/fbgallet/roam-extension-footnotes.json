@@ -1,0 +1,10 @@
+{
+  "name": "Footnotes",
+  "short_description": "Insert footnotes automatically numbered",
+  "author": "Fabrice Gallet",
+  "tags": ["notes", "academic", "comment", "alias"],
+  "source_url": "https://github.com/fbgallet/roam-extension-footnotes",
+  "source_repo": "https://github.com/fbgallet/roam-extension-footnotes.git",
+  "source_commit": "3bc6e8d53b90028627d4e404362c839268120d4f",
+  "stripe_account": "acct_1LJHuRQerhPsAmG6"
+}
