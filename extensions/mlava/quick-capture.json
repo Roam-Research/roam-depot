@@ -1,10 +1,10 @@
 {
   "name": "Quick Capture with Todoist",
-  "short_description": "Use Todoist as a Quick Capture gateway for Roam Research",
+  "short_description": "Use Todoist as a Quick Capture gateway for Roam Research. Now with automatic sync!",
   "author": "Mark Lavercombe",
   "tags": ["todoist", "capture", "import"],
   "source_url": "https://github.com/mlava/quick-capture",
   "source_repo": "https://github.com/mlava/quick-capture.git",
-  "source_commit": "a466c576ae6e74816ee0f01b6928c335006f1620",
+  "source_commit": "a82d41fa5d2f3101e7f6fcfe7dfc15c1135ec811",
   "stripe_account": "acct_1LNVRQQVHUZMIiOR"
 }
