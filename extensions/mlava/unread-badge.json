@@ -1,0 +1,10 @@
+{
+  "name": "Unread Badge",
+  "short_description": "Monitor the number of unread items on a page or tag",
+  "author": "Mark Lavercombe",
+  "tags": ["unread", "badge", "gtd", "processing"],
+  "source_url": "https://github.com/mlava/unread-badge",
+  "source_repo": "https://github.com/mlava/unread-badge.git",
+  "source_commit": "bc3eabb2551b0ab0e723a1b795254429a8c4ce2e",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
