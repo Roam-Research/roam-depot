@@ -1,0 +1,10 @@
+{
+  "name": "Streaming Availability",
+  "short_description": "Search for streaming services screening films or tv you want to watch",
+  "author": "Mark Lavercombe",
+  "tags": ["streaming", "import"],
+  "source_url": "https://github.com/mlava/streaming-availability",
+  "source_repo": "https://github.com/mlava/streaming-availability.git",
+  "source_commit": "d1e642dedfc5c92214f90800ea8d2ab2ee9025e5",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
