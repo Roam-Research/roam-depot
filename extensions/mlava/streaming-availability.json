@@ -5,6 +5,6 @@
   "tags": ["streaming", "import"],
   "source_url": "https://github.com/mlava/streaming-availability",
   "source_repo": "https://github.com/mlava/streaming-availability.git",
-  "source_commit": "d1e642dedfc5c92214f90800ea8d2ab2ee9025e5",
+  "source_commit": "9d26fde691798956e12f4db76e0ddcc077695d9c",
   "stripe_account": "acct_1LNVRQQVHUZMIiOR"
 }
