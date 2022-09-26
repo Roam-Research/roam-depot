@@ -1,0 +1,10 @@
+{
+  "name": "Mobile Gesture Actions",
+  "short_description": "Use swipes, double tap and long press to perform specified actions in Roam Research on mobile.",
+  "author": "Mark Lavercombe",
+  "tags": ["swipe", "double tap", "long press", "mobile"],
+  "source_url": "https://github.com/mlava/mobile-gesture-actions",
+  "source_repo": "https://github.com/mlava/mobile-gesture-actions.git",
+  "source_commit": "ab05753400028b95fe4d14ac5e54d43e7af75226",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
