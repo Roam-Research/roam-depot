@@ -1,0 +1,10 @@
+{
+  "name": "Translate",
+  "short_description": "Translate a block of text or a series of childblocks to your preferred language.",
+  "author": "Mark Lavercombe",
+  "tags": ["translate", "text"],
+  "source_url": "https://github.com/mlava/translate",
+  "source_repo": "https://github.com/mlava/translate.git",
+  "source_commit": "4b6fffd5c2d3a6a1890946586889c94f6c2988a2",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
