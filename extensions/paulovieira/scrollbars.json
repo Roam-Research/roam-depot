@@ -1,0 +1,10 @@
+{
+	"name": "Scrollbars",
+	"short_description": "Show and customize scrollbars",
+	"author": "Paulo Vieira",
+	"tags": ["scrollbars", "block embed", "page embed", "code block"],
+	"source_url": "https://github.com/paulovieira/roam-scrollbars",
+	"source_repo": "https://github.com/paulovieira/roam-scrollbars.git",
+	"source_commit": "9344175ae5d53d58ba765d7165e7013f22dffea0",
+	"stripe_account": "acct_1LaeDFQkjlKJqKKW"
+}

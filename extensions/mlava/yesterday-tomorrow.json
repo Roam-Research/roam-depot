@@ -1,0 +1,10 @@
+{
+  "name": "Yesterday & Tomorrow",
+  "short_description": "Add buttons to the Roam Top Bar with shortcuts to Yesterday, Today and Tomorrow",
+  "author": "Mark Lavercombe",
+  "tags": ["buttons"],
+  "source_url": "https://github.com/mlava/yesterday-tomorrow",
+  "source_repo": "https://github.com/mlava/yesterday-tomorrow.git",
+  "source_commit": "885ba9570dbd96a384ac5e2a9f9ef09ab404e288",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
