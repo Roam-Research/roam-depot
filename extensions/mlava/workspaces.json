@@ -1,10 +1,10 @@
 {
   "name": "Workspaces",
-  "short_description": "Define workspaces to return to in the click of a button: control sidebar open state, and the content of the main window and right sidebar. Autosave workspaces so you never lose your work. This extension will save and restore filters on the main page and right sidebar. You can even apply custom CSS to your Workspace!",
+  "short_description": "Define workspaces to return to in the click of a button: control sidebar open state, and the content of the main window and right sidebar. Autosave workspaces so you never lose your work. This extension will save and restore your filters on the main page and right sidebar. You can even apply custom CSS to each Workspace!",
   "author": "Mark Lavercombe",
   "tags": ["workspaces"],
   "source_url": "https://github.com/mlava/workspaces",
   "source_repo": "https://github.com/mlava/workspaces.git",
-  "source_commit": "cc248447ecc3229c65711efb2ef28ce607c150a3",
+  "source_commit": "217da866c536aa446e7a785ab36fd0a3838333eb",
   "stripe_account": "acct_1LNVRQQVHUZMIiOR"
 }
