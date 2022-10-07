@@ -1,6 +1,6 @@
 {
   "name": "Wikipedia Import",
-  "short_description": "Import the description, featured image and link for a Wikipedia search",
+  "short_description": "Import the description, featured image and link for a Wikipedia search. Or import the 'Featured Content' or the 'On this Day' for the current day.",
   "author": "Mark Lavercombe",
   "tags": ["wikipedia", "import"],
   "source_url": "https://github.com/mlava/wikipedia",
