@@ -1,10 +1,10 @@
 {
   "name": "Workspaces",
-  "short_description": "Define workspaces to return to in the click of a button: control sidebar open state, and the content of the main window and right sidebar. Autosave workspaces so you never lose your work.",
+  "short_description": "Define workspaces to return to in the click of a button: control sidebar open state, and the content of the main window and right sidebar. Autosave workspaces so you never lose your work. You can even apply custom CSS to your Workspace!",
   "author": "Mark Lavercombe",
   "tags": ["workspaces"],
   "source_url": "https://github.com/mlava/workspaces",
   "source_repo": "https://github.com/mlava/workspaces.git",
-  "source_commit": "e9f3af458a9df03f605c9cefb3f08caebcfcc7d4",
+  "source_commit": "654c3e9ef1b984886dc91ae07749ec2558680724",
   "stripe_account": "acct_1LNVRQQVHUZMIiOR"
 }
