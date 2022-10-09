@@ -2,8 +2,8 @@
     "name": "Auto Tag Mode",
     "short_description": "Automatically tag pages in your graph",
     "author": "Abhay Prasanna",
-    "source_url": "https://github.com/panterarocks49/autotag",
-    "source_repo": "https://github.com/panterarocks49/autotag.git",
-    "source_commit": "b7653297a57baebef64f18888a6c2c1e186fd19f",
+    "source_url": "https://github.com/dvargas92495/autotag",
+    "source_repo": "https://github.com/dvargas92495/autotag.git",
+    "source_commit": "46609c4ba8acd78be44d58f16f64b32b9e7a8fb0",
     "stripe_account": "acct_1LWAEfQgqtllr2Xw"
 }
