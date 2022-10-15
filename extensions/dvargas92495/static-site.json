@@ -1,6 +1,6 @@
 {
     "name": "Static Site",
-    "short_description": "AWS Lambda Function generating and deploying Roam graphs as public sites",
+    "short_description": "Deploying your Roam graph as a public website!",
     "author": "David Vargas",
     "tags": [],
     "source_url": "https://github.com/dvargas92495/roamjs-static-site",
