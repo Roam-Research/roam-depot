@@ -1,0 +1,16 @@
+{
+  "name": "Toggl Track",
+  "short_description": "Extension to integrate with Toggl Track (https://toggl.com/track/)",
+  "author": "Daniel van der Merwe",
+  "tags": [
+    "time",
+    "tracking",
+    "time tracking",
+    "toggl",
+    "toggl track"
+  ],
+  "source_url": "https://github.com/vandermerwed/roam-depot-toggl-track",
+  "source_repo": "https://github.com/vandermerwed/roam-depot-toggl-track.git",
+  "source_commit": "d79172e5f9001cfb912f830b6d9d6ee9629441f1",
+  "stripe_account": "acct_1LOohPQkTgoJ4XhC"
+}
