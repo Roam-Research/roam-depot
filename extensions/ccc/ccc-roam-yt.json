@@ -1,0 +1,10 @@
+{
+    "name": "YouTube Timestamp with Player Control",
+    "short_description": "Better YouTube",
+    "author": "CCC",
+    "tags": ["YouTube", "video", "timestamp"],
+    "source_url": "https://github.com/c3founder/ccc-roam-yt",
+    "source_repo": "https://github.com/c3founder/ccc-roam-yt.git",
+    "source_commit": "21ad890160e5e5a0a429cf1c422760f0ba76215f",
+    "stripe_account": "acct_1LYksFQaF94GX12J"
+}
