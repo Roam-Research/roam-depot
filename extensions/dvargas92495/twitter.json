@@ -1,0 +1,10 @@
+{
+    "name": "Twitter",
+    "short_description": "Connects your Roam graph to Twitter!",
+    "author": "David Vargas",
+    "tags": [],
+    "source_url": "https://github.com/dvargas92495/roamjs-twitter",
+    "source_repo": "https://github.com/dvargas92495/roamjs-twitter.git",
+    "source_commit": "d1e82300ea1ef8f37cd47ee82719adf6f4705d51",
+    "stripe_account": "acct_1LGDNwQhxYPoO7v8"
+}
