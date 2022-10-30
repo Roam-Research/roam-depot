@@ -1,0 +1,10 @@
+{
+    "name": "Mixed Text Directions",
+    "short_description": "Supports RTL and LTR on one graph",
+    "author": "CCC",
+    "tags": ["text direction", "ltr", "rtl"],
+    "source_url": "https://github.com/c3founder/ccc-roam-language",
+    "source_repo": "https://github.com/c3founder/ccc-roam-language.git",
+    "source_commit": "01a8a4182c3903edc772e0de4b5cd26f7ffba606",
+    "stripe_account": "acct_1LYksFQaF94GX12J"
+}

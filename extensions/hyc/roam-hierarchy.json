@@ -1,0 +1,9 @@
+{
+  "name": "roam hierarchy",
+  "short_description": "Namespace pages now display with hierarchy",
+  "author": "hyc",
+  "source_url": "https://github.com/dive2Pro/roam-hierarchy",
+  "source_repo": "https://github.com/dive2Pro/roam-hierarchy.git",
+  "source_commit": "246d306a05f5b5802972160a6a4d5603eedaab29",
+  "stripe_account": "acct_1LLkJkQbYbNOfzpa"
+}

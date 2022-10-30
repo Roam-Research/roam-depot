@@ -1,0 +1,10 @@
+{
+  "name": "Product Hunt",
+  "short_description": "Import the most voted products from Product Hunt",
+  "author": "Mark Lavercombe",
+  "tags": ["import", "product hunt"],
+  "source_url": "https://github.com/mlava/product-hunt",
+  "source_repo": "https://github.com/mlava/product-hunt.git",
+  "source_commit": "2bca4d71a56569e8f8ff80e1d9fb763cfa6ed53a",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
