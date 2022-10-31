@@ -1,0 +1,10 @@
+{
+    "name": "LaTeX Exporter",
+    "short_description": "Export text, images, references, and rich content into LaTeX",
+    "author": "Alix Lahuec",
+    "tags": ["export", "latex"],
+    "source_url": "https://github.com/alixlahuec/latex-roam",
+    "source_repo": "https://github.com/alixlahuec/latex-roam.git",
+    "source_commit": "741cc456a176846a1042984b90e57706d6898436",
+    "stripe_account": "acct_1LRdeCQUvCSLsEj3"
+  }
