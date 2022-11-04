@@ -1,10 +1,10 @@
 {
   "name": "Random Quote",
-  "short_description": "Import a Random Quote from Quotable.io, stoic-quotes.com, Quote Garden or Ron Swanson Quotes",
+  "short_description": "Import a Random Quote from Quotable.io, stoic-quotes.com, Quote Garden, Lord of the Rings quotes, Game of Thrones quotes or Ron Swanson Quotes",
   "author": "Mark Lavercombe",
-  "tags": ["quote", "import", "stoicism"],
+  "tags": ["quote", "import", "stoicism", "lotr", "tolkien", "game of thrones", "ron swanson"],
   "source_url": "https://github.com/mlava/random-quote",
   "source_repo": "https://github.com/mlava/random-quote.git",
-  "source_commit": "0cc952538fafeefb4f35cb041534b8fbbabe160d",
+  "source_commit": "a387a8d6e5085ff979aa31a31b16590dbed1fe0a",
   "stripe_account": "acct_1LNVRQQVHUZMIiOR"
 }
