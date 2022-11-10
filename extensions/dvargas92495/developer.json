@@ -7,5 +7,5 @@
     "source_repo": "https://github.com/dvargas92495/roamjs-developer.git",
     "source_commit": "169a334844cdab3cbdb10bca1c260591081f83ab",
     "stripe_account": "acct_1LGDNwQhxYPoO7v8",
-    "jsEval": true
+    "js_eval": true
 }
