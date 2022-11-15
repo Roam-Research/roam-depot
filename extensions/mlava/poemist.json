@@ -1,0 +1,10 @@
+{
+  "name": "Poemist",
+  "short_description": "Import a poem from the collection at Poemist",
+  "author": "Mark Lavercombe",
+  "tags": ["poem", "poetry", "import"],
+  "source_url": "https://github.com/mlava/poemist",
+  "source_repo": "https://github.com/mlava/poemist.git",
+  "source_commit": "86c8855203aea73bf8021051a5799993580a5af5",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
