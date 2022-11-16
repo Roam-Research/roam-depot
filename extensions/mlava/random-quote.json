@@ -1,10 +1,10 @@
 {
   "name": "Random Quote",
-  "short_description": "Import a Random Quote from Quotable.io, stoic-quotes.com, Quote Garden, Lord of the Rings quotes, Game of Thrones quotes or Ron Swanson Quotes",
+  "short_description": "Import a Random Quote from Quotable.io, stoic-quotes.com, Quote Garden, Lord of the Rings quotes, Game of Thrones quotes, Ron Swanson Quotes, anime quotes from Animechan, or Dad jokes from icanhazdadjoke.com",
   "author": "Mark Lavercombe",
-  "tags": ["quote", "import", "stoicism", "lotr", "tolkien", "game of thrones", "ron swanson"],
+  "tags": ["quote", "import", "stoicism", "lotr", "tolkien", "game of thrones", "ron swanson", "dad jokes", "anime"],
   "source_url": "https://github.com/mlava/random-quote",
   "source_repo": "https://github.com/mlava/random-quote.git",
-  "source_commit": "58db60a98474d91b958f598395e79fe044e2e1c7",
+  "source_commit": "4c239012fe700a38ac25dcbb2d787ed069640d6d",
   "stripe_account": "acct_1LNVRQQVHUZMIiOR"
 }
