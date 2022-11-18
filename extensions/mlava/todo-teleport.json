@@ -1,0 +1,10 @@
+{
+  "name": "TODO teleport",
+  "short_description": "Teleport your incomplete TODOs to another date in your graph",
+  "author": "Mark Lavercombe",
+  "tags": ["todo", "done", "schedule", "dnp"],
+  "source_url": "https://github.com/mlava/banner-headers",
+  "source_repo": "https://github.com/mlava/banner-headers.git",
+  "source_commit": "140459bd0be7b76c2d0b006230a0e44e29354b37",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
