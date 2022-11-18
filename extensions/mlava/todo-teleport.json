@@ -3,8 +3,8 @@
   "short_description": "Teleport your incomplete TODOs to another date in your graph",
   "author": "Mark Lavercombe",
   "tags": ["todo", "done", "schedule", "dnp"],
-  "source_url": "https://github.com/mlava/banner-headers",
-  "source_repo": "https://github.com/mlava/banner-headers.git",
-  "source_commit": "140459bd0be7b76c2d0b006230a0e44e29354b37",
+  "source_url": "https://github.com/mlava/todo-teleport",
+  "source_repo": "https://github.com/mlava/todo-teleport.git",
+  "source_commit": "1901ee4a5bd21d6c5653974fa69a5e99a42d8dd6",
   "stripe_account": "acct_1LNVRQQVHUZMIiOR"
 }
