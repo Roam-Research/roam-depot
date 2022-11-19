@@ -5,5 +5,6 @@
     "tags": [],
     "source_url": "https://github.com/samepage-network/roam-samepage",
     "source_repo": "https://github.com/samepage-network/roam-samepage.git",
-    "source_commit": "8b76f781720b98be51eaba4804a505b9dc2a6f6b"
+    "source_commit": "8b76f781720b98be51eaba4804a505b9dc2a6f6b",
+    "experimental": true
 }
