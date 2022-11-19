@@ -1,0 +1,10 @@
+{
+  "name": "Hacker News import",
+  "short_description": "Import the top stories as rated at Hacker News",
+  "author": "Mark Lavercombe",
+  "tags": ["hacker", "import"],
+  "source_url": "https://github.com/mlava/hacker-news",
+  "source_repo": "https://github.com/mlava/hacker-news.git",
+  "source_commit": "9ad8f57d4c08b4829a2b9d004b0b8c6edc280305",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}

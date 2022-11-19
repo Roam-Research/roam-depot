@@ -1,0 +1,13 @@
+{
+    "name": "ESV Bible",
+    "short_description": "Allows you to query/search the ESV Bible API for passages",
+    "author": "John Hwang",
+    "tags": [
+        "bible",
+        "esv"
+    ],
+    "source_url": "https://github.com/tavon/tavon-roam-esv",
+    "source_repo": "https://github.com/tavon/tavon-roam-esv.git",
+    "source_commit": "3dda53342241e18a064ed3efd718fa670dd45e92",
+    "stripe_account": "acct_1LzqKXQbJ41mFp4K"
+}
