@@ -1,0 +1,10 @@
+{
+  "name": "Image Generator",
+  "short_description": "generate Stable Diffusion images from any block of text",
+  "author": "scott block",
+  "tags": ["image generation", "image generator", "text to image", "stable diffusion"],
+  "source_url": "https://github.com/phonetonote/image-generator",
+  "source_repo": "https://github.com/phonetonote/image-generator.git",
+  "source_commit": "76bc405ee87f2d9ddd9bd23bbea73ab4c72fc8b9",
+  "stripe_account": "acct_1LKwanQVF0QOKIg5"
+}
