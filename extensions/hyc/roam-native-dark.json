@@ -1,0 +1,10 @@
+{
+  "name": "Roam \"Native\" Dark",
+  "short_description": "roam \"native\" dark theme",
+  "tags": ["theme", "css", "dark theme"],
+  "author": "hyc",
+  "source_url": "https://github.com/dive2Pro/roam-native-dark",
+  "source_repo": "https://github.com/dive2Pro/roam-native-dark.git",
+  "source_commit": "def4e07437398e3f0552d05657a8e1b388151be6",
+  "stripe_account": "acct_1LLkJkQbYbNOfzpa"
+}
