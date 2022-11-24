@@ -2,8 +2,8 @@
   "name": "Reference Expands",
   "short_description": "Show the full path of  block reference",
   "author": "hyc",
-  "source_url": "https://github.com/dive2Pro/roam-reference-expand,
+  "source_url": "https://github.com/dive2Pro/roam-reference-expand",
   "source_repo": "https://github.com/dive2Pro/roam-reference-expand.git",
-  "source_commit": "12c226c82c2d50cbbd11a98be8620f65d4701daf",
+  "source_commit": "483289ade2fa8f7645bd56ae60f9a59fa9f4aef9",
   "stripe_account": "acct_1LLkJkQbYbNOfzpa"
 }
