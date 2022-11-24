@@ -1,0 +1,10 @@
+{
+    "name": "Start Page",
+    "short_description": "Set a custom page or block to load automatically on roam start instead of the Daily Notes page",
+    "author": "Matt Vogel",
+    "source_url": "https://github.com/8bitgentleman/roam-depot-startpage",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-startpage.git",
+    "source_commit": "2df7f5fcf19e669c8385cb04e2917e13ace529e5",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+
+}
