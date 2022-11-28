@@ -1,0 +1,10 @@
+{
+  "name": "Similar Pages",
+  "short_description": "uses machine learning and graph theory to help you find connections between ideas",
+  "author": "scott block",
+  "tags": ["machine learning", "natural language processing", "nlp", "graph theory", "universal sentence encoder"],
+  "source_url": "https://github.com/phonetonote/similar-pages",
+  "source_repo": "https://github.com/phonetonote/similar-pages",
+  "source_commit": "3ff405740863f73621cc0c7bccaee5909d2e685e",
+  "stripe_account": "acct_1LKwanQVF0QOKIg5"
+}
