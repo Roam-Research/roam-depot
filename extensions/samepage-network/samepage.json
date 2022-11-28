@@ -1,0 +1,10 @@
+{
+    "name": "SamePage",
+    "short_description": "Official Roam client into the intra tool-for-thought protocol",
+    "author": "SamePage",
+    "tags": [],
+    "source_url": "https://github.com/samepage-network/roam-samepage",
+    "source_repo": "https://github.com/samepage-network/roam-samepage.git",
+    "source_commit": "e6590c16c2604f763591939320e99d5609402ce0",
+    "experimental": true
+}
