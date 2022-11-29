@@ -1,0 +1,10 @@
+{
+    "name": "Giphy",
+    "short_description": "Quickly insert GIFs from Giphy into Roam!",
+    "author": "David Vargas",
+    "tags": [],
+    "source_url": "https://github.com/dvargas92495/roamjs-giphy",
+    "source_repo": "https://github.com/dvargas92495/roamjs-giphy.git",
+    "source_commit": "0825374fb3b7095ab9649bad0d458d5ab742db37",
+    "stripe_account": "acct_1LGDNwQhxYPoO7v8"
+}
