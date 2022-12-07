@@ -5,6 +5,6 @@
   "tags": ["export", "readwise"],
   "source_url": "https://github.com/mlava/send-readwise",
   "source_repo": "https://github.com/mlava/send-readwise.git",
-  "source_commit": "ce92cc7100316169f0f4e8b61b85a225c20bcb21",
+  "source_commit": "3596729a836a1d54b48b47b9062ee0c4a4dd3007",
   "stripe_account": "acct_1LNVRQQVHUZMIiOR"
 }
