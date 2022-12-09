@@ -1,0 +1,10 @@
+{
+  "name": "Ultraworking",
+  "short_description": "Manage and complete Ultraworking sessions in Roam Research",
+  "author": "Mark Lavercombe",
+  "tags": ["ultraworking"],
+  "source_url": "https://github.com/mlava/ultraworking",
+  "source_repo": "https://github.com/mlava/ultraworking.git",
+  "source_commit": "f4d8b619ff719ceba5df20cadd9b49e2eaa65cc3",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}

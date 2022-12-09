@@ -1,0 +1,9 @@
+{
+  "name": "roam preview panels",
+  "short_description": "hover over a page or block reference and preview editable contents of that page or block, and allow you transform the preview into a float panel, and more",
+  "author": "hyc",
+  "source_url": "https://github.com/dive2Pro/roam-preview-panels",
+  "source_repo": "https://github.com/dive2Pro/roam-preview-panels.git",
+  "source_commit": "d531ff4d066afccc15d4441d52002749ca497475",
+  "stripe_account": "acct_1LLkJkQbYbNOfzpa"
+}

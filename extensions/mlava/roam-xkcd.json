@@ -1,0 +1,10 @@
+{
+  "name": "Daily XKCD",
+  "short_description": "Embed the daily XKCD comic",
+  "author": "Mark Lavercombe",
+  "tags": ["images", "xkcd"],
+  "source_url": "https://github.com/mlava/roam-xkcd",
+  "source_repo": "https://github.com/mlava/roam-xkcd.git",
+  "source_commit": "1bf534c439d04345b6320af64a297504c16a122e",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
