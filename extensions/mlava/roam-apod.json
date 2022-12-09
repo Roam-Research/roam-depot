@@ -1,0 +1,10 @@
+{
+  "name": "Astronomy Picture of the Day",
+  "short_description": "Import the Astronomy Picture of the Day from NASA",
+  "author": "Mark Lavercombe",
+  "tags": ["images", "NASA", "space"],
+  "source_url": "https://github.com/mlava/roam-apod",
+  "source_repo": "https://github.com/mlava/roam-apod.git",
+  "source_commit": "8e56c1c1c9732a3e5ed03f2bfb940936bc298428",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}

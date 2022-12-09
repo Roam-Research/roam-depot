@@ -1,0 +1,10 @@
+{
+    "name": "Google",
+    "short_description": "Connect to various Google services to your Roam graph!",
+    "author": "David Vargas",
+    "tags": [],
+    "source_url": "https://github.com/dvargas92495/roamjs-google",
+    "source_repo": "https://github.com/dvargas92495/roamjs-google.git",
+    "source_commit": "47785215b292e9942a24ced042e56682698549a9",
+    "stripe_account": "acct_1LGDNwQhxYPoO7v8"
+}
