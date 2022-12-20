@@ -1,0 +1,10 @@
+{
+  "name": "Art Museums",
+  "short_description": "Bring the world's greatest art into your Roam Research graph",
+  "author": "Mark Lavercombe",
+  "tags": ["images", "art", "museum", "embed"],
+  "source_url": "https://github.com/mlava/art-museums",
+  "source_repo": "https://github.com/mlava/art-museums.git",
+  "source_commit": "212733eb39be3f74d02751e320149aa7e0ee73a1",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
