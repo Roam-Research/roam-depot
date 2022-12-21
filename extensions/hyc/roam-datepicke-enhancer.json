@@ -1,0 +1,9 @@
+{
+  "name": "Datepick enhancer",
+  "short_description": "enhance datepick to show more information",
+  "author": "hyc",
+  "source_url": "https://github.com/dive2Pro/roam-datepicker-enhance",
+  "source_repo": "https://github.com/dive2Pro/roam-datepicker-enhance.git",
+  "source_commit": "118ffe94f27155abce52533a8154ae5103fde2e3",
+  "stripe_account": "acct_1LLkJkQbYbNOfzpa"
+}
