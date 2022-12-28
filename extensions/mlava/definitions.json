@@ -1,0 +1,10 @@
+{
+  "name": "Definitions",
+  "short_description": "If you sometimes need to check the meaning of a word in your graph, this extension will allow you to do it.",
+  "author": "Mark Lavercombe",
+  "tags": ["words", "definitions"],
+  "source_url": "https://github.com/mlava/definitions",
+  "source_repo": "https://github.com/mlava/definitions.git",
+  "source_commit": "82e7cfd5feaec59bc99659eaf9885fb19ccbc7ce",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
