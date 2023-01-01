@@ -1,0 +1,10 @@
+{
+  "name": "Wordle",
+  "short_description": "Play Wordle in your Roam Research graph!",
+  "author": "Mark Lavercombe",
+  "tags": ["wordle", "words"],
+  "source_url": "https://github.com/mlava/wordle",
+  "source_repo": "https://github.com/mlava/wordle.git",
+  "source_commit": "154fe8d2bf72175d0eef9905e2589f6fff726566",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}

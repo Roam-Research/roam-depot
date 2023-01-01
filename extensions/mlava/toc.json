@@ -1,0 +1,10 @@
+{
+  "name": "Table of Contents",
+  "short_description": "Create a sticky Table of Contents for a page in your graph, and navigate around your page with ease!",
+  "author": "Mark Lavercombe",
+  "tags": ["contents", "headings"],
+  "source_url": "https://github.com/mlava/toc",
+  "source_repo": "https://github.com/mlava/toc.git",
+  "source_commit": "43bc7bfa98e9a236f33626dfa36f31b9df1c0c08",
+  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+}
