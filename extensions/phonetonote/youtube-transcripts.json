@@ -1,0 +1,20 @@
+{
+  "name": "Youtube Transcripts",
+  "short_description": "get transcripts from youtube videos inside roam",
+  "author": "scott block",
+  "tags": [
+    "youtube",
+    "transcript",
+    "transcripts",
+    "subtitle",
+    "subtitles",
+    "caption",
+    "captions",
+    "closed caption",
+    "closed captions"
+  ],
+  "source_url": "https://github.com/phonetonote/youtube-transcripts",
+  "source_repo": "https://github.com/phonetonote/youtube-transcripts.git",
+  "source_commit": "4197535ca5657502bd45fe5654a9e242b22359e4",
+  "stripe_account": "acct_1LKwanQVF0QOKIg5"
+}
