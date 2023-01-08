@@ -1,0 +1,10 @@
+{
+  "name": "Block info",
+  "short_description": "Creation date, words, characters and children count, DONE/TODO ratio easily viewable in native bullet tooltip.",
+  "author": "Fabrice Gallet",
+  "tags": ["info", "stats", "count", "todo"],
+  "source_url": "https://github.com/fbgallet/roam-extension-stats",
+  "source_repo": "https://github.com/fbgallet/roam-extension-stats.git",
+  "source_commit": "45ae83dc029b6faf62819c639874d9410bcfb4c6",
+  "stripe_account": "acct_1LJHuRQerhPsAmG6"
+}
