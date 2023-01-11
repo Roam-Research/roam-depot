@@ -5,6 +5,6 @@
   "tags": ["image generation", "image generator", "text to image", "stable diffusion"],
   "source_url": "https://github.com/phonetonote/image-generator",
   "source_repo": "https://github.com/phonetonote/image-generator.git",
-  "source_commit": "76bc405ee87f2d9ddd9bd23bbea73ab4c72fc8b9",
+  "source_commit": "0e7880bc5180cb0cc33024663cefaea29e38acba",
   "stripe_account": "acct_1LKwanQVF0QOKIg5"
 }
