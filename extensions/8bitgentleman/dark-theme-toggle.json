@@ -2,10 +2,10 @@
     "name": "CSS Dark Mode Toggle",
     "short_description": "Adds a button to the topbar to toggle a theme's dark mode manually. CSS NOT INCLUDED",
     "author": "Matt Vogel",
-    "tags": ["topbar", "button", "CSS"],
+    "tags": ["topbar", "button", "CSS", "theme", "dark theme"],
     "source_url": "https://github.com/8bitgentleman/roam-depo-dark-toggle",
     "source_repo": "https://github.com/8bitgentleman/roam-depo-dark-toggle.git",
-    "source_commit": "1e09f12c85451aa3dbf4d3ed7437b7037154243a",
+    "source_commit": "6ab5204415807d95d5209c0b3b5a85ea4b178d52",
     "stripe_account": "acct_1LJFEYQmxalymEZL"
 
 }
