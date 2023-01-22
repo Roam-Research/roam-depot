@@ -1,0 +1,10 @@
+{
+  "name": "Hide Topbar Buttons",
+  "short_description": "Hide buttons from the topbar, only on mobile or across all platforms. Use Roam the way you want to.",
+  "author": "Mark Lavercombe",
+  "tags": ["menu", "buttons"],
+  "source_url": "https://github.com/mlava/hide-topbar-buttons",
+  "source_repo": "https://github.com/mlava/hide-topbar-buttons.git",
+  "source_commit": "16002ddeeda4b7d04f169209d06280237d2d665e",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
