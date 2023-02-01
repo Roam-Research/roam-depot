@@ -1,9 +1,9 @@
 {
-  "name": "Snapshot",
-  "short_description": "Snapshot for page",
+  "name": "Page History",
+  "short_description": "Page versions",
   "author": "hyc",
   "source_url": "https://github.com/dive2Pro/roam-snapshot",
   "source_repo": "https://github.com/dive2Pro/roam-snapshot.git",
-  "source_commit": "4462b742d7be524b37d935d7c9613d4e01748efc",
+  "source_commit": "441464f5b2dbac2442cdc104fcdce086253e6dc2",
   "stripe_account": "acct_1LLkJkQbYbNOfzpa"
 }
