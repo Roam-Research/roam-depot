@@ -1,0 +1,10 @@
+{
+  "name": "Augmented Headings",
+  "short_description": "Add H4, H5 and H6 to your Roam Research headings",
+  "author": "Mark Lavercombe",
+  "tags": ["headings"],
+  "source_url": "https://github.com/mlava/augmented-headings",
+  "source_repo": "https://github.com/mlava/augmented-headings.git",
+  "source_commit": "daea1a4f85ee502aabb8019fc3a0620d41c212b9",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
