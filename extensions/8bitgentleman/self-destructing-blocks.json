@@ -1,0 +1,11 @@
+{
+    "name": "Self-Destructing Blocks",
+    "short_description": "Set blocks to self-destruct (be deleted) after a period of time.",
+    "author": "Matt Vogel",
+    "tags": ["delete"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-block-self-destruct",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-block-self-destruct.git",
+    "source_commit": "9c84a30c192c3e42e4c4d3a36f037f27a3bbe550",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+
+}
