@@ -1,10 +1,10 @@
 {
   "name": "Block & Page Info",
-  "short_description": "Creation date, words, characters and children count, DONE/TODO ratio easily viewable in native bullet tooltip.",
+  "short_description": "DONE/TODO ratio, word count, creation date, children count and other info easily viewable in a tooltip by hovering over bullets, titles, Daily notes or page shortcuts.",
   "author": "Fabrice Gallet",
   "tags": ["info", "stats", "count", "todo"],
   "source_url": "https://github.com/fbgallet/roam-extension-stats",
   "source_repo": "https://github.com/fbgallet/roam-extension-stats.git",
-  "source_commit": "5a2697717bc3421c06c58c737e20541e146454ef",
+  "source_commit": "56f7b0833615319d292f2df6533916ac770e9930",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
