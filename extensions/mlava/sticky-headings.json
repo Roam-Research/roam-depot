@@ -1,10 +1,10 @@
 {
   "name": "Sticky Headings",
-  "short_description": "Make your Roam H1, H2 and H3 headings sticky",
+  "short_description": "Make your Roam H1, H2 and H3 headings sticky. Compatible with Augmented Headings if you also want H4, H5 and H6!",
   "author": "Mark Lavercombe",
   "tags": ["sticky", "headings", "css"],
   "source_url": "https://github.com/mlava/sticky-headings",
   "source_repo": "https://github.com/mlava/sticky-headings.git",
-  "source_commit": "4b43fbcd8df7acfcc6b0db6929456637aebe872e",
-  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+  "source_commit": "de5ea978e262fc956e0dd2030ab6afde725cc8b6",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }

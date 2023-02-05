@@ -1,10 +1,10 @@
 {
-  "name": "Unsplash & Pexels image embed",
-  "short_description": "Embed an image from Unsplash or Pexels. You can embed random images or search by a mood.",
+  "name": "Unsplash, Pexels & Pixabay image embed",
+  "short_description": "Embed an image from Unsplash, Pexels or Pixabay. You can embed random images or search by a search term.",
   "author": "Mark Lavercombe",
-  "tags": ["image", "import", "unsplash", "pexels"],
+  "tags": ["image", "import", "unsplash", "pexels", "pixabay"],
   "source_url": "https://github.com/mlava/unsplash",
   "source_repo": "https://github.com/mlava/unsplash.git",
-  "source_commit": "dcc1b144d184f33bc81ccb3036addfe1de1f3615",
-  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+  "source_commit": "a3cdf0840cc8830a6405e0c7ea7d944d3ec480b1",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
