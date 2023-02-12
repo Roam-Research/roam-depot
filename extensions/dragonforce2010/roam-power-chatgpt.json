@@ -1,0 +1,10 @@
+{
+  "name": "Power ChatGpt",
+  "short_description": "This extension is build upon the open ai ChatGPT model, you can now bring the ai into the roam now! let us chat with the today smartest model to make our work more efficient!",
+  "author": "Michael Zhang",
+  "tags": ["chatgpt", "ai"],
+  "source_url": "https://github.com/dragonforce2010/roam-power-chatgpt",
+  "source_repo": "https://github.com/dragonforce2010/roam-power-chatgpt.git",
+  "source_commit": "d53299d2593697ea6ebb2c38313a3fbf7a6f6652",
+  "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
+}
