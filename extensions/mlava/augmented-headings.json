@@ -1,0 +1,10 @@
+{
+  "name": "Augmented Headings",
+  "short_description": "Add H4, H5 and H6 to your Roam Research headings, and control their font size, weight, style and variant!",
+  "author": "Mark Lavercombe",
+  "tags": ["headings"],
+  "source_url": "https://github.com/mlava/augmented-headings",
+  "source_repo": "https://github.com/mlava/augmented-headings.git",
+  "source_commit": "30deda3a49b2b74e553561e1ad34b3e694536c6a",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}

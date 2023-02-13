@@ -1,0 +1,10 @@
+{
+	"name": "zoteroRoam",
+	"short_description": "Connect your Zotero libraries to your graph, and build a powerful reference management system. Includes import tools, contextual overlays, and external integrations to facilitate academic work.",
+	"author": "Alix Lahuec",
+	"tags": ["zotero", "import", "academic"],
+	"source_url": "https://github.com/alixlahuec/zotero-roam",
+	"source_repo": "https://github.com/alixlahuec/zotero-roam.git",
+	"source_commit": "56c7952937b4bc3737ebc3ebe21df78b1a7fd12b",
+	"stripe_account": "acct_1LRdeCQUvCSLsEj3"
+}

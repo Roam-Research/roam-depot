@@ -2,9 +2,9 @@
   "name": "Yesterday & Tomorrow",
   "short_description": "Add buttons to the Roam Top Bar with shortcuts to Yesterday, Today and Tomorrow. Or, use perpetual mode to allow backward or forward navigation through your DNPs.",
   "author": "Mark Lavercombe",
-  "tags": ["buttons"],
+  "tags": ["buttons", "navigation"],
   "source_url": "https://github.com/mlava/yesterday-tomorrow",
   "source_repo": "https://github.com/mlava/yesterday-tomorrow.git",
-  "source_commit": "67aab8bbe0308a328155d12508bdba8f4508a6e9",
-  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+  "source_commit": "4cff311780737a061dba8646bcceb4869405c89b",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
