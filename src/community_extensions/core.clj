@@ -3,7 +3,10 @@
     [cheshire.core :as json]
     [clojure.java.io :as io]
     [clojure.java.shell :as shell]
-    [clojure.string :as str]))
+    [clojure.string :as str])
+  (:import
+    [java.time ZonedDateTime ZoneId]
+    [java.time.format DateTimeFormatter]))
 
 (def mime-types
   {"md"  "text/markdown"
@@ -46,3 +49,11 @@
   (-> path
     (slurp)
     (json/parse-string true)))
+
+(defn timestamp []
+  (let [date   (ZonedDateTime/now (ZoneId/of "UTC"))
+        format (DateTimeFormatter/ofPattern "yyyy-MM-dd'T'HH:mm:ssX")]
+    (.format format date)))
+
+(comment
+  (timestamp))
