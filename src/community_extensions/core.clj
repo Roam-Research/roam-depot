@@ -50,10 +50,13 @@
     (slurp)
     (json/parse-string true)))
 
-(defn timestamp []
-  (let [date   (ZonedDateTime/now (ZoneId/of "UTC"))
-        format (DateTimeFormatter/ofPattern "yyyy-MM-dd'T'HH:mm:ssX")]
-    (.format format date)))
+(defn timestamp
+  ([]
+   (timestamp (ZonedDateTime/now (ZoneId/of "UTC"))))
+  ([^ZonedDateTime date]
+   (let [date'  (.withZoneSameInstant date (java.time.ZoneId/of "UTC"))
+         format (DateTimeFormatter/ofPattern "yyyy-MM-dd'T'HH:mm:ssX")]
+     (.format format date'))))
 
 (comment
   (timestamp))
