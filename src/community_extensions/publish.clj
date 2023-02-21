@@ -114,12 +114,17 @@
                      (io/file dir "extension.css"))
         _          (when (empty? files)
                      (throw (ex-info (str "No files found for extension " ext-id) {})))
+        now        (core/timestamp)
         data'      (assoc data
                      "extension" ext-id
                      "version"   version'
-                     "files"     files)]
+                     "files"     files
+                     "updated"   now)
+        data''     (cond-> data'
+                     (= 0 version)
+                     (assoc data' "created" now))]
     (ref-set! (ref db "extension_versions" version-id) data')
-    (ref-set! (ref db "extensions" ext-id) data')))
+    (ref-set! (ref db "extensions" ext-id) data'')))
 
 (defn publish-pr
   "Same as publish, but uploads files to:
@@ -139,10 +144,12 @@
                      (io/file dir "extension.css"))
         _          (when (empty? files)
                      (throw (ex-info (str "No files found for extension " ext-id) {})))
+        now        (core/timestamp)
         data'      (assoc data
                      "extension" ext-id
                      "version"   pr
-                     "files"     files)]
+                     "files"     files
+                     "updated"   now)]
     (ref-set! (ref db "extension_prs" version-id) data')))
 
 (defn unpublish [db ext-id]
