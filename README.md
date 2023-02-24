@@ -2,7 +2,7 @@
 
 [Full Documentation](https://roamresearch.com/#/app/developer-documentation/page/5BB8h4I7b)
 
-To submit an extension, you need to create a Github repo for it and make a PR to this repo.
+To submit an extension, you need to create a GitHub repo for it and make a PR to this repo.
 
 ## In your own extension repo
 
@@ -30,7 +30,7 @@ export default {
 
 If `build.sh` exists in the root of your repo, it will be invoked before looking for `extension.js`/`extension.css` files.
 
-The environment it’ll be invoked in is `ubuntu-20.04` from Github Actions. Consult [this](https://github.com/actions/virtual-environments/blob/main/images/linux/Ubuntu2004-Readme.md) to see what is available.
+The environment it’ll be invoked in is `ubuntu-20.04` from GitHub Actions. Consult [this](https://github.com/actions/virtual-environments/blob/main/images/linux/Ubuntu2004-Readme.md) to see what is available.
 
 If your build script requires anything extra (e.g. libraries from NPM), it should download them as a part of `build.sh` execution.
 

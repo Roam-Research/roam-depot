@@ -1,10 +1,10 @@
 {
   "name": "Wikipedia Import",
-  "short_description": "Import the description, featured image and link for a Wikipedia search. Or, import the 'Featured Content' or the 'On this Day' for the current day.",
+  "short_description": "Import the description, featured image and link for a Wikipedia search. Or, import the 'Featured Content', 'Featured Image' or the 'On this Day' for the current day. Now featuring configurable language preference!",
   "author": "Mark Lavercombe",
   "tags": ["wikipedia", "import"],
   "source_url": "https://github.com/mlava/wikipedia",
   "source_repo": "https://github.com/mlava/wikipedia.git",
-  "source_commit": "15a8561406e6b81a412604f25f7e8d91b6b485fe",
-  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+  "source_commit": "2fba9e345efcb946b3bd81b31c53b2d5d7dbea7b",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
