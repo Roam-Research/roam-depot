@@ -120,9 +120,10 @@
                      "version"   version'
                      "files"     files
                      "updated"   now)
-        data''     (cond-> data'
-                     (= 0 version)
-                     (assoc data' "created" now))]
+        data''     (assoc data' "created"
+                     (if (= 0 version)
+                       now
+                       (ref-get (ref db "extensions" ext-id "created"))))]
     (ref-set! (ref db "extension_versions" version-id) data')
     (ref-set! (ref db "extensions" ext-id) data'')))
 
