@@ -1,0 +1,10 @@
+{
+  "name": "Auto-DNP templates",
+  "short_description": "Automatically add a template to your daily note page. Set a different template for every day of the week, or use Weekday/Weekend mode.",
+  "author": "Mark Lavercombe",
+  "tags": ["template", "DNP"],
+  "source_url": "https://github.com/mlava/auto-DNP",
+  "source_repo": "https://github.com/mlava/auto-DNP.git",
+  "source_commit": "a7ffda4310f73992f9bd72311a6d65d3fe549ee1",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
