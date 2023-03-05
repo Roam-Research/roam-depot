@@ -1,0 +1,10 @@
+{
+  "name": "Roam Theme Leyendecker",
+  "short_description": "This Extension provide you a beautiful roam theme named Leyendecker",
+  "author": "Michael Zhang",
+  "tags": ["markdown"],
+  "source_url": "https://github.com/dragonforce2010/roam-theme-rails-purple",
+  "source_repo": "https://github.com/dragonforce2010/roam-theme-rails-purple.git",
+  "source_commit": "f9fd85e7e48c2b389752ea307249976bbdc56558",
+  "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
+}
