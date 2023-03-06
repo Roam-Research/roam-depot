@@ -2,13 +2,9 @@
   "name": "Roam Power Previewer",
   "short_description": "This extension can preview a website content in the sidedrawer, which gives a better roam experience - neat clean notes and easiy preview the website content without going out of roam, to help you focus more in the roam.",
   "author": "Michael Zhang",
-  "tags": [
-    "markdown",
-    "sidedrawer",
-    "previewer"
-  ],
+  "tags": ["markdown", "sidedrawer", "previewer"],
   "source_url": "https://github.com/dragonforce2010/roam-power-previewer.git",
   "source_repo": "https://github.com/dragonforce2010/roam-power-previewer.git",
-  "source_commit": "5aca174edac362689f9305f18451c1a8424b04a4",
+  "source_commit": "55f660cd516fc482b1a37b6ebc9dca4a5e1b7501",
   "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
 }
