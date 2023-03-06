@@ -1,12 +1,10 @@
 {
-  "name": "Power Link Parser",
+  "name": "Power Theme Manager",
   "short_description": "This extension can parse the website url title and transform the link to the markdown format when user pastes the url/link into roam block",
   "author": "Michael Zhang",
-  "tags": [
-    "markdown"
-  ],
-  "source_url": "https://github.com/dragonforce2010/roam-website-title-parser",
-  "source_repo": "https://github.com/dragonforce2010/roam-website-title-parser.git",
+  "tags": ["markdown"],
+  "source_url": "https://github.com/dragonforce2010/roam-theme-manager",
+  "source_repo": "https://github.com/dragonforce2010/roam-theme-manager.git",
   "source_commit": "93de3304cc0324385601b658a7a06cc640b533a6",
   "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
 }
