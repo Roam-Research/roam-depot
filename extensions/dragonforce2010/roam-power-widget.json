@@ -1,0 +1,10 @@
+{
+  "name": "Power Widget",
+  "short_description": "This extension can ...",
+  "author": "Michael Zhang",
+  "tags": ["markdown"],
+  "source_url": "https://github.com/dragonforce2010/roam-power-widget",
+  "source_repo": "https://github.com/dragonforce2010/roam-power-widget.git",
+  "source_commit": "93de3304cc0324385601b658a7a06cc640b533a6",
+  "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
+}
