@@ -1,0 +1,10 @@
+{
+  "name": "Power Integration On Lark",
+  "short_description": "This extension can ...",
+  "author": "Michael Zhang",
+  "tags": ["markdown"],
+  "source_url": "https://github.com/dragonforce2010/roam-power-integration-lark",
+  "source_repo": "https://github.com/dragonforce2010/roam-power-integration-lark.git",
+  "source_commit": "03e7c949f948f7a99a646b120af41f09337b87f9",
+  "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
+}
