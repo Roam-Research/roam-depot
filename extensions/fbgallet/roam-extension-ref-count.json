@@ -1,0 +1,10 @@
+{
+  "name": "Page references counter",
+  "short_description": "Inline and in search box page references counter, similar to native inline block references counter.",
+  "author": "Fabrice Gallet",
+  "tags": ["page", "reference", "mention", "count"],
+  "source_url": "https://github.com/fbgallet/roam-extension-ref-count",
+  "source_repo": "https://github.com/fbgallet/roam-extension-ref-count.git",
+  "source_commit": "0de3d685be89d75b62e0e99883e589ac4b62bbc8",
+  "stripe_account": "acct_1LJHuRQerhPsAmG6"
+}
