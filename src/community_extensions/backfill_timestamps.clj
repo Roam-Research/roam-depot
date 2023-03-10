@@ -128,10 +128,17 @@
   (update-db (timestamps) (db)))
 
 (comment
+  (defn safe-ref-set! [ref val]
+    (when-not (ref-get ref)
+      (println "  [ will set ]" (str ref) "to" val)))
+  
   (init {"--key" "firescript-577a2-b042f73061e4.json"})
   (def times (timestamps))
-  (update-db (take 10 times) (db) #(println "[ will set ]" (str %1) "=" (ref-get %1) "to" %2))
-  (update-db times (db) ref-set!)
+  (times "8bitgentleman+self-destructing-blocks")
+  (commit->max-version (db) "8bitgentleman+self-destructing-blocks" 3)
+  (update-db (select-keys times ["8bitgentleman+self-destructing-blocks"]) (db) safe-ref-set!)
+  (update-db times (db) safe-ref-set!)
+  ; (update-db times (db) ref-set!)
   (-main "--key" "firescript-577a2-b042f73061e4.json")
   (ref-get (ref (db) "extensions/8bitgentleman+clear-sidebar/source_commit"))
   (ref-get (ref (db) "extensions/8bitgentleman+clear-sidebar")))
