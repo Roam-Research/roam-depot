@@ -1,0 +1,10 @@
+{
+    "name": "Format Block Hotkeys",
+    "short_description": "Adds hotkeys for various block formatting options.",
+    "author": "Matt Vogel",
+    "tags": ["blocks", "formatting"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-format-hotkeys",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-format-hotkeys.git",
+    "source_commit": "def877c8f6a3ddc6511ab1d6c87ea49f72f9e338",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }

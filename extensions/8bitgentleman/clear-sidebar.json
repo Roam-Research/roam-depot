@@ -1,11 +1,11 @@
 {
     "name": "Clear Right Sidebar",
-    "short_description": "Adds a button to the top of the right sidebar to clear and close all blocks and pages in the sidebar.",
+    "short_description": "Adds buttons to the top of the right sidebar to clear or close all blocks and pages in the sidebar.",
     "author": "Matt Vogel",
     "tags": ["right sidebar", "button"],
     "source_url": "https://github.com/8bitgentleman/roam-depot-clear-sidebar",
     "source_repo": "https://github.com/8bitgentleman/roam-depot-clear-sidebar.git",
-    "source_commit": "a481aeeb133e412d9efc96187f6734e75f09c000",
+    "source_commit": "bf165600fc2a17755e1de0e9cb14d9ca66b82c77",
     "stripe_account": "acct_1LJFEYQmxalymEZL"
 
 }
