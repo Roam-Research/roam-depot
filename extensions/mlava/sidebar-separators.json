@@ -1,0 +1,10 @@
+{
+  "name": "Sidebar Separators",
+  "short_description": "Add separators to your list of Roam Research shortcuts in your left sidebar",
+  "author": "Mark Lavercombe",
+  "tags": ["shortcuts", "sidebar"],
+  "source_url": "https://github.com/mlava/sidebar-separators",
+  "source_repo": "https://github.com/mlava/sidebar-separators.git",
+  "source_commit": "995850617293a1a8ed29fcd556e4cacea3649736",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
