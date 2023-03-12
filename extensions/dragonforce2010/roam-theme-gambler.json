@@ -1,0 +1,10 @@
+{
+  "name": "Roam Theme Gambler",
+  "short_description": "This Extension provide you a beautiful roam theme named Gambler",
+  "author": "Michael Zhang",
+  "tags": ["markdown"],
+  "source_url": "https://github.com/dragonforce2010/roam-theme-gambler",
+  "source_repo": "https://github.com/dragonforce2010/roam-theme-gambler.git",
+  "source_commit": "99de6c94f7926ba6b4bc8d144174bde40996c7d1",
+  "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
+}

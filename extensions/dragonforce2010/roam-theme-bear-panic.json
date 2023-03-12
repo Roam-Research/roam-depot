@@ -1,10 +1,10 @@
 {
-  "name": "Power Theme Leyendecker",
-  "short_description": "This Extension provide you a beautiful roam theme named Leyendecker",
+  "name": "Roam Theme Bear Panic",
+  "short_description": "This Extension provide you a beautiful roam theme named bear panic",
   "author": "Michael Zhang",
   "tags": ["markdown"],
   "source_url": "https://github.com/dragonforce2010/roam-theme-bear-panic",
   "source_repo": "https://github.com/dragonforce2010/roam-theme-bear-panic.git",
-  "source_commit": "8217722623acd1f0bd5729e9ef0f5ea4d8c2c88e",
+  "source_commit": "737c08188176de758af1fcf31c6b3676921443d9",
   "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
 }

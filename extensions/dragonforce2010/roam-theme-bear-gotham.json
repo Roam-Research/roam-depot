@@ -1,10 +1,10 @@
 {
-  "name": "Power Theme Leyendecker",
-  "short_description": "This Extension provide you a beautiful roam theme named Leyendecker",
+  "name": "Roam Theme Bear Gotham",
+  "short_description": "This Extension provide you a beautiful roam theme named bear gotham",
   "author": "Michael Zhang",
   "tags": ["markdown"],
   "source_url": "https://github.com/dragonforce2010/roam-theme-bear-gotham",
   "source_repo": "https://github.com/dragonforce2010/roam-theme-bear-gotham.git",
-  "source_commit": "f7ad8045f18118cc4dc502c6e64030b3c0012e0c",
+  "source_commit": "e657e82eee58131080e34652edd5a591cda54d53",
   "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
 }

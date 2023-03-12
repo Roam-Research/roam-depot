@@ -1,10 +1,10 @@
 {
-  "name": "Power Theme Leyendecker",
-  "short_description": "This Extension provide you a beautiful roam theme named Leyendecker",
+  "name": "Roam Theme Float",
+  "short_description": "This Extension provide you a beautiful roam theme named Float",
   "author": "Michael Zhang",
   "tags": ["markdown"],
   "source_url": "https://github.com/dragonforce2010/roam-theme-float",
   "source_repo": "https://github.com/dragonforce2010/roam-theme-float.git",
-  "source_commit": "b9da13337815cd3b079fb9708dd39e660f226dbe",
+  "source_commit": "79b5fd5c7d1282bffdab9fb0677bdfc718a2bcf2",
   "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
 }

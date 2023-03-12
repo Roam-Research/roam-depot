@@ -1,0 +1,10 @@
+{
+  "name": "Roam Theme Tokiwa",
+  "short_description": "This Extension provide you a beautiful roam theme named Tokiwa",
+  "author": "Michael Zhang",
+  "tags": ["markdown"],
+  "source_url": "https://github.com/dragonforce2010/roam-theme-tokiwa",
+  "source_repo": "https://github.com/dragonforce2010/roam-theme-tokiwa.git",
+  "source_commit": "d4ba693e2bcf015416a9eaf0efac371fffcdfe89",
+  "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Roam Theme Magazine",
+  "short_description": "This Extension provide you a beautiful roam theme named Magazine",
+  "author": "Michael Zhang",
+  "tags": ["markdown"],
+  "source_url": "https://github.com/dragonforce2010/roam-theme-magazine",
+  "source_repo": "https://github.com/dragonforce2010/roam-theme-magazine.git",
+  "source_commit": "3248c663e3c83f57659cbec1fb45c4b73e6b5929",
+  "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
+}
