@@ -5,6 +5,6 @@
   "tags": ["sms", "message"],
   "source_url": "https://github.com/mlava/roam-sms",
   "source_repo": "https://github.com/mlava/roam-sms.git",
-  "source_commit": "cecf84bec0fcdd5288946ea48967361ea2bb41df",
+  "source_commit": "d7581c1404ebff0fa38022cc97cb894a8dba5292",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
