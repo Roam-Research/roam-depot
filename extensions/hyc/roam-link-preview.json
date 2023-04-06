@@ -1,0 +1,9 @@
+    {
+      "name": "Link Preview",
+      "short_description": "Show brief information for external links in roam",
+      "author": "hyc",
+      "source_url": "https://github.com/dive2Pro/roam-link-preview",
+      "source_repo": "https://github.com/dive2Pro/roam-link-preview.git",
+      "source_commit": "388b5b724f6c5ddc264ac222c15b5719c9755d34",
+      "stripe_account": "acct_1LLkJkQbYbNOfzpa"
+    }            
