@@ -5,6 +5,6 @@
   "tags": ["imdb", "import"],
   "source_url": "https://github.com/mlava/imdb",
   "source_repo": "https://github.com/mlava/imdb.git",
-  "source_commit": "2be1e3d241a8fd7803a28a26cc1ccc051fc7e460",
+  "source_commit": "d97473d2536d6924d4a3c0065f1f39ec8d23a0ee",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
