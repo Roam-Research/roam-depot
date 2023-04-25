@@ -1,10 +1,10 @@
 {
   "name": "Block & Page Info",
-  "short_description": "DONE/TODO ratio, streak, word count, creation date, last update, children count and other info about any block, page/shortcut and DNP - in a small tooltip.",
+  "short_description": "DONE/TODO ratio, streak, word count, pomodoros, creation date, last update, children count and other info about any block, page/shortcut and DNP - in a small tooltip.",
   "author": "Fabrice Gallet",
   "tags": ["info", "stats", "count", "todo"],
   "source_url": "https://github.com/fbgallet/roam-extension-stats",
   "source_repo": "https://github.com/fbgallet/roam-extension-stats.git",
-  "source_commit": "f7cd230a8ecad90eeb33c937be197bd0e1b80b58",
+  "source_commit": "d761a93fbdabc8457bb6346111b651699f7c0cfa",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
