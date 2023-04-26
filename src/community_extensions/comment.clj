@@ -37,7 +37,7 @@
                            (for [[mode path] changes
                                  :let [[_ user repo] (re-matches #"extensions/([^/]+)/([^/]+)\.json" path)
                                        pr-shorthand  (str user "+" repo "+" pr)
-                                       pr-shorthand-msg (str " (PR shorthand: `" pr-shorthand "`) ")
+                                       pr-shorthand-msg (str " (PR-shorthand: `" pr-shorthand "`) ")
                                        commit-before (:source_commit (before path))
                                        commit-after  (:source_commit (after path))
                                        url (or (:source_url (before path))
