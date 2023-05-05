@@ -1,0 +1,10 @@
+{
+    "name": "Roam Portal",
+    "short_description": "Roam Portal is a search engine designed to help you explore your Roam graph visually.",
+    "author": "Dharam Kapila",
+    "tags": ["search", "visualization", "graph", "charts"],
+    "source_url": "https://github.com/dkapila/Roam-Portal",
+    "source_repo": "https://github.com/dkapila/Roam-Portal.git",
+    "source_commit": "342566eeee51fa0bbc9c78b63add85b338d08078",
+    "stripe_account": "acct_1Mnwm4QhgxZnUsbt"
+}

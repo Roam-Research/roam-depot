@@ -36,6 +36,8 @@
                            ["Here’s your link to the diff:\n"]
                            (for [[mode path] changes
                                  :let [[_ user repo] (re-matches #"extensions/([^/]+)/([^/]+)\.json" path)
+                                       pr-shorthand  (str user "+" repo "+" pr)
+                                       pr-shorthand-msg (str " (PR-shorthand: `" pr-shorthand "`) ")
                                        commit-before (:source_commit (before path))
                                        commit-after  (:source_commit (after path))
                                        url (or (:source_url (before path))
@@ -43,13 +45,13 @@
                                  :when (not= commit-before commit-after)]
                              (cond
                                (nil? commit-before)
-                               (str "Added [" user "/" repo "](" url ") [" (subs commit-after 0 7) "](" url "/tree/" commit-after ")")
+                               (str "Added [" user "/" repo "](" url ") [" (subs commit-after 0 7) "](" url "/tree/" commit-after ")" pr-shorthand-msg)
                                
                                (nil? commit-after)
-                               (str "Added [" user "/" repo "](" url ") [" (subs commit-before 0 7) "](" url "/tree/" commit-before ")")
+                               (str "Added [" user "/" repo "](" url ") [" (subs commit-before 0 7) "](" url "/tree/" commit-before ")" pr-shorthand-msg)
                                
                                :else
-                               (str "Changed [" user "/" repo "](" url ") [" (subs commit-before 0 7) " → " (subs commit-after 0 7) "](" url "/compare/" commit-before ".." commit-after ")")))))]
+                               (str "Changed [" user "/" repo "](" url ") [" (subs commit-before 0 7) " → " (subs commit-after 0 7) "](" url "/compare/" commit-before ".." commit-after ")" pr-shorthand-msg)))))]
     (println message)
     (when token
       (http/post (str "https://api.github.com/repos/Roam-Research/roam-depot/issues/" pr "/comments")
