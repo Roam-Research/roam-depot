@@ -2,3 +2,7 @@ firebase-key.json
 node_modules
 checkout/*
 !checkout/.keep
+
+.clj-kondo
+.cpcache
+.lsp
