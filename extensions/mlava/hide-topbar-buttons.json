@@ -1,0 +1,10 @@
+{
+  "name": "Hide Topbar Buttons",
+  "short_description": "Hide buttons from the Roam Topbar. Reduce clutter!",
+  "author": "Mark Lavercombe",
+  "tags": ["buttons", "topbar"],
+  "source_url": "https://github.com/mlava/hide-topbar-buttons",
+  "source_repo": "https://github.com/mlava/hide-topbar-buttons.git",
+  "source_commit": "6439100e8fa8e21d438701ac500c0e8d1e6b7d46",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}

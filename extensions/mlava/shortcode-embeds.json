@@ -1,0 +1,10 @@
+{
+  "name": "Shortcode Embeds",
+  "short_description": "Read file or website url from clipboard and automatically create the correct {{shortcode}} in Roam Research.",
+  "author": "Mark Lavercombe",
+  "tags": ["shortcode", "embed"],
+  "source_url": "https://github.com/mlava/shortcode-embeds",
+  "source_repo": "https://github.com/mlava/shortcode-embeds.git",
+  "source_commit": "21ad829bbf029464ed2335b80f6e6e2c30c46526",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "TODO teleport",
+  "short_description": "Teleport your incomplete TODOs to another date in your graph",
+  "author": "Mark Lavercombe",
+  "tags": ["todo", "done", "schedule", "dnp"],
+  "source_url": "https://github.com/mlava/todo-teleport",
+  "source_repo": "https://github.com/mlava/todo-teleport.git",
+  "source_commit": "743b2993fa128813cc9efe6abdc353674d90abed",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
