@@ -2,8 +2,8 @@
   "name": "Roam Studio",
   "short_description": "Magically transform your tags into beautiful icons",
   "author": "Alexander Rink",
-  "source_url": "https://github.com/rcvd/MagicTags",
-  "source_repo": "https://github.com/rcvd/MagicTags.git",
+  "source_url": "https://github.com/rcvd/magic-tags",
+  "source_repo": "https://github.com/rcvd/magic-tags.git",
   "source_commit": "b3304c67f9d0481ef32e60aaeaa0a26507b7b455",
   "stripe_account": "acct_1LPgSxQUtJ9VpaGT"
 }
