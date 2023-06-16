@@ -1,0 +1,9 @@
+{
+  "name": "Save Scrollbar Position",
+  "short_description": "Saves the scrollbar position of a page when you leave it and restores it when you return.",
+  "author": "studyduck",
+  "tags": ["scrollbar"],
+  "source_url": "https://github.com/studyduck/roam-save-scrollbar-position",
+  "source_repo": "https://github.com/studyduck/roam-save-scrollbar-position.git",
+  "source_commit": "260aa302d9e93b4530b5691cee173e8ae73e0003"
+}
