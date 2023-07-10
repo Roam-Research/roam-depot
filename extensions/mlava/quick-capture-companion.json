@@ -1,0 +1,10 @@
+{
+  "name": "Capture for Roam Research companion",
+  "short_description": "A companion extension for the Capture for Roam Research mobile application",
+  "author": "Mark Lavercombe",
+  "tags": ["capture", "ios", "android"],
+  "source_url": "https://github.com/mlava/quick-capture-companion",
+  "source_repo": "https://github.com/mlava/quick-capture-companion.git",
+  "source_commit": "e55316470b1f05efd195227a768fee58d283c94a",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
