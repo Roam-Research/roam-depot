@@ -1,0 +1,9 @@
+{
+    "name": "Static Site",
+    "short_description": "Deploying your Roam graph as a public website!",
+    "author": "David Vargas",
+    "tags": [],
+    "source_url": "https://github.com/RoamJS/static-site",
+    "source_repo": "https://github.com/RoamJS/static-site.git",
+    "source_commit": "4c73305f4885a2e77519fd84e26d46f70a1dd70c"
+}
