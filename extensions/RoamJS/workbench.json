@@ -1,0 +1,9 @@
+{
+    "name": "Workbench",
+    "short_description": "A delightfully fun collection of power user tools for Roam.",
+    "author": "David Vargas",
+    "tags": [],
+    "source_url": "https://github.com/RoamJS/workbench",
+    "source_repo": "https://github.com/RoamJS/workbench.git",
+    "source_commit": "f07f65a90354eb6f926f7c29f6537f729efb5cca"
+}
