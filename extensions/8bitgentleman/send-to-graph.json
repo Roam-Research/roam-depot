@@ -1,0 +1,11 @@
+{
+    "name": "Send To Graph",
+    "short_description": "Send blocks from one graph to another.",
+    "author": "Matt Vogel",
+    "tags": ["Backend API"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-send-to-graph",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-send-to-graph.git",
+    "source_commit": "7349c025bd8c7a210c8054a9c1c17217a3059f85",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+
+}
