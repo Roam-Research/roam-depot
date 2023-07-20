@@ -2,7 +2,7 @@
   "name": "Reading modes",
   "short_description": "Read-only, Navigation controls, Focus mode, Click-to-select (instead of edit) and Bionic mode (Bionic reading). Replace Bionic text extension.",
   "author": "Fabrice Gallet",
-  "tags": ["reading", "focus", "browse"],
+  "tags": ["reading", "focus", "navigation", "read only"],
   "source_url": "https://github.com/fbgallet/roam-extension-bionic-text",
   "source_repo": "https://github.com/fbgallet/roam-extension-bionic-text.git",
   "source_commit": "320f8e366aabcae43896c8bcb8229d056c66b54b",
