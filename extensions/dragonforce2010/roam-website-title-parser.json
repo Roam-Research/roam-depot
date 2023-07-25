@@ -2,11 +2,9 @@
   "name": "Website Title Parser",
   "short_description": "This extension can parse the website url title and transform the link to the markdown format when user pastes the url/link into roam block",
   "author": "Michael Zhang",
-  "tags": [
-    "markdown"
-  ],
+  "tags": ["markdown"],
   "source_url": "https://github.com/dragonforce2010/roam-website-title-parser",
   "source_repo": "https://github.com/dragonforce2010/roam-website-title-parser.git",
-  "source_commit": "03e7c949f948f7a99a646b120af41f09337b87f9",
+  "source_commit": "f36d584ab198c45a29af446a03c79a14489e8840",
   "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
 }
