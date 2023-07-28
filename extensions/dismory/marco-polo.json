@@ -1,0 +1,9 @@
+{
+  "name": "Marco Polo",
+  "short_description": "CJK Symbols Converter for Roam Research",
+  "author": "Jian Huan",
+  "tags": ["chinese", "japanese", "korean", "converter", "hotkeys", "shortcuts"],
+  "source_url": "https://github.com/dismory/marco-polo",
+  "source_repo": "https://github.com/dismory/marco-polo.git",
+  "source_commit": "5b3a5eb1c27e70435164ce6075abcf4fea9bd938"
+}
