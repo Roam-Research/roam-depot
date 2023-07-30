@@ -1,10 +1,10 @@
 {
-  "name": "Elapsed Time Calculator",
-  "short_description": "Easily track the time spent on your activities and calculate the total daily time spent on them.",
+  "name": "Time Tracker",
+  "short_description": "Easily track the time spent on your activities, calculate the total by period of time and categories, set goals or limits.",
   "author": "Fabrice Gallet",
   "tags": ["time tracking", "timestamp", "duration", "time", "journaling", "organization", "smartblock"],
   "source_url": "https://github.com/fbgallet/roam-extension-elapsed-time",
   "source_repo": "https://github.com/fbgallet/roam-extension-elapsed-time.git",
-  "source_commit": "83f437341b9bacadbbafd3876487a5fad2b96aff",
+  "source_commit": "fb615c5d97c68fa9367c71aeb5faccb65d80a0e8",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
