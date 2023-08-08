@@ -1,0 +1,10 @@
+{
+    "name": "Graph Radar Component",
+    "short_description": "Roam Research component to show a list of the last pages edited.",
+    "author": "Matt Vogel",
+    "tags": ["roam/render", "multiplayer", "component"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-graph-radar",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-graph-radar.git",
+    "source_commit": "bbe5aa261661c2add82521117d5521be69a1d213",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }
