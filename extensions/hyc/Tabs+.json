@@ -1,9 +1,9 @@
     {
-      "name": "",
-      "short_description": "",
-      "author": "",
+      "name": "Roam Tabs",
+      "short_description": "A plugin that allows you to organize the pages you're working on into tabs.",
+      "author": "hyc",
       "source_url": "https://github.com/dive2Pro/roam-tabs",
       "source_repo": "https://github.com/dive2Pro/roam-tabs.git",
       "source_commit": "88ece83e23be7b66bbc97fc844fa23905284da68",
-      "stripe_account": ""
+      "stripe_account": "acct_1LLkJkQbYbNOfzpa"
     }            
