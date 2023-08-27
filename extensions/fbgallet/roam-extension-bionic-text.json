@@ -1,10 +1,10 @@
 {
-  "name": "Bionic Text",
-  "short_description": "Display all texts on your current Roam page in a similar way as Bionic Reading",
+  "name": "Reading modes",
+  "short_description": "Read-only, Navigation controls, Focus mode, Click-to-select (instead of edit) and Bionic mode (Bionic reading). Replace Bionic text extension.",
   "author": "Fabrice Gallet",
-  "tags": ["reading", "focus"],
+  "tags": ["reading", "focus", "navigation", "read only"],
   "source_url": "https://github.com/fbgallet/roam-extension-bionic-text",
   "source_repo": "https://github.com/fbgallet/roam-extension-bionic-text.git",
-  "source_commit": "00fbd982cb2dd99a3c4b2c5a82e9ac79951a98e0",
+  "source_commit": "66135598944590eb0df529f255465e834c34d72f",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
