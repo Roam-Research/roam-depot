@@ -1,0 +1,9 @@
+{
+  "name": "Roam Preview Window",
+  "short_description": "Hover over any page or tag or block-ref and view that block or page in a popup window",
+  "author": "Mehboob Elahi",
+  "tags": ["preview", "window"],
+  "source_url": "https://github.com/mehboobelahi05/Roam_Preview_Window",
+  "source_repo": "https://github.com/mehboobelahi05/Roam_Preview_Window.git",
+  "source_commit": "a577eb6d03a8d90c2ab99b7398b2a8fcdca03b4a"
+}
