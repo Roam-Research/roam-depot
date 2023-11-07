@@ -1,0 +1,12 @@
+{
+  "name": "Show GitHub Star",
+  "short_description": "A simple Roam Research plugin that will display the star number for GitHub repo links.",
+  "author": "studyduck",
+  "tags": [
+    "GitHub",
+    "star"
+  ],
+  "source_url": "https://github.com/studyduck/roam-show-github-star",
+  "source_repo": "https://github.com/studyduck/roam-show-github-star.git",
+  "source_commit": "6aa76b90e89ea8e288d363a35c14ea7e8a6b240a"
+}
