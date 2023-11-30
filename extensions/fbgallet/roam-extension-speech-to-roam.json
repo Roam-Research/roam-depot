@@ -5,6 +5,6 @@
   "tags": ["speech-to-text", "voice", "transcription", "recognition", "translation", "AI"],
   "source_url": "https://github.com/fbgallet/roam-extension-speech-to-roam",
   "source_repo": "https://github.com/fbgallet/roam-extension-speech-to-roam.git",
-  "source_commit": "d8260c6ca0785250435c01b8aa02f58236a48019",
+  "source_commit": "697c6168a486fa27eaa8756aa394d01825eaeb96",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
