@@ -1,10 +1,10 @@
 {
   "name": "Speech-to-Roam",
-  "short_description": "Transcribe or translate vocal notes, or directly speak to ChatGPT!",
+  "short_description": "Transcribe vocal notes to text, translate or directly speak to ChatGPT!",
   "author": "Fabrice Gallet",
   "tags": ["speech-to-text", "voice", "transcription", "recognition", "translation", "AI"],
   "source_url": "https://github.com/fbgallet/roam-extension-speech-to-roam",
   "source_repo": "https://github.com/fbgallet/roam-extension-speech-to-roam.git",
-  "source_commit": "697c6168a486fa27eaa8756aa394d01825eaeb96",
+  "source_commit": "b2ffa078c8315f0e02c9d3e13a21eb6ce425da08",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
