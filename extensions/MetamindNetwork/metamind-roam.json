@@ -1,0 +1,9 @@
+{
+    "name": "Metamind Roam",
+    "short_description": "A Roam Research plugin that helps the users to sync/publish the graph on the Metamind platform.",
+    "author": "Farhaan Bukhsh",
+    "tags": ["Publish", "Version Control"],
+    "source_url": "https://github.com/MetamindNetwork/metamind-roam",
+    "source_repo": "https://github.com/MetamindNetwork/metamind-roam.git",
+    "source_commit": "c0b592d04da5dfa0d7582fe77686d005fdf075a0"
+}
