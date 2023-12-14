@@ -1,0 +1,10 @@
+{
+    "name": "Tag Cycle Component",
+    "short_description": "Roam Research component to cycle through a list of tags or pages with a click.",
+    "author": "Matt Vogel",
+    "tags": ["roam/render", "component", "tags"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-tag-cycle",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-tag-cycle.git",
+    "source_commit": "5e40ac785e7abdafc91f4586a039d6c47e9d1087",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }
