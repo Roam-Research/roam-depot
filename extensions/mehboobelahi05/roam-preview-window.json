@@ -1,9 +1,10 @@
 {
-  "name": "Roam Preview Window",
-  "short_description": "Hover over any page or tag or block-ref and view that block or page in a popup window",
-  "author": "Mehboob Elahi",
-  "tags": ["preview", "window"],
-  "source_url": "https://github.com/mehboobelahi05/Roam_Preview_Window",
-  "source_repo": "https://github.com/mehboobelahi05/Roam_Preview_Window.git",
-  "source_commit": "2b1066d568226dd771de8f813b7d11e94aac9af2"
+    "name": "Roam Preview Window",
+    "short_description": "Roam preview window plugin helps you to preview a page or block in a popup window",
+    "author": "Mehboob Elahi",
+    "tags": ["preview_window"],
+    "source_url": "https://github.com/mehboobelahi05/Roam-Preview-Window",
+    "source_repo": "https://github.com/mehboobelahi05/Roam-Preview-Window.git",
+    "source_commit": "af295b7edcd3615a2d045ab8ce23beaa15e7112c",
+    "stripe_account": ""
 }
