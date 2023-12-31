@@ -1,10 +1,10 @@
 {
     "name": "Nautilus",
-    "short_description": "See your todo list in a glance", '",
+    "short_description": "See your todo list in a glance",
     "author": "Tomáš Baránek",
-    "tags": ["agenda", "tasks"], //optional
+    "tags": ["agenda", "tasks"],
     "source_url": "https://github.com/tombarys/roam-depot-nautilus",
     "source_repo": "https://github.com/tombarys/roam-depot-nautilus.git",
     "source_commit": "ed962096a355fb94c23e9fa7885161982193c144",
-    "stripe_account": "acct_1NCOzAHKqDKv1Czr" // optional
+    "stripe_account": "acct_1NCOzAHKqDKv1Czr" 
   }
