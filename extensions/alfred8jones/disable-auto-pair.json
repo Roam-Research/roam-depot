@@ -4,5 +4,6 @@
     "author": "Alfred Jobes",
     "tags": ["double", "pair", "brackets", "auto"],
     "source_url": "https://github.com/alfred8jones/RoamAutoPair",
-    "source_repo": "https://github.com/alfred8jones/RoamAutoPair.git"
+    "source_repo": "https://github.com/alfred8jones/RoamAutoPair.git",
+    "source_commit": "9d9f545d3dcdc3ba90e15c8d46e768be0ddcbe63"
 }
