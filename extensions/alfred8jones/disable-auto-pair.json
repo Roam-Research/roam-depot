@@ -1,0 +1,8 @@
+{
+    "name": "Disable Auto Pair",
+    "short_description": "Now you can disable the auto completed pairs of double brackets and parentheses!",
+    "author": "Alfred Jobes",
+    "tags": ["double", "pair", "brackets", "auto"],
+    "source_url": "https://github.com/alfred8jones/RoamAutoPair",
+    "source_repo": "https://github.com/alfred8jones/RoamAutoPair.git"
+}
