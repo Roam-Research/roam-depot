@@ -1,9 +1,9 @@
 {
     "name": "Disable Auto Pair",
-    "short_description": "Now you can disable the auto-completed pairs of brackets and parentheses!",
+    "short_description": "Now you can turn off the auto-closing of brackets & parentheses in roam!",
     "author": "Alfred Jones",
     "tags": ["double", "pair", "brackets", "auto"],
     "source_url": "https://github.com/alfred8jones/RoamAutoPair",
     "source_repo": "https://github.com/alfred8jones/RoamAutoPair.git",
-    "source_commit": "a2493976d843d3a6f03a7963a15a6a5c75ea659c"
+    "source_commit": "0755b1846754ccd4d51acee648d6cff7d0d306cf"
 }
