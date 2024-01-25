@@ -1,0 +1,10 @@
+{
+  "name": "Nautilus",
+  "short_description": "An innovative time-blocking tool transforming a plain list of tasks into a visual overview of what can you handle today.",
+  "author": "Tomáš Baránek",
+  "tags": ["time-blocking", "agenda", "tasks", "planning", "productivity"],
+  "source_url": "https://github.com/tombarys/roam-depot-nautilus",
+  "source_repo": "https://github.com/tombarys/roam-depot-nautilus.git",
+  "source_commit": "7b4620d0421b95bf7481fa5a311f75eef930d871",
+  "stripe_account": "acct_1NCOzAHKqDKv1Czr" 
+}
