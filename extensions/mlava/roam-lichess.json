@@ -1,0 +1,10 @@
+{
+  "name": "Chess Puzzle of the Day",
+  "short_description": "Import the chess puzzle of the day from Lichess",
+  "author": "Mark Lavercombe",
+  "tags": ["chess"],
+  "source_url": "https://github.com/mlava/roam-lichess",
+  "source_repo": "https://github.com/mlava/roam-lichess.git",
+  "source_commit": "e55af8882e25dde7fb9b3668f5b2277deae1a719",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
