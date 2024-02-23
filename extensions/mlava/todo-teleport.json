@@ -5,6 +5,6 @@
   "tags": ["todo", "done", "schedule", "dnp"],
   "source_url": "https://github.com/mlava/todo-teleport",
   "source_repo": "https://github.com/mlava/todo-teleport.git",
-  "source_commit": "ee4c1fd3957274b3a9df9dddf00f4808c3629419",
+  "source_commit": "e9089c51635f2e6642fc1f47a68d0dbcdadacf09",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
