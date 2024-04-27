@@ -2,7 +2,7 @@ firebase-key.json
 node_modules
 checkout/*
 !checkout/.keep
-
+.vscode/settings.json
 .clj-kondo
 .cpcache
 .lsp
