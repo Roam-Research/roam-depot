@@ -1,10 +1,10 @@
 {
-  "name": "Speech-to-Roam",
-  "short_description": "Transcribe vocal notes to text with Whisper, translate to english or directly talk to (or write to) AI assistant, easily defining context with data from your graph and structured output templates!",
+  "name": "Live AI Assistant",
+  "short_description": "Use reliable voice transcription or block(s) content to interact smoothly with an AI assistant (GPT or Claude models), easily define context (such as sidebar or linked ref.) and format response throught templates (former Speech-to-Roam).",
   "author": "Fabrice Gallet",
-  "tags": ["speech-to-text", "voice", "transcription", "recognition", "translation", "AI", "GPT", "chat", "post-processing", "template", "context"],
+  "tags": ["speech-to-text", "voice", "transcription", "recognition", "translation", "AI", "GPT", "Whisper", "Claude", "chat", "post-processing", "template", "context"],
   "source_url": "https://github.com/fbgallet/roam-extension-speech-to-roam",
   "source_repo": "https://github.com/fbgallet/roam-extension-speech-to-roam.git",
-  "source_commit": "48a01b4a8a92f742e31ae4c6a08c4634054cbaf2",
+  "source_commit": "57331dc186d3590da15f789c3871d09441ab54af",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
