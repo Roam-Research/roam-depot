@@ -1,0 +1,10 @@
+{
+  "name": "Live AI Assistant",
+  "short_description": "Use reliable voice transcription or block(s) content to interact smoothly with an AI assistant (GPT or Claude models), easily define context (such as sidebar or linked ref.) and format response throught templates (former Speech-to-Roam).",
+  "author": "Fabrice Gallet",
+  "tags": ["speech-to-text", "voice", "transcription", "recognition", "translation", "AI", "GPT", "Whisper", "Claude", "chat", "post-processing", "template", "context"],
+  "source_url": "https://github.com/fbgallet/roam-extension-speech-to-roam",
+  "source_repo": "https://github.com/fbgallet/roam-extension-speech-to-roam.git",
+  "source_commit": "57331dc186d3590da15f789c3871d09441ab54af",
+  "stripe_account": "acct_1LJHuRQerhPsAmG6"
+}

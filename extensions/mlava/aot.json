@@ -1,0 +1,10 @@
+{
+  "name": "Algorithms of Thought (AOT)",
+  "short_description": "Use algorithms of thought to augment your thinking and decision making in Roam Research.",
+  "author": "Mark Lavercombe",
+  "tags": ["aot", "algorithm of thought"],
+  "source_url": "https://github.com/mlava/aot",
+  "source_repo": "https://github.com/mlava/aot.git",
+  "source_commit": "08cb617ff9d810873398544cb395796eefe44cd2",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
