@@ -1,0 +1,10 @@
+{
+  "name": "Block Share Card",
+  "short_description": "Allows users to share Roam Research blocks as images optimized for mobile and desktop devices.",
+  "author": "qcrao",
+  "tags": ["sharing", "productivity", "images"],
+  "source_url": "https://github.com/qcrao/block-share-card",
+  "source_repo": "https://github.com/qcrao/block-share-card.git",
+  "source_commit": "e0e2d190bbd547935db5972d23b5da21959b3faf",
+  "stripe_account": "acct_1PJTCpQd6q6JNEre"
+}
