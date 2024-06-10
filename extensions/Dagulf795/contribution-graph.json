@@ -1,0 +1,9 @@
+{
+  "name": "Contribution Graph",
+  "short_description": "Display your Roam activity",
+  "author": "Dagulf795",
+  "tags": ["activity", "contribution graph", "contribution", "GitHub"],
+  "source_url": "https://github.com/Dagulf795/contribution-graph",
+  "source_repo": "https://github.com/Dagulf795/contribution-graph.git",
+  "source_commit": "09c8eaf5e39d8c3dee789b6607ce9fff40f6f0e2"
+}
