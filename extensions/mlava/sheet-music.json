@@ -1,0 +1,10 @@
+{
+  "name": "Sheet Music",
+  "short_description": "For music lovers, sheet music in Roam Research is finally available!",
+  "author": "Mark Lavercombe",
+  "tags": ["sheet music", "music"],
+  "source_url": "https://github.com/mlava/sheet-music",
+  "source_repo": "https://github.com/mlava/sheet-music.git",
+  "source_commit": "9e0c528392675003a762f0c96706925029cc6ced",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
