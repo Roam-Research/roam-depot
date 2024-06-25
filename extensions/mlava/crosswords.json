@@ -1,10 +1,10 @@
 {
   "name": "Crosswords",
-  "short_description": "Import, render and complete a random New York Times crossword in Roam Research",
+  "short_description": "Import, render and complete today's New York Times crossword in Roam Research, or a random crossword from the archives.",
   "author": "Mark Lavercombe",
   "tags": ["crossword"],
   "source_url": "https://github.com/mlava/crosswords",
   "source_repo": "https://github.com/mlava/crosswords.git",
-  "source_commit": "554829a7e100ff057bd3d64eec6a3ce9c933396f",
+  "source_commit": "fb8b503d033a2fc8c1d1232f9acd57cddb18a518",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
