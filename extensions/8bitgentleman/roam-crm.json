@@ -1,0 +1,11 @@
+{
+    "name": "Roam CRM",
+    "short_description": "Harness the power of your graph for effective relationship management, ensuring you stay connected with important contacts and never miss a birthday or follow-up.",
+    "author": "Matt Vogel",
+    "tags": ["right sidebar", "left sidebar", "customer relationship management", "calendar", "reminder"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-Roam-CRM",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-Roam-CRM.git",
+    "source_commit": "1c6a0553be1a84a1877b24ef23fcfb8e501143fb",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+
+}
