@@ -1,0 +1,10 @@
+{
+    "name": "TODO Progress Bar",
+    "short_description": "Roam Research progress bar component for visually tracking TODOs in a list.",
+    "author": "Matt Vogel",
+    "tags": ["roam/render", "TODO", "CSS"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-todo-progress-bar",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-todo-progress-bar.git",
+    "source_commit": "bd8b65aa6e41e691f3ce2e9b7109c709622564d7",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }

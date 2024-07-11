@@ -1,10 +1,10 @@
 {
   "name": "Todoist Task Management",
-  "short_description": "Integrate Roam Research and Todoist for task management",
+  "short_description": "Integrate Roam Research and Todoist for task management. Create, complete and reschedule tasks with sync in both directions.",
   "author": "Mark Lavercombe",
   "tags": ["tasks", "todoist", "todo"],
   "source_url": "https://github.com/mlava/todoist-task-management",
   "source_repo": "https://github.com/mlava/todoist-task-management.git",
-  "source_commit": "c8dd6fbe47d59be24971ef5d03852913215f6966",
-  "stripe_account": "acct_1LNVRQQVHUZMIiOR"
+  "source_commit": "a0e5d519e5381127fee0aabf254b8403816300ac",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
