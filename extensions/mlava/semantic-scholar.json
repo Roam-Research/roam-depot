@@ -1,0 +1,10 @@
+{
+  "name": "Semantic Scholar",
+  "short_description": "Import data from Semantic Scholar into your Roam Research graph. Search for articles by title or id, authors by name or id, or relevant articles by other articles. Limit to Fields of Study, by number, refresh search and obtain more results.",
+  "author": "Mark Lavercombe",
+  "tags": ["semantic scholar", "academia", "academic", "journal articles"],
+  "source_url": "https://github.com/mlava/semantic-scholar",
+  "source_repo": "https://github.com/mlava/semantic-scholar.git",
+  "source_commit": "d9c443bc2477f07ecebe9c40047b9a44b50f8ccd",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
