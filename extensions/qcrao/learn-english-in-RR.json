@@ -1,0 +1,10 @@
+{
+  "name": "Learn English in RR",
+  "short_description": "Enhance your English learning experience in Roam Research",
+  "author": "qcrao",
+  "tags": ["language learning", "productivity", "AI", "text-to-speech"],
+  "source_url": "https://github.com/qcrao/learn-english-in-RR",
+  "source_repo": "https://github.com/qcrao/learn-english-in-RR.git",
+  "source_commit": "1bc02aa521c5e3780aabec76c2bb2675be2457c1",
+  "stripe_account": "acct_1PJTCpQd6q6JNEre"
+}
