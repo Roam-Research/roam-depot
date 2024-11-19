@@ -5,6 +5,6 @@
   "tags": ["speech-to-text", "voice", "transcription", "recognition", "translation", "AI", "GPT", "Whisper", "Claude", "chat", "post-processing", "template", "context"],
   "source_url": "https://github.com/fbgallet/roam-extension-speech-to-roam",
   "source_repo": "https://github.com/fbgallet/roam-extension-speech-to-roam.git",
-  "source_commit": "41ad6d411fce1a5e64bb10c78b5a6a0ac7ec0f74",
+  "source_commit": "8d47567127c1b4c96e7ef1092eab11877f2a40fa",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
