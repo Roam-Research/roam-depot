@@ -1,0 +1,10 @@
+{
+  "name": "Roam Daily Note Cleaner",
+  "short_description": "This powerful Roam Research plugin is designed to help you keep your daily notes organized and clutter-free. Say goodbye to empty daily notes and hello to a more streamlined workflow! Effortlessly delete empty daily notes that no longer serve you~",
+  "author": "Michael Zhang",
+  "tags": ["markdown"],
+  "source_url": "https://github.com/dragonforce2010/roam-daily-note-cleaner",
+  "source_repo": "https://github.com/dragonforce2010/roam-daily-note-cleaner.git",
+  "source_commit": "081a9a467d38bf621c5f500498d4b0548c5120ce",
+  "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
+}
