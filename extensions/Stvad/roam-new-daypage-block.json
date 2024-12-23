@@ -1,0 +1,9 @@
+{
+  "name": "Create a new Block on a Daily page Roam Shortcut",
+  "short_description": "Introduces a shortcut to create a new block on the current days page and opens it in a sidebar. Intention is to allow a quick-capture experiece without having to change context of whatever you're working on",
+  "author": "Vlad Sitalo",
+  "tags": [],
+  "source_url": "https://github.com/Stvad/roam-new-daypage-block",
+  "source_repo": "https://github.com/Stvad/roam-new-daypage-block.git",
+  "source_commit": "04f787d8faea0692628e8ed77b255c3c396ab2ec"
+}
