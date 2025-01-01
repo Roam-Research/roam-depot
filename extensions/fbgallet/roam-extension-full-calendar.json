@@ -1,10 +1,10 @@
 {
   "name": "Full Calendar",
-  "short_description": "A comprehensive calendar in Roam, to get an overview of your daily notes ! Manage your tasks by month, week, day or year. Visualize and position them in a timeline grid.",
+  "short_description": "A comprehensive calendar in Roam ! Manage your tasks, event or data by month, week, day or year. Visualize and position them in a timeline grid.",
   "author": "Fabrice Gallet",
   "tags": ["calendar", "GTD", "task"],
   "source_url": "https://github.com/fbgallet/roam-extension-calendar",
   "source_repo": "https://github.com/fbgallet/roam-extension-calendar.git",
-  "source_commit": "f8226c2af9389cfbcd8d25ae5db6c5fdb0be1f59",
+  "source_commit": "07dc668e6df9974276ed1496c5249361fdbd3a8d",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
