@@ -1,0 +1,11 @@
+{
+    "name": "Block Distributor",
+    "short_description": "Automate the creation of block references based on user-defined tag rules.",
+    "author": "Matt Vogel",
+    "tags": ["automation"],
+    "source_url": "https://github.com/8bitgentleman/roam-depo-block-distribution",
+    "source_repo": "https://github.com/8bitgentleman/roam-depo-block-distribution.git",
+    "source_commit": "b7d78ea58670d1e2eae8754a201e52c1467b51d2",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+
+}

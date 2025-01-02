@@ -1,10 +1,10 @@
 {
   "name": "Poemist, PoetryDB and Poem-A-Day import",
-  "short_description": "Import a poem from the collections at Poemist or PoetryDB, or the Poem-A-Day from poets.org.",
+  "short_description": "Import a poem from the collection at PoetryDB.",
   "author": "Mark Lavercombe",
   "tags": ["poem", "poetry", "import"],
   "source_url": "https://github.com/mlava/poemist",
   "source_repo": "https://github.com/mlava/poemist.git",
-  "source_commit": "406df2d0dfa46d372ccb7d2ed1634e86ce19e076",
+  "source_commit": "bec3314126d6ea555f7bdd33f61f40e1c061fd35",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
