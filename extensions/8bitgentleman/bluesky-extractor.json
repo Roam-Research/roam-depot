@@ -1,0 +1,11 @@
+{
+    "name": "Bluesky Extract",
+    "short_description": "Extracts text and metadata from a Bluesky post saved in your graph.",
+    "author": "Matt Vogel",
+    "tags": ["bluesky"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-bluesky-extract",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-bluesky-extract.git",
+    "source_commit": "f87d808218d3d383bfe8e6547efcfb81675646fd",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+
+}
