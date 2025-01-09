@@ -28,15 +28,18 @@
       (shell/with-sh-dir sub-dir-file
         (when (.exists (io/file sub-dir-file "build.sh"))
           (core/sh "chmod" "+x" "build.sh")
-          (core/sh "./build.sh"))))
-    (when (string? subdir)
-      ;; copy all required files to the root because build actions require them there
-      (shell/with-sh-dir dir
-        (core/sh "cp" (str subdir "/extension.js") ".")
-        (try (core/sh "cp" (str subdir "/extension.css") ".") (catch Exception _ nil))
-        (try (core/sh "cp" (str subdir "/CHANGELOG.md") ".") (catch Exception _ nil))
-        (try (core/sh "cp" (str subdir "/README.md") ".") (catch Exception _ nil))
-        (print (core/sh "ls"))))))
+          (core/sh "./build.sh")))
+      (when (string? subdir)
+        ;; copy all required files to the root because build actions require them there
+        (shell/with-sh-dir dir
+          (core/sh "cp" (str subdir "/extension.js") ".")
+          (when (.exists (io/file sub-dir-file "extension.css"))
+            (core/sh "cp" (str subdir "/extension.css") "."))
+          (when (.exists (io/file sub-dir-file "CHANGELOG.md"))
+            (core/sh "cp" (str subdir "/CHANGELOG.md") "."))
+          (when (.exists (io/file sub-dir-file "README.md"))
+            (core/sh "cp" (str subdir "/README.md") "."))
+          (print (core/sh "ls")))))))
 
 (defn -main [& {:as args-map}]
   (doseq [[mode ext-id data] (core/diff args-map)]
