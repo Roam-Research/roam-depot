@@ -33,9 +33,9 @@
       ;; copy all required files to the root because build actions require them there
       (shell/with-sh-dir dir
         (core/sh "cp" (str subdir "/extension.js") ".")
-        (core/sh "cp" (str subdir "/extension.css") ".")
-        (core/sh "cp" (str subdir "/CHANGELOG.md") ".")
-        (core/sh "cp" (str subdir "/README.md") ".")
+        (try (core/sh "cp" (str subdir "/extension.css") ".") (catch Exception _ nil))
+        (try (core/sh "cp" (str subdir "/CHANGELOG.md") ".") (catch Exception _ nil))
+        (try (core/sh "cp" (str subdir "/README.md") ".") (catch Exception _ nil))
         (print (core/sh "ls"))))))
 
 (defn -main [& {:as args-map}]
