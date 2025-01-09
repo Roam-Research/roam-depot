@@ -13,7 +13,6 @@
         {repo "source_repo"
          commit "source_commit"
          subdir "source_subdir"} data]
-    (prn "SUBDIR" subdir exists?)
     (when-not exists?
       (.mkdirs dir)
       (core/sh "git" "clone" repo (str "checkout/" ext-id)))
@@ -32,16 +31,14 @@
       (when (string? subdir)
         ;; copy all required files to the root because build actions require them there
         (shell/with-sh-dir dir
-          (core/sh "cp" (str subdir "/extension.js") ".")
+          (when (.exists (io/file sub-dir-file "extension.js"))
+            (core/sh "cp" (str subdir "/extension.js") "."))
           (when (.exists (io/file sub-dir-file "extension.css"))
             (core/sh "cp" (str subdir "/extension.css") "."))
-          (prn (io/file sub-dir-file "CHANGELOG.md"))
           (when (.exists (io/file sub-dir-file "CHANGELOG.md"))
-            (prn "THIS SHOULDN'T EXIST")
             (core/sh "cp" (str subdir "/CHANGELOG.md") "."))
           (when (.exists (io/file sub-dir-file "README.md"))
-            (core/sh "cp" (str subdir "/README.md") "."))
-          (print (core/sh "ls")))))))
+            (core/sh "cp" (str subdir "/README.md") ".")))))))
 
 (defn -main [& {:as args-map}]
   (doseq [[mode ext-id data] (core/diff args-map)]
