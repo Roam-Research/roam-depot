@@ -35,10 +35,12 @@
           (core/sh "cp" (str subdir "/extension.js") ".")
           (when (.exists (io/file sub-dir-file "extension.css"))
             (core/sh "cp" (str subdir "/extension.css") "."))
-          (prn (io/file sub-dir-file "CHANGELOG.md"))
+          ;; (prn (io/file sub-dir-file "CHANGELOG.md"))
+          #_
           (when (.exists (io/file sub-dir-file "CHANGELOG.md"))
             (prn "THIS SHOULDN'T EXIST")
             (core/sh "cp" (str subdir "/CHANGELOG.md") "."))
+          #_
           (when (.exists (io/file sub-dir-file "README.md"))
             (core/sh "cp" (str subdir "/README.md") "."))
           (print (core/sh "ls")))))))
