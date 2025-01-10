@@ -1,0 +1,10 @@
+{
+  "name": "Last Year Today",
+  "short_description": "A Roam Research extension that allows you to view the last year's pages in the sidebar.",
+  "author": "qcrao",
+  "tags": ["productivity", "memorization", "history"],
+  "source_url": "https://github.com/qcrao/last-year-today",
+  "source_repo": "https://github.com/qcrao/last-year-today.git",
+  "source_commit": "dcaaea7da28cd8c03efb03b52986e39c4d47ea61",
+  "stripe_account": "acct_1PJTCpQd6q6JNEre"
+}
