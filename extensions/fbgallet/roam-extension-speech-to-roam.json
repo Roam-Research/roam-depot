@@ -1,10 +1,10 @@
 {
   "name": "Live AI Assistant",
-  "short_description": "Chat with your AI assistant, transcribe voice notes, use up-to-date models (GPT-4o, Claude 3.5 and more), easily define context such as sidebar content and format response throught templates (former Speech-to-Roam).",
+  "short_description": "Powerful AI assistant tailor-made for Roam, with built-in and custom prompts, easy-to-define context, query AI Agents, Live Outliner Agent.",
   "author": "Fabrice Gallet",
   "tags": ["speech-to-text", "voice", "transcription", "recognition", "translation", "AI", "GPT", "Whisper", "Claude", "chat", "post-processing", "template", "context"],
-  "source_url": "https://github.com/fbgallet/roam-extension-speech-to-roam",
-  "source_repo": "https://github.com/fbgallet/roam-extension-speech-to-roam.git",
-  "source_commit": "8d47567127c1b4c96e7ef1092eab11877f2a40fa",
+  "source_url": "https://github.com/fbgallet/roam-extension-live-ai-assistant",
+  "source_repo": "https://github.com/fbgallet/roam-extension-live-ai-assistant.git",
+  "source_commit": "6cd5e1632aae0badb64c5269a35bf4d5890f17d7",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
