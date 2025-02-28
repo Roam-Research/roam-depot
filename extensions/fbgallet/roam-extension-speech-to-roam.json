@@ -1,10 +1,10 @@
 {
   "name": "Live AI Assistant",
-  "short_description": "Powerful AI assistant tailor-made for Roam, with built-in and custom prompts, easy-to-define context, NL Query Agents, Live Outliner Agent.",
+  "short_description": "Powerful AI assistant tailor-made for Roam, with built-in and custom prompts, easy-to-define context, NL Query Agents, Live Outliner Agent, Vision...",
   "author": "Fabrice Gallet",
   "tags": ["speech-to-text", "voice", "transcription", "translation", "AI", "GPT", "Whisper", "Claude", "chat", "post-processing", "context", "llm", "critical thinking"],
   "source_url": "https://github.com/fbgallet/roam-extension-live-ai-assistant",
   "source_repo": "https://github.com/fbgallet/roam-extension-live-ai-assistant.git",
-  "source_commit": "6aed998f111279bea856e61c1ed2db69d5623ae9",
+  "source_commit": "9a23549dcecc73b084a1d3f97d9bd60aa1bed51e",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
