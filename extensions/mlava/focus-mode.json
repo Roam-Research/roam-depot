@@ -1,10 +1,10 @@
 {
-  "name": "Focus Mode",
+  "name": "Focus Mode Extended",
   "short_description": "Hide everything but the page you're working on",
   "author": "Mark Lavercombe",
   "tags": ["focus"],
   "source_url": "https://github.com/mlava/focus-mode",
   "source_repo": "https://github.com/mlava/focus-mode.git",
-  "source_commit": "be5c658b39e5ac27aa10b170b3fac9f83bfe4e27",
+  "source_commit": "9712ff55fade46b753b13f891eb5b235432a6c83",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
