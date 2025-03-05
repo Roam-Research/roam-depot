@@ -1,0 +1,10 @@
+{
+  "name": "DOI Handling",
+  "short_description": "Paste or Search and Replace DOIs in a formatted markdown link in your graph",
+  "author": "Mark Lavercombe",
+  "tags": ["doi", "research", "academic"],
+  "source_url": "https://github.com/mlava/doi",
+  "source_repo": "https://github.com/mlava/doi.git",
+  "source_commit": "04cef83fc75afc51f4c40338d9f3da3e151a8906",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
