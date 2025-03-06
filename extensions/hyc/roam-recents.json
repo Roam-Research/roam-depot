@@ -1,9 +1,9 @@
     {
-      "name": "",
-      "short_description": "",
-      "author": "",
+      "name": "Roam Recents",
+      "short_description": "tracks and manages your recently visited pages in main view",
+      "author": "hyc",
       "source_url": "https://github.com/dive2Pro/roam-recents",
       "source_repo": "https://github.com/dive2Pro/roam-recents.git",
-      "source_commit": "c2c97fb414cd7b069e24fb69ca691d12f1007afa",
-      "stripe_account": ""
+      "source_commit": "f190596a64144a11d2b00048e4f2b4abda5ea796",
+      "stripe_account": "acct_1LLkJkQbYbNOfzpa"
     }            
