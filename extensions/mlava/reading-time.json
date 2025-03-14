@@ -1,0 +1,10 @@
+{
+  "name": "Reading Time",
+  "short_description": "Estimated reading time for pages in your graph.",
+  "author": "Mark Lavercombe",
+  "tags": ["reading time"],
+  "source_url": "https://github.com/mlava/reading-time",
+  "source_repo": "https://github.com/mlava/reading-time.git",
+  "source_commit": "1a1b9c0a780472a5254d4fae70d8fb41eda762b2",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}

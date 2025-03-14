@@ -29,12 +29,14 @@ jobs:
 
       - run: ./script/build.sh
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: checkout
           path: |
-            checkout
-            !checkout/**/node_modules/*
+            checkout/*/README.md
+            checkout/*/CHANGELOG.md
+            checkout/*/extension.js
+            checkout/*/extension.css
 
   publish:
     needs: build
@@ -53,7 +55,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: checkout
           path: checkout

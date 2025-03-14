@@ -1,0 +1,10 @@
+{
+    "name": "Table Export",
+    "short_description": "Export a Roam table or Attribute table to CSV",
+    "author": "Matt Vogel",
+    "tags": ["export", "button"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-table-export",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-table-export.git",
+    "source_commit": "0353b506db175606c9890abd2aedf3049bf732ad",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }

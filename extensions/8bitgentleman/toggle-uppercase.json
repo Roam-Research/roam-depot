@@ -1,0 +1,10 @@
+{
+    "name": "Toggle Text Uppercase/Lowercase",
+    "short_description": "Right-Click menu plugin: Toggles all block text to Uppercase or lowercase",
+    "author": "Matt Vogel",
+    "tags": ["right-click menu", "formatting"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-toggle-uppercase",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-toggle-uppercase.git",
+    "source_commit": "deac7d4df02eeb2d20d6ce87325b6f1457ac5352",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }

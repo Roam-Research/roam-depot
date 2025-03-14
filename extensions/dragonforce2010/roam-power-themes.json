@@ -1,0 +1,10 @@
+{
+  "name": "Roam Power Themes",
+  "short_description": "This extension provides a lot of beautiful roam themes",
+  "author": "Michael Zhang",
+  "tags": ["markdown"],
+  "source_url": "https://github.com/dragonforce2010/roam-power-themes",
+  "source_repo": "https://github.com/dragonforce2010/roam-power-themes.git",
+  "source_commit": "f88d9eb37b950372bae1e0fbc39acc4326f7c474",
+  "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
+}

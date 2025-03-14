@@ -1,0 +1,10 @@
+{
+  "name": "Numbered List",
+  "short_description": "Convert a Roam Research graph page to a numbered list",
+  "author": "Mark Lavercombe",
+  "tags": ["format conversion", "numbered list"],
+  "source_url": "https://github.com/mlava/numbered-list",
+  "source_repo": "https://github.com/mlava/numbered-list.git",
+  "source_commit": "66703094e77016d344022cf20d03d31bceceb18d",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}

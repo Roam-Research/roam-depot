@@ -1,0 +1,9 @@
+{
+  "name": "blueprint",
+  "short_description": "Beautiful light and dark theme for Roam Research based on blueprint.js",
+  "author": "Alexander Rink",
+  "source_url": "https://github.com/rcvd/blueprint",
+  "source_repo": "https://github.com/rcvd/blueprint.git",
+  "source_commit": "6a57be4d32b8d2a084475de8d822043ffc73e7f8",
+  "stripe_account": "acct_1LPgSxQUtJ9VpaGT"
+}

@@ -15,11 +15,6 @@
     [com.google.firebase.database DatabaseReference DatabaseReference$CompletionListener FirebaseDatabase ValueEventListener]
     [com.google.cloud.storage BlobId BlobInfo Blob$BlobSourceOption Bucket BucketInfo Storage Storage$BlobTargetOption StorageOptions]))
 
-(def mime-types
-  {"md"  "text/markdown"
-   "js"  "application/js"
-   "css" "application/css"})
-
 (defn ref-get [ref]
   (println "[ get ]" (str ref))
   (let [p (promise)]
@@ -69,15 +64,15 @@
 (defn ref [db & path]
   (.getReference db (str/join "/" path)))
 
-(defn upload [storage version-id & files]
+(defn upload [storage parent version-id & files]
   (vec
     (for [file files
           :when (.exists file)
           :let [name      (.getName file)
                 [_ ext]   (re-matches #".*\.(\w+)" name)
-                o         (str "extension_files/" version-id "/" name)
+                o         (str parent "/" version-id "/" name)
                 id        (BlobId/of "firescript-577a2.appspot.com" o)
-                mime      (mime-types ext)
+                mime      (core/mime-types ext)
                 compress? (>= (.length file) 1024)
                 info      (cond-> (BlobInfo/newBuilder id)
                             true      (.setContentType mime)
@@ -94,7 +89,16 @@
         (.create storage info bytes (make-array Storage$BlobTargetOption 0))
         name))))
 
-(defn publish [db storage ext-id data]
+(defn publish
+  "Uploads files to:
+
+     extension_files/<ext-id>+<version>
+
+   and metadata to:
+
+     extensions/<ext-id>
+     extensions_versions/<ext-id>+<version>"
+  [db storage ext-id data]
   (let [version    (->> (ref-find (ref db "extension_versions") "extension" ext-id)
                      (vals)
                      (map #(get % "version"))
@@ -103,19 +107,51 @@
         version'   (str (inc version))
         version-id (str ext-id "+" version')
         dir        (io/file "checkout" ext-id)
-        files      (upload storage version-id
+        files      (upload storage "extension_files" version-id
                      (io/file dir "README.md")
                      (io/file dir "CHANGELOG.md")
                      (io/file dir "extension.js")
                      (io/file dir "extension.css"))
         _          (when (empty? files)
                      (throw (ex-info (str "No files found for extension " ext-id) {})))
+        now        (core/timestamp)
         data'      (assoc data
                      "extension" ext-id
                      "version"   version'
-                     "files"     files)]
+                     "files"     files
+                     "updated"   now)
+        data''     (assoc data' "created"
+                     (if (= 0 version)
+                       now
+                       (ref-get (ref db "extensions" ext-id "created"))))]
     (ref-set! (ref db "extension_versions" version-id) data')
-    (ref-set! (ref db "extensions" ext-id) data')))
+    (ref-set! (ref db "extensions" ext-id) data'')))
+
+(defn publish-pr
+  "Same as publish, but uploads files to:
+
+     extension_prs/<ext-id>+<PR>
+
+   and metadata to:
+
+     extension_prs/<ext-id>+<PR>"
+  [db storage ext-id pr data]
+  (let [version-id (str ext-id "+" pr)
+        dir        (io/file "checkout" ext-id)
+        files      (upload storage "extension_prs" version-id
+                     (io/file dir "README.md")
+                     (io/file dir "CHANGELOG.md")
+                     (io/file dir "extension.js")
+                     (io/file dir "extension.css"))
+        _          (when (empty? files)
+                     (throw (ex-info (str "No files found for extension " ext-id) {})))
+        now        (core/timestamp)
+        data'      (assoc data
+                     "extension" ext-id
+                     "version"   pr
+                     "files"     files
+                     "updated"   now)]
+    (ref-set! (ref db "extension_prs" version-id) data')))
 
 (defn unpublish [db ext-id]
   (ref-remove! (ref db "extensions" ext-id)))
@@ -124,7 +160,7 @@
   (when (or (empty? args) (odd? (count args)))
     (println "Usage:")
     (println)
-    (println "  clojure -M -m community-extensions.publish --key <path-to-key> [--from <sha>] [--to <sha>]")
+    (println "  clojure -M -m community-extensions.publish --key <path-to-key> ([--pr <pr>] | [--from <sha>] [--to <sha>])")
     (System/exit 1))
   
   (let [args-map    (apply array-map args)
@@ -139,10 +175,16 @@
                       (.setCredentials credentials)
                       (.build)
                       (.getService))]
-    (doseq [[mode ext-id data] (core/diff args-map)]
-      (case mode
-        "A" (publish db storage ext-id data)
-        "M" (publish db storage ext-id data)
-        "D" (unpublish db ext-id)
-        nil))  
+    (if-some [pr (get args-map "--pr")]
+      (doseq [[mode ext-id data] (core/diff args-map)]
+        (case mode
+          "A" (publish-pr db storage ext-id pr data)
+          "M" (publish-pr db storage ext-id pr data)
+          nil))
+      (doseq [[mode ext-id data] (core/diff args-map)]
+        (case mode
+          "A" (publish db storage ext-id data)
+          "M" (publish db storage ext-id data)
+          "D" (unpublish db ext-id)
+          nil)))
     (shutdown-agents)))

@@ -1,0 +1,10 @@
+{
+  "name": "Roam to Json Webhooks",
+  "short_description": "Export data from Roam Research to Zapier, IFTTT, Integromat/Make and Pipedream",
+  "author": "Mark Lavercombe",
+  "tags": ["webhook", "export"],
+  "source_url": "https://github.com/mlava/json-webhooks",
+  "source_repo": "https://github.com/mlava/json-webhooks.git",
+  "source_commit": "ada59b317be75401dd69453c5a2556a91ffbe351",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}

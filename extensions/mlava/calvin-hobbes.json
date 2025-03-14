@@ -1,0 +1,10 @@
+{
+  "name": "Daily Calvin & Hobbes",
+  "short_description": "Embed the daily Calvin & Hobbes comic from Go Comics",
+  "author": "Mark Lavercombe",
+  "tags": ["embed"],
+  "source_url": "https://github.com/mlava/calvin-hobbes",
+  "source_repo": "https://github.com/mlava/calvin-hobbes.git",
+  "source_commit": "a01171265d59dca2346ade81a4f0c05dbeef451a",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
