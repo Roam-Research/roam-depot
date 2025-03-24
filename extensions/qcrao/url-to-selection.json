@@ -1,0 +1,10 @@
+{
+  "name": "URL to Selection",
+  "short_description": "Turn selected text into markdown links when you paste URL.",
+  "author": "qcrao",
+  "tags": ["productivity"],
+  "source_url": "https://github.com/qcrao/url-to-selection",
+  "source_repo": "https://github.com/qcrao/url-to-selection.git",
+  "source_commit": "d74f9e528f90ce63d2da1e6b4a087a4a084bfe1c",
+  "stripe_account": "acct_1PJTCpQd6q6JNEre"
+}
