@@ -29,7 +29,7 @@ jobs:
 
       - run: ./script/build.sh
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: checkout
           path: |
@@ -55,7 +55,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: checkout
           path: checkout
