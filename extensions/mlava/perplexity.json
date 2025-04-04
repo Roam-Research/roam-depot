@@ -1,0 +1,10 @@
+{
+  "name": "Perplexity AI",
+  "short_description": "Search the advanced conversational search engine at Perplexity AI from within your Roam Research graph.",
+  "author": "Mark Lavercombe",
+  "tags": ["perplexity", "artificial intelligence", "search"],
+  "source_url": "https://github.com/mlava/perplexity_ai",
+  "source_repo": "https://github.com/mlava/perplexity_ai.git",
+  "source_commit": "6c9bee7478c4b385a82ef74f1227cdd685f539cd",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
