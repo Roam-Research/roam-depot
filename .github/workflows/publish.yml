@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - run: |
           echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
@@ -40,7 +40,7 @@ jobs:
 
   publish:
     needs: build
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - run: |
           echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
