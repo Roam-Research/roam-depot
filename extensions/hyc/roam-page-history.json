@@ -1,9 +1,9 @@
 {
-  "name": "Page History",
-  "short_description": "",
+  "name": "History",
+  "short_description": "provides comprehensive version control for your pages and blocks, allowing you to track, view, and restore historical versions of your content.",
   "author": "hyc",
   "source_url": "https://github.com/dive2Pro/roam-snapshot",
   "source_repo": "https://github.com/dive2Pro/roam-snapshot.git",
-  "source_commit": "a0931bd4ff0a888668126c194ac02452445eca21",
+  "source_commit": "9d2775485d6a33988256b9ecc7ce119b953d8510",
   "stripe_account": "acct_1LLkJkQbYbNOfzpa"
 }
