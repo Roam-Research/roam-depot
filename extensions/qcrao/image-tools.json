@@ -1,0 +1,10 @@
+{
+  "name": "Image Tools",
+  "short_description": "Enhance your image experience in Roam Research",
+  "author": "qcrao",
+  "tags": ["productivity"],
+  "source_url": "https://github.com/qcrao/image-tools",
+  "source_repo": "https://github.com/qcrao/image-tools.git",
+  "source_commit": "e0783651fe9e8f368b275428e6df865060fd35d3",
+  "stripe_account": "acct_1PJTCpQd6q6JNEre"
+}
