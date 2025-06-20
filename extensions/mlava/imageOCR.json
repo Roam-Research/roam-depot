@@ -5,6 +5,6 @@
   "tags": ["image", "text", "image to text", "ocr", "optical character recognition"],
   "source_url": "https://github.com/mlava/image-ocr",
   "source_repo": "https://github.com/mlava/image-ocr.git",
-  "source_commit": "e92aacfe4ae5778b6eaa1eef48a455dcde668ccc",
+  "source_commit": "bd78d4b63e5dc545489228b340e3a14fba3124b8",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
