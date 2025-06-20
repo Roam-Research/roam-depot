@@ -1,0 +1,10 @@
+{
+  "name": "Image to Text (OCR)",
+  "short_description": "Examine and extract text from images in your Roam Research graph.",
+  "author": "Mark Lavercombe",
+  "tags": ["image", "text", "image to text", "ocr", "optical character recognition"],
+  "source_url": "https://github.com/mlava/image-ocr",
+  "source_repo": "https://github.com/mlava/image-ocr.git",
+  "source_commit": "e92aacfe4ae5778b6eaa1eef48a455dcde668ccc",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
