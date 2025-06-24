@@ -1,0 +1,10 @@
+{
+  "name": "DOCX upload and render",
+  "short_description": "Roam Research allows you to upload and render pdfs, but until now you couldn't do that for DOCX files. You can with this extension.",
+  "author": "Mark Lavercombe",
+  "tags": ["docx", "word document"],
+  "source_url": "https://github.com/mlava/docx-upload-render",
+  "source_repo": "https://github.com/mlava/docx-upload-render.git",
+  "source_commit": "be1ea5087af8ac8230d3971fe5e33ecd64953538",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
