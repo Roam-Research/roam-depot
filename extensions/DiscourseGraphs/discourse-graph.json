@@ -1,0 +1,9 @@
+{
+  "name": "Discourse Graph",
+  "short_description": "A tool and ecosystem for collaborative knowledge synthesis",
+  "author": "The Discourse Graphs Project",
+  "source_url": "https://github.com/DiscourseGraphs/discourse-graph",
+  "source_repo": "https://github.com/DiscourseGraphs/discourse-graph.git",
+  "source_commit": "fb6538bef57953682a43ea81261811557de4baae",
+  "source_subdir": "apps/roam"
+}
