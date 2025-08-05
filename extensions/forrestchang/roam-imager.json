@@ -1,0 +1,9 @@
+{
+  "name": "Imager", 
+  "short_description": "Browse and manage all images in your Roam Research graph in a beautiful gallery view",
+  "author": "Forrest Chang",
+  "tags": ["images", "gallery", "media", "visualization"],
+  "source_url": "https://github.com/forrestchang/roam-imager",
+  "source_repo": "https://github.com/forrestchang/roam-imager.git",
+  "source_commit": "a03b21fcd0290774ccc2b7541b8dd20b08eebdfc"
+}
