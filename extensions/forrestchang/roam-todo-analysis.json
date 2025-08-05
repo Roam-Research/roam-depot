@@ -1,9 +1,9 @@
 {
   "name": "TODO Analysis", 
-  "short_description": "Analyze TODO blocks in your Roam graph, providing insights and statistics on task patterns and completion rates.",
+  "short_description": "Comprehensive TODO analytics with charts, achievements, and productivity insights. Features a modular architecture for better performance.",
   "author": "Forrest Chang",
   "tags": ["todo", "statistics", "analysis", "productivity"],
   "source_url": "https://github.com/forrestchang/roam-todo-analysis",
   "source_repo": "https://github.com/forrestchang/roam-todo-analysis.git",
-  "source_commit": "c317f3cd57fc90afc681d78c6951d786a7f31b90"
+  "source_commit": "3d8e191f2b0272ec45b7861b1dc183eaeebfe6b0"
 }
