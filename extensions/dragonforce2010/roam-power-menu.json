@@ -1,0 +1,10 @@
+{
+  "name": "Roam Power menu",
+  "short_description": "Roam Power Pack is a powerful plugin suite for Roam Research that provides rich styling and functionality enhancements.",
+  "author": "Michael Zhang",
+  "tags": ["markdown"],
+  "source_url": "https://github.com/dragonforce2010/roam-power-menu",
+  "source_repo": "https://github.com/dragonforce2010/roam-power-menu.git",
+  "source_commit": "1cbe139e81c9b6774c5f6ddff11eb36153d8387b",
+  "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
+}
