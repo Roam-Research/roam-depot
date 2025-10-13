@@ -1,0 +1,9 @@
+{
+  "name": "PomoGame",
+  "short_description": "A minimal, elegant timer that makes focus fun with a unique gaming system.",
+  "author": "404KSG",
+  "tags": ["pomodoro", "productivity", "gamification", "timer", "focus"],
+  "source_url": "https://github.com/404KSG/roam-pomogame",
+  "source_repo": "https://github.com/404KSG/roam-pomogame.git",
+  "source_commit": "a938419b70e5848d6440365087248bac53318f8f"
+}
