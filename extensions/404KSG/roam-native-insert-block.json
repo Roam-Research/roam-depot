@@ -1,9 +1,0 @@
-{
-  "name": "Native Insert Block",
-  "short_description": "A minimal plugin that adds a native-feeling 'Insert Block' button on hover in Roam Research.",
-  "author": "404KSG",
-  "tags": ["block", "insert", "hover", "UI", "editing"],
-  "source_url": "https://github.com/404KSG/roam-native-insert-block",
-  "source_repo": "https://github.com/404KSG/roam-native-insert-block.git",
-  "source_commit": "c795ee11b54433629268ebbc8909ff5789bfcef1"
-}
