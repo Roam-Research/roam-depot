@@ -5,6 +5,6 @@
   "tags": ["recurring", "recurrent", "TODO", "tasks", "DONE"],
   "source_url": "https://github.com/mlava/recurring-tasks",
   "source_repo": "https://github.com/mlava/recurring-tasks.git",
-  "source_commit": "4ef900d9251683156091455d451be53bc35cb1c5",
+  "source_commit": "40c0556b1f46e10d7d2744080ee7a2f9068a0181",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
