@@ -1,10 +1,10 @@
 {
-  "name": "Recurring Tasks",
-  "short_description": "Create recurrent tasks in Roam Research.",
+  "name": "Better Tasks",
+  "short_description": "Implement task management within Roam Research, including dated and recurring tasks.",
   "author": "Mark Lavercombe",
   "tags": ["recurring", "recurrent", "TODO", "tasks", "DONE"],
-  "source_url": "https://github.com/mlava/recurring-tasks",
-  "source_repo": "https://github.com/mlava/recurring-tasks.git",
-  "source_commit": "ad386edd847f794ace36124f30454a34f0b79819",
+  "source_url": "https://github.com/mlava/better-tasks",
+  "source_repo": "https://github.com/mlava/better-tasks.git",
+  "source_commit": "302ad51f612d7415b6e2d1076b229b190e3bd46a",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
