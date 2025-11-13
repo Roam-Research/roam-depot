@@ -5,6 +5,6 @@
   "tags": ["speech-to-text", "voice", "transcription", "translation", "AI", "GPT", "Whisper", "Claude", "grok", "groq", "deepkseek", "chat", "post-processing", "context", "llm", "mcp", "critical thinking", "diagram"],
   "source_url": "https://github.com/fbgallet/roam-extension-live-ai-assistant",
   "source_repo": "https://github.com/fbgallet/roam-extension-live-ai-assistant.git",
-  "source_commit": "eccdaff164c5a2759a7d4cc2b5cc9d80bae0a134",
+  "source_commit": "d0e56f546ba8db7b763ea74b69d0da017d69e9a0",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
