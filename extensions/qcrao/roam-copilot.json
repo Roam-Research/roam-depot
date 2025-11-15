@@ -1,0 +1,10 @@
+{
+  "name": "Roam Copilot",
+  "short_description": "Your AI co-pilot in Roam.",
+  "author": "qcrao",
+  "tags": ["productivity", "AI", "copilot"],
+  "source_url": "https://github.com/qcrao/copilot",
+  "source_repo": "https://github.com/qcrao/copilot.git",
+  "source_commit": "b30f1be85faaf4089af48a1c028c17aba2019ac2",
+  "stripe_account": "acct_1PJTCpQd6q6JNEre"
+}
