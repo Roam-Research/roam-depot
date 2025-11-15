@@ -5,6 +5,6 @@
   "tags": ["recurring", "recurrent", "TODO", "tasks", "DONE", "getting things done", "gtd", "review"],
   "source_url": "https://github.com/mlava/better-tasks",
   "source_repo": "https://github.com/mlava/better-tasks.git",
-  "source_commit": "6a9922d32c5bc071e0e4cc08c815b5685ff83870",
+  "source_commit": "ad0bf4ae5620edb813ac4c24f5acc3ea664e2885",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
