@@ -1,0 +1,11 @@
+{
+    "name": "Post to Bluesky",
+    "short_description": "Create Bluesky posts and threads from your Roam Research Graph",
+    "author": "Matt Vogel",
+    "tags": ["bluesky"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-bluesky-post",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-bluesky-post.git",
+    "source_commit": "91172321d470d9d88bd58ba7cda4f43af9a05cbd",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+
+}

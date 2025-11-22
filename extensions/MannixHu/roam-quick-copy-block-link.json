@@ -1,0 +1,8 @@
+{
+  "name": "quick-copy-block-link",
+  "short_description": "quick copy block/page desktop link in markdown format",
+  "author": "@MannixHu",
+  "source_url": "https://github.com/MannixHu/roam-depot-quick-copy-block-link",
+  "source_repo": "https://github.com/MannixHu/roam-depot-quick-copy-block-link.git",
+  "source_commit": "d284def11a67bb1d0898ad1ea76a020166b17e81"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Format Block Hotkeys",
+    "short_description": "Adds configurable hotkeys for various block formatting options to the Roam command palette and the native Roam hotkey page.",
+    "author": "Matt Vogel",
+    "tags": ["blocks", "formatting"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-format-hotkeys",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-format-hotkeys.git",
+    "source_commit": "f16afc67e6e46a530ec21346c12e5cd0a2bf1374",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }
