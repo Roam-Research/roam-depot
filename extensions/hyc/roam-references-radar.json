@@ -1,0 +1,9 @@
+    {
+      "name": "Roam References Radar",
+      "short_description": "A Roam Research plugin that helps you discover more potential connections in your knowledge graph by identifying and suggesting relevant references.",
+      "author": "hyc",
+      "source_url": "https://github.com/dive2Pro/roam-references-radar",
+      "source_repo": "https://github.com/dive2Pro/roam-references-radar.git",
+      "source_commit": "a946daf08c991836854780144417c672c8d8b6d0",
+      "stripe_account": "acct_1LLkJkQbYbNOfzpa"
+    }            

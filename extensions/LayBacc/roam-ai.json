@@ -1,8 +1,8 @@
 {
   "name": "Roam AI",
-  "short_description": "An AI co-pilot, powered by GPT-3.",
-  "author": "John Yeung (@Lay_Bacc)",
+  "short_description": "Your AI co-pilot in Roam.",
+  "author": "@Lay_Bacc",
   "source_url": "https://github.com/LayBacc/roam-ai",
   "source_repo": "https://github.com/LayBacc/roam-ai.git",
-  "source_commit": "41d04cbf67579638314fa154e0355903c862d508"
+  "source_commit": "032eb90727122a60186c6387249b3d52f2bda53b"
 }

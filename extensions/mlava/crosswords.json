@@ -1,0 +1,10 @@
+{
+  "name": "Crosswords",
+  "short_description": "Import, render and complete the New York Times crossword or The Guardian cryptic crossword in Roam Research.",
+  "author": "Mark Lavercombe",
+  "tags": ["crossword"],
+  "source_url": "https://github.com/mlava/crosswords",
+  "source_repo": "https://github.com/mlava/crosswords.git",
+  "source_commit": "473f4fc6a73db59e5cdc4aa5e0d3e47e7d34641f",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}

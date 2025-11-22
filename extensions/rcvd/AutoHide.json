@@ -1,0 +1,9 @@
+{
+  "name": "Auto Hide",
+  "short_description": "Auto Hide is a extension that hides the topbar when you scroll down.",
+  "author": "Alexander Rink",
+  "source_url": "https://github.com/rcvd/auto-hide",
+  "source_repo": "https://github.com/rcvd/auto-hide.git",
+  "source_commit": "c316c9704659df0e0db71b644d1ef37ce1392eb9",
+  "stripe_account": "acct_1LPgSxQUtJ9VpaGT"
+}
