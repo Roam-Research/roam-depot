@@ -1,0 +1,10 @@
+{
+  "name": "Power Css Pack",
+  "short_description": "This extension added a lot of fancy css utilities to further enrich your roam",
+  "author": "Michael Zhang",
+  "tags": ["css", "power pack", "extension", "roam"],
+  "source_url": "https://github.com/dragonforce2010/roam-power-css-pack",
+  "source_repo": "https://github.com/dragonforce2010/roam-power-css-pack.git",
+  "source_commit": "60e030d57dfd576c1986d218d71e2056f79ad75c",
+  "stripe_account": "acct_1MI7MVQVLQeWv9Xo"
+}
