@@ -1,0 +1,9 @@
+{
+  "name": "Magic Tags",
+  "short_description": "Magically transform your tags into beautiful icons",
+  "author": "Alexander Rink",
+  "source_url": "https://github.com/rcvd/magic-tags",
+  "source_repo": "https://github.com/rcvd/magic-tags.git",
+  "source_commit": "dfe751f823c794d8913d5ca4433cefc5d1ac427f",
+  "stripe_account": "acct_1LPgSxQUtJ9VpaGT"
+}

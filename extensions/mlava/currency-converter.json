@@ -5,6 +5,6 @@
   "tags": ["currency", "conversion"],
   "source_url": "https://github.com/mlava/currency-converter",
   "source_repo": "https://github.com/mlava/currency-converter.git",
-  "source_commit": "d135206e57db41b3e7b998123cf01fd6a6ea737e",
+  "source_commit": "6708c4a007159176bf42fefa52475312cd94cbce",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
