@@ -1,0 +1,10 @@
+{
+    "name": "Tag Painter",
+    "short_description": "Easily customize the appearance of your tags, no CSS needed.",
+    "author": "Matt Vogel",
+    "tags": ["topbar", "CSS", "theme", "tags"],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-tag-painter",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-tag-painter.git",
+    "source_commit": "61e77920353aa6780331c63149f405fe280b0e38",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }
