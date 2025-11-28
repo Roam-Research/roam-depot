@@ -1,6 +1,6 @@
 {
   "name": "Better Tasks",
-  "short_description": "Implement comprehensive task management within Roam Research, including dated and recurring tasks.",
+  "short_description": "Implement comprehensive task management within Roam Research, including dated and recurring tasks, and other optional attributes like GTD tags, projects and more.",
   "author": "Mark Lavercombe",
   "tags": ["recurring", "recurrent", "TODO", "tasks", "DONE", "getting things done", "gtd", "review"],
   "source_url": "https://github.com/mlava/better-tasks",
