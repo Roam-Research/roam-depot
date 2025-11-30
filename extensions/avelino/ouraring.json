@@ -1,0 +1,8 @@
+{
+  "name": "Oura Ring",
+  "short_description": "Syncs your Oura Ring health metrics into daily pages",
+  "author": "avelino",
+  "source_url": "https://github.com/avelino/roamresearch-ouraring",
+  "source_repo": "https://github.com/avelino/roamresearch-ouraring.git",
+  "source_commit": "cd0e8797f0eee30dc46bfeda30ccca8fabf76a27"
+}
