@@ -1,0 +1,10 @@
+{
+  "name": "Card Theme",
+  "short_description": "A Roam Research extension that provides a beautiful, card-based theme.",
+  "author": "qcrao",
+  "tags": ["theme", "card", "design"],
+  "source_url": "https://github.com/qcrao/card-theme",
+  "source_repo": "https://github.com/qcrao/card-theme.git",
+  "source_commit": "fba3421d3f69a8e3b93d6d71389fa9c1d4915ca6",
+  "stripe_account": "acct_1PJTCpQd6q6JNEre"
+}
