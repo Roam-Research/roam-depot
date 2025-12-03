@@ -1,10 +1,10 @@
 {
   "name": "Mobile Gesture Actions",
-  "short_description": "Use swipes, double tap and long press to perform specified actions in Roam Research on mobile. You can even trigger a keyboard shortcut using a gesture!",
+  "short_description": "Use swipes, double tap, long press, pinch and rotate to perform specified actions in Roam Research on mobile. You can even trigger a keyboard shortcut using a gesture!",
   "author": "Mark Lavercombe",
-  "tags": ["swipe", "double tap", "long press", "mobile"],
+  "tags": ["swipe", "double tap", "long press", "mobile", "pinch", "rotate"],
   "source_url": "https://github.com/mlava/mobile-gesture-actions",
   "source_repo": "https://github.com/mlava/mobile-gesture-actions.git",
-  "source_commit": "cd2ff2449b4a16eb315d43d49b0f9a7454bd5535",
+  "source_commit": "bca4a8f39c576b0d96c144ac9ee37a1ad35d84d1",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
