@@ -1,0 +1,8 @@
+{
+  "name": "Export Block",
+  "short_description": "Export blocks to various formats with proper formatting, ready to be pasted into different applications",
+  "author": "avelino",
+  "source_url": "https://github.com/avelino/roamresearch-export-block",
+  "source_repo": "https://github.com/avelino/roamresearch-export-block.git",
+  "source_commit": "ce217ca5879faa5773c2252e4145e09485003c39"
+}

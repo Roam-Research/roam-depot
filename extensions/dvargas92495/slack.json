@@ -1,10 +1,10 @@
 {
     "name": "Slack",
     "short_description": "Description for slack.",
-    "author": "David Vargas",
+    "author": "RoamJS",
     "tags": [],
-    "source_url": "https://github.com/dvargas92495/roamjs-slack",
-    "source_repo": "https://github.com/dvargas92495/roamjs-slack.git",
+    "source_url": "https://github.com/RoamJS/slack",
+    "source_repo": "https://github.com/RoamJS/slack.git",
     "source_commit": "f47735040664bf49cd6bd306df2390fcf2f649a3",
-    "stripe_account": "acct_1MwrLQQn2YMck6pG"
+    "stripe_account": "acct_1M0Dn1DxeGt7RpwY"
 }
