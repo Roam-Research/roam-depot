@@ -1,10 +1,10 @@
 {
     "name": "SmartBlocks",
     "short_description": "Create custom and programmable templates from within Roam!",
-    "author": "David Vargas",
+    "author": "RoamJS",
     "tags": ["templates"],
-    "source_url": "https://github.com/dvargas92495/roamjs-smartblocks",
-    "source_repo": "https://github.com/dvargas92495/roamjs-smartblocks.git",
-    "source_commit": "4983f74cf2f8e0b737fdd65c58bc1a8526595b4b",
-    "stripe_account": "acct_1MwrLQQn2YMck6pG"
+    "source_url": "https://github.com/RoamJS/smartblocks",
+    "source_repo": "https://github.com/RoamJS/smartblocks.git",
+    "source_commit": "c1b7d43840188cbe7020434ff37f349cdc6326e3",
+    "stripe_account": "acct_1M0Dn1DxeGt7RpwY"
 }
