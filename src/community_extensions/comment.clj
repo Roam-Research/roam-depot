@@ -10,17 +10,18 @@
 (def args-map
   (apply array-map *command-line-args*))
 
-(defn branch-exists? [branch]
-  (zero? (:exit (shell/sh "git" "rev-parse" "--verify" branch))))
+(defn try-fetch-pr [pr branch]
+  ;; Try to fetch, but don't fail if branch already exists (e.g. from publish step)
+  (let [{:keys [exit]} (shell/sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))]
+    (when (zero? exit)
+      (println "[ fetch ] Fetched PR" pr "to" branch))))
 
 (defn -main [& {pr "--pr"
                 token "--token"
                 status "--status"
                 :as args-map}]
   (let [branch  (str "pr-" pr)
-        ;; Skip fetch if branch already exists (e.g. from publish step)
-        _       (when-not (branch-exists? branch)
-                  (core/sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch)))
+        _       (try-fetch-pr pr branch)
         changes (vec
                  (for [[mode path] (->> (core/sh "git" "diff" "--name-status" "--merge-base" "remotes/origin/main" branch)
                                         (str/split-lines)

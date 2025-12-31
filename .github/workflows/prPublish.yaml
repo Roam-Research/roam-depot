@@ -61,17 +61,11 @@ jobs:
       - run: clojure -P -M:firebase
         name: Fetch deps
 
-      - run: echo $FIREBASE_SERVICE_KEY > ./firebase-key.json
-        env:
-          FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
-
       - name: Publish PR extension
         id: publish
-        run: ./script/publish.sh --pr ${{ steps.pr-number.outputs.PR_NUMBER }} --key ./firebase-key.json
-
-      - name: Cleanup credentials
-        if: always()
-        run: rm -f ./firebase-key.json
+        run: ./script/publish.sh --pr ${{ steps.pr-number.outputs.PR_NUMBER }}
+        env:
+          FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
 
       # Add comment to PR with diff links and publish status
       - name: Comment on PR
