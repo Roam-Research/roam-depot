@@ -1,0 +1,10 @@
+{
+  "name": "Nicer Code Block Copy",
+  "short_description": "Enhance your code block copy experience in Roam Research",
+  "author": "qcrao",
+  "tags": ["productivity"],
+  "source_url": "https://github.com/qcrao/nicer-code-block-copy",
+  "source_repo": "https://github.com/qcrao/nicer-code-block-copy.git",
+  "source_commit": "0bd5c84c76363e8f8ad8475dafed875efa9c2456",
+  "stripe_account": "acct_1PJTCpQd6q6JNEre"
+}
