@@ -10,12 +10,17 @@
 (def args-map
   (apply array-map *command-line-args*))
 
+(defn branch-exists? [branch]
+  (zero? (:exit (shell/sh "git" "rev-parse" "--verify" branch))))
+
 (defn -main [& {pr "--pr"
                 token "--token"
                 status "--status"
                 :as args-map}]
-  (let [branch  (str "remotes/origin/pr-" pr)
-        _       (core/sh "git" "fetch" "origin" (str "pull/" pr "/head:refs/remotes/origin/pr-" pr))
+  (let [branch  (str "pr-" pr)
+        ;; Skip fetch if branch already exists (e.g. from publish step)
+        _       (when-not (branch-exists? branch)
+                  (core/sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch)))
         changes (vec
                  (for [[mode path] (->> (core/sh "git" "diff" "--name-status" "--merge-base" "remotes/origin/main" branch)
                                         (str/split-lines)
@@ -27,7 +32,7 @@
                       (for [[mode path] changes
                             :when (.exists (io/file path))]
                         [path (core/slurp-json path)]))
-        _       (core/sh "git" "-c" "advice.detachedHead=false" "checkout" branch)
+        _       (core/sh "git" "checkout" branch)
         after   (into {}
                       (for [[mode path] changes
                             :when (.exists (io/file path))]
