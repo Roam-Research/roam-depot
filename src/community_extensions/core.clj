@@ -8,8 +8,6 @@
     [java.time ZonedDateTime ZoneId]
     [java.time.format DateTimeFormatter]))
 
-(println ">>> LOADING core.clj <<<")
-
 (def mime-types
   {"md"  "text/markdown"
    "js"  "application/js"
@@ -28,9 +26,7 @@
   ext-id)
 
 (defn sh [& cmd]
-  (apply println "[ shell ]" cmd)
-  (println ">>> Stack trace:")
-  (.printStackTrace (Exception. "trace") System/out)
+  (apply println "[ sh ]" cmd)
   (let [{:keys [out err exit]} (apply shell/sh cmd)]
     (when-not (str/blank? err)
       (binding [*out* *err*]
@@ -40,7 +36,6 @@
       (throw (Exception. (str "Command '" (str/join " " cmd) "' failed with exit code " exit))))))
 
 (defn diff [args-map]
-  (println ">>> core/diff CALLED with:" args-map)
   (let [diff (if-some [pr (get args-map "--pr")]
                (let [branch (str "pr-" pr)]
                  (sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))

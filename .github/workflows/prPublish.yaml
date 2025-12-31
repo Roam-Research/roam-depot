@@ -27,17 +27,9 @@ jobs:
 
       - uses: actions/checkout@v6
         with:
-          ref: refs/heads/main
+          ref: main
           fetch-depth: 0
           persist-credentials: false
-
-      # Debug: show what we actually checked out
-      - name: Debug checkout
-        run: |
-          echo "=== Current commit ==="
-          git log --oneline -1
-          echo "=== comment.clj first 15 lines ==="
-          head -15 src/community_extensions/comment.clj
 
       # Download build artifacts from the unprivileged workflow
       - name: Download checkout artifact
@@ -75,11 +67,15 @@ jobs:
         env:
           FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
 
-      # Add comment to PR with diff links and publish status
+      # Checkout main again (publish left us on PR branch)
+      - name: Checkout main for comment
+        if: always()
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          clean: false
+
       - name: Comment on PR
         if: always()
-        run: |
-          # Clear Clojure caches to force recompilation
-          rm -rf .cpcache target classes
-          ./script/comment.sh --pr ${{ steps.pr-number.outputs.PR_NUMBER }} --token ${{ secrets.GITHUB_TOKEN }} --status ${{ steps.publish.outcome }}
+        run: ./script/comment.sh --pr ${{ steps.pr-number.outputs.PR_NUMBER }} --token ${{ secrets.GITHUB_TOKEN }} --status ${{ steps.publish.outcome }}
 

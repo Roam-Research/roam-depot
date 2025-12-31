@@ -7,8 +7,6 @@
     [clojure.string :as str]
     [community-extensions.core :as core]))
 
-(println ">>> LOADING comment.clj v3 <<<")
-
 (def args-map
   (apply array-map *command-line-args*))
 
@@ -26,7 +24,7 @@
                 :as args-map}]
   (println "=== comment.clj v2 - no fetch ===")
   (let [branch  (str "pr-" pr)
-        #_       (try-fetch-pr pr branch)
+        _       (core/sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))
         changes (vec
                  (for [[mode path] (->> (core/sh "git" "diff" "--name-status" "--merge-base" "remotes/origin/main" branch)
                                         (str/split-lines)
