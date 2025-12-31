@@ -60,19 +60,17 @@ jobs:
       - run: clojure -P -M:firebase
         name: Fetch deps
 
-      # Write Firebase key to temp file for authentication
-      - name: Setup Firebase credentials
+      - run: echo $FIREBASE_SERVICE_KEY > ./firebase-key.json
         env:
           FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
-        run: printenv FIREBASE_SERVICE_KEY > /tmp/firebase-key.json
 
       - name: Publish PR extension
         id: publish
-        run: ./script/publish.sh --pr ${{ steps.pr-number.outputs.PR_NUMBER }} --key /tmp/firebase-key.json
+        run: ./script/publish.sh --pr ${{ steps.pr-number.outputs.PR_NUMBER }} --key ./firebase-key.json
 
       - name: Cleanup credentials
         if: always()
-        run: rm -f /tmp/firebase-key.json
+        run: rm -f ./firebase-key.json
 
       # Add comment to PR with diff links and publish status
       - name: Comment on PR
