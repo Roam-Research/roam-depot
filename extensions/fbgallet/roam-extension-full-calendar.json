@@ -1,10 +1,10 @@
 {
   "name": "Full Calendar",
-  "short_description": "A calendar views by month, week, day or year to manage your tasks, event or data and sync them with Google calendar.",
+  "short_description": "A calendar views by month, week, day or year with Google calendar integration.",
   "author": "Fabrice Gallet",
   "tags": ["calendar", "GTD", "task", "google"],
   "source_url": "https://github.com/fbgallet/roam-extension-calendar",
   "source_repo": "https://github.com/fbgallet/roam-extension-calendar.git",
-  "source_commit": "e041d9fdbcda330413ba373cbb8a0761679abd68",
+  "source_commit": "00b9c76dfb48ecd6585f1bde0a3147462dd7da67",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
