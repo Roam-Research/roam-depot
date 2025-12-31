@@ -10,14 +10,6 @@
 (def args-map
   (apply array-map *command-line-args*))
 
-;; pr should be fetched already
-#_
-(defn try-fetch-pr [pr branch]
-  ;; Try to fetch, but don't fail if branch already exists (e.g. from publish step)
-  (let [{:keys [exit]} (shell/sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))]
-    (when (zero? exit)
-      (println "[ fetch ] Fetched PR" pr "to" branch))))
-
 (defn -main [& {pr "--pr"
                 token "--token"
                 status "--status"
