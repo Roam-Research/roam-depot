@@ -22,6 +22,7 @@
                 token "--token"
                 status "--status"
                 :as args-map}]
+  (println "=== comment.clj v2 - no fetch ===")
   (let [branch  (str "pr-" pr)
         #_       (try-fetch-pr pr branch)
         changes (vec
