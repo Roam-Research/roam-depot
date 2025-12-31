@@ -12,16 +12,18 @@
 
 (defn -main [& {pr "--pr"
                 token "--token"
+                status "--status"
                 :as args-map}]
   (let [branch  (str "pr-" pr)
         _       (core/sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))
         changes (vec
-                 (for [[mode path] (->> (core/sh "git" "diff" "--name-status" "--merge-base" "remotes/origin/main" branch)
+                 (for [[mode path] (->> (core/sh "git" "diff" "--name-status" "HEAD" branch)
                                         (str/split-lines)
                                         (map #(str/split % #"\t")))
                        :when (str/starts-with? path "extensions/")]
                    [mode path]))
-        _       (core/sh "git" "-c" "advice.detachedHead=false" "checkout" "remotes/origin/main")
+        ;; We're already on main (HEAD), this just ensures it
+        _       (core/sh "git" "-c" "advice.detachedHead=false" "checkout" "HEAD")
         before  (into {}
                       (for [[mode path] changes
                             :when (.exists (io/file path))]
@@ -31,9 +33,16 @@
                       (for [[mode path] changes
                             :when (.exists (io/file path))]
                         [path (core/slurp-json path)]))
+        status-msg (case status
+                     "success" ""
+                     "failure" "❌ **Publish failed** - Check the workflow logs for details.\n\n"
+                     "cancelled" "⚠️ **Publish was cancelled**\n\n"
+                     "skipped" "⏭️ **Publish was skipped**\n\n"
+                     "")
         message (str/join "\n"
                           (concat
-                           ["Here’s your link to the diff:\n"]
+                           [status-msg
+                            "Here's your link to the diff:\n"]
                            (for [[mode path] changes
                                  :let [[_ user repo] (re-matches #"extensions/([^/]+)/([^/]+)\.json" path)
                                        pr-shorthand  (str user "+" repo "+" pr)

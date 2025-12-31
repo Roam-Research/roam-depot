@@ -7,9 +7,13 @@ on:
     paths:
       - 'extensions/*/*.json'
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-24.04
+    timeout-minutes: 5
     steps:
       - run: |
           echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
@@ -20,7 +24,7 @@ jobs:
           chmod +x linux-install-1.11.1.1113.sh
           sudo ./linux-install-1.11.1.1113.sh
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -29,7 +33,7 @@ jobs:
 
       - run: ./script/build.sh
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: checkout
           path: |
@@ -41,6 +45,7 @@ jobs:
   publish:
     needs: build
     runs-on: ubuntu-24.04
+    timeout-minutes: 5
     steps:
       - run: |
           echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
@@ -51,20 +56,22 @@ jobs:
           chmod +x linux-install-1.11.1.1113.sh
           sudo ./linux-install-1.11.1.1113.sh
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v6
         with:
           name: checkout
           path: checkout
 
-      - run: echo $FIREBASE_SERVICE_KEY > ./firebase-key.json
-        env:
-          FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
+      - name: Remove symlinks from artifacts
+        run: find checkout -type l -print -delete
 
       - run: clojure -P -M:firebase
         name: Fetch deps
 
-      - run: ./script/publish.sh --key ./firebase-key.json
+      - name: Publish to marketplace
+        run: ./script/publish.sh
+        env:
+          FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
