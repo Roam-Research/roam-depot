@@ -10,6 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-24.04
+    timeout-minutes: 5
     steps:
       - run: |
           echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
@@ -41,6 +42,7 @@ jobs:
   publish:
     needs: build
     runs-on: ubuntu-24.04
+    timeout-minutes: 5
     steps:
       - run: |
           echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
@@ -60,11 +62,10 @@ jobs:
           name: checkout
           path: checkout
 
-      - run: echo $FIREBASE_SERVICE_KEY > ./firebase-key.json
-        env:
-          FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
-
       - run: clojure -P -M:firebase
         name: Fetch deps
 
-      - run: ./script/publish.sh --key ./firebase-key.json
+      - name: Publish to marketplace
+        run: ./script/publish.sh
+        env:
+          FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
