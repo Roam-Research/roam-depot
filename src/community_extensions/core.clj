@@ -28,7 +28,9 @@
   ext-id)
 
 (defn sh [& cmd]
-  (apply println "[ sh ]" cmd)
+  (apply println "[ shell ]" cmd)
+  (println ">>> Stack trace:")
+  (.printStackTrace (Exception. "trace") System/out)
   (let [{:keys [out err exit]} (apply shell/sh cmd)]
     (when-not (str/blank? err)
       (binding [*out* *err*]
