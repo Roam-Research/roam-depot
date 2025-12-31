@@ -27,9 +27,17 @@ jobs:
 
       - uses: actions/checkout@v6
         with:
-          ref: main
+          ref: refs/heads/main
           fetch-depth: 0
           persist-credentials: false
+
+      # Debug: show what we actually checked out
+      - name: Debug checkout
+        run: |
+          echo "=== Current commit ==="
+          git log --oneline -1
+          echo "=== comment.clj first 15 lines ==="
+          head -15 src/community_extensions/comment.clj
 
       # Download build artifacts from the unprivileged workflow
       - name: Download checkout artifact
