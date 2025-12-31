@@ -75,15 +75,6 @@ jobs:
           ref: main
           clean: false
 
-      # Debug: show git state
-      - name: Debug git refs
-        if: always()
-        run: |
-          echo "=== branches ==="
-          git branch -a
-          echo "=== remotes ==="
-          git remote -v
-
       - name: Comment on PR
         if: always()
         run: ./script/comment.sh --pr ${{ steps.pr-number.outputs.PR_NUMBER }} --token ${{ secrets.GITHUB_TOKEN }} --status ${{ steps.publish.outcome }}
