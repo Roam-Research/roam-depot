@@ -7,6 +7,9 @@ on:
     paths:
       - 'extensions/*/*.json'
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-24.04
@@ -61,6 +64,9 @@ jobs:
         with:
           name: checkout
           path: checkout
+
+      - name: Remove symlinks from artifacts
+        run: find checkout -type l -print -delete
 
       - run: clojure -P -M:firebase
         name: Fetch deps
