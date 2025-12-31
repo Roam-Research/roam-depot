@@ -68,3 +68,7 @@ jobs:
         name: Fetch deps
 
       - run: ./script/publish.sh --key ./firebase-key.json
+
+      - name: Cleanup credentials
+        if: always()
+        run: rm -f ./firebase-key.json
