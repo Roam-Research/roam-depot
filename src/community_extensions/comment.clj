@@ -14,7 +14,6 @@
                 token "--token"
                 status "--status"
                 :as args-map}]
-  (println "=== comment.clj v2 - no fetch ===")
   (let [branch  (str "pr-" pr)
         _       (core/sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))
         changes (vec
@@ -35,7 +34,7 @@
                             :when (.exists (io/file path))]
                         [path (core/slurp-json path)]))
         status-msg (case status
-                     "success" "✅ **Publish succeeded** - Extension is available for testing.\n\n"
+                     "success" ""
                      "failure" "❌ **Publish failed** - Check the workflow logs for details.\n\n"
                      "cancelled" "⚠️ **Publish was cancelled**\n\n"
                      "skipped" "⏭️ **Publish was skipped**\n\n"
