@@ -14,8 +14,8 @@
                 token "--token"
                 status "--status"
                 :as args-map}]
-  (let [branch  (str "pr-" pr)
-        _       (core/sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))
+  (let [branch  (str "remotes/origin/pr-" pr)
+        _       (core/sh "git" "fetch" "origin" (str "pull/" pr "/head:refs/remotes/origin/pr-" pr))
         changes (vec
                  (for [[mode path] (->> (core/sh "git" "diff" "--name-status" "--merge-base" "remotes/origin/main" branch)
                                         (str/split-lines)
@@ -27,7 +27,7 @@
                       (for [[mode path] changes
                             :when (.exists (io/file path))]
                         [path (core/slurp-json path)]))
-        _       (core/sh "git" "checkout" branch)
+        _       (core/sh "git" "-c" "advice.detachedHead=false" "checkout" branch)
         after   (into {}
                       (for [[mode path] changes
                             :when (.exists (io/file path))]
