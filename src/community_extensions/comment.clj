@@ -7,6 +7,8 @@
     [clojure.string :as str]
     [community-extensions.core :as core]))
 
+(println ">>> LOADING comment.clj v3 <<<")
+
 (def args-map
   (apply array-map *command-line-args*))
 
