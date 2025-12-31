@@ -36,7 +36,6 @@ jobs:
         with:
           name: checkout
           path: checkout
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           run-id: ${{ github.event.workflow_run.id }}
 
       - name: Download PR info artifact
@@ -44,7 +43,6 @@ jobs:
         with:
           name: pr-info
           path: pr-info
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           run-id: ${{ github.event.workflow_run.id }}
 
       # Remove any symlinks from artifacts to prevent symlink attacks
