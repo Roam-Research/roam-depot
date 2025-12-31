@@ -78,10 +78,8 @@ jobs:
       # Add comment to PR with diff links and publish status
       - name: Comment on PR
         if: always()
-        env:
-          PR: ${{ steps.pr-number.outputs.PR_NUMBER }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_STATUS: ${{ steps.publish.outcome }}
         run: |
-          ./script/comment.sh --pr $PR --token $GITHUB_TOKEN --status $PUBLISH_STATUS
+          # Clear Clojure caches to force recompilation
+          rm -rf .cpcache target classes
+          ./script/comment.sh --pr ${{ steps.pr-number.outputs.PR_NUMBER }} --token ${{ secrets.GITHUB_TOKEN }} --status ${{ steps.publish.outcome }}
 

@@ -170,6 +170,7 @@
       (GoogleCredentials/fromStream (io/input-stream key-path)))))
 
 (defn -main [& args]
+  (prn "PUBLISHING>>>>>>")
   (let [args-map    (apply array-map args)
         credentials (credentials-from-env-or-file args-map)]
     (when (nil? credentials)
