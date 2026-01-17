@@ -1,0 +1,10 @@
+{
+    "name": "YouTube Transcript Sync",
+    "short_description": "Sync YouTube transcripts to Roam Research.",
+    "author": "qcrao",
+    "tags": ["productivity", "AI", "copilot"],
+    "source_url": "https://github.com/qcrao/roam-yts",
+    "source_repo": "https://github.com/qcrao/roam-yts.git",
+    "source_commit": "96565c60362b81ef62007b0b8a6baadaa8ba59d1",
+    "stripe_account": "acct_1PJTCpQd6q6JNEre"
+  }
