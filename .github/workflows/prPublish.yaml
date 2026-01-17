@@ -1,0 +1,81 @@
+name: Publish Extension Pull Request
+
+# Privileged workflow - has write permissions and secrets access
+# Triggered after the unprivileged build workflow completes
+on:
+  workflow_run:
+    workflows: ["Build Extension Pull Request"]
+    types:
+      - completed
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    if: >
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success'
+    steps:
+      - run: |
+          echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
+          echo "$JAVA_HOME_17_X64/bin" >> $GITHUB_PATH
+
+      - run: |
+          curl -sLO https://download.clojure.org/install/linux-install-1.11.1.1113.sh
+          chmod +x linux-install-1.11.1.1113.sh
+          sudo ./linux-install-1.11.1.1113.sh
+
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+
+      # Download build artifacts from the unprivileged workflow
+      - name: Download checkout artifact
+        uses: actions/download-artifact@v6
+        with:
+          name: checkout
+          path: checkout
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Download PR info artifact
+        uses: actions/download-artifact@v6
+        with:
+          name: pr-info
+          path: pr-info
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+      # Remove any symlinks from artifacts to prevent symlink attacks
+      - name: Remove symlinks from artifacts
+        run: |
+          find checkout -type l -print -delete
+          find pr-info -type l -print -delete
+
+      - name: Read PR number
+        id: pr-number
+        run: echo "PR_NUMBER=$(cat pr-info/PR_NUMBER)" >> $GITHUB_OUTPUT
+
+      - run: clojure -P -M:firebase
+        name: Fetch deps
+
+      - name: Publish PR extension
+        id: publish
+        run: ./script/publish.sh --pr ${{ steps.pr-number.outputs.PR_NUMBER }}
+        env:
+          FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
+
+      # Checkout main again (publish left us on PR branch)
+      - name: Checkout main for comment
+        if: always()
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          clean: false
+
+      - name: Comment on PR
+        if: always()
+        run: ./script/comment.sh --pr ${{ steps.pr-number.outputs.PR_NUMBER }} --token ${{ secrets.GITHUB_TOKEN }} --status ${{ steps.publish.outcome }}
+
