@@ -2,9 +2,9 @@
   "name": "Random Quote",
   "short_description": "Import a Random Quote from Quotable.io, stoic-quotes.com, inspirational quotes, movie quotes, Lord of the Rings quotes, Game of Thrones quotes, Ron Swanson Quotes, Monty Python's Flying Circus quotes, Shakespeare quotes, or quotes from Quotes on Design or API Ninja Quotes. Or, import jokes from JokesAPI or Dad jokes from icanhazdadjoke.com. Or, you could even pull a quote from your Roam Research Quotes page!",
   "author": "Mark Lavercombe",
-  "tags": ["quote", "import", "stoicism", "lotr", "tolkien", "game of thrones", "ron swanson", "dad jokes", "anime", "quotes on design", "design", "movies", "jokes", "inspirational", "shakespeare"],
+  "tags": ["quote", "import", "stoicism", "lotr", "tolkien", "game of thrones", "ron swanson", "dad jokes", "movies", "jokes", "inspirational", "shakespeare"],
   "source_url": "https://github.com/mlava/random-quote",
   "source_repo": "https://github.com/mlava/random-quote.git",
-  "source_commit": "ed10354e6b960b8817273343377d66d85e487c2c",
+  "source_commit": "9371c55a2761e4ece419e7948e3cc71879f50864",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
