@@ -1,10 +1,10 @@
 {
-  "name": "Sidebar Separators",
-  "short_description": "Add separators to your list of Roam Research shortcuts in your left sidebar",
+  "name": "Sidebar Separators & Aliases",
+  "short_description": "Add separators to your list of Roam Research shortcuts in your left sidebar, or aliases for the shortcuts themselves.",
   "author": "Mark Lavercombe",
-  "tags": ["shortcuts", "sidebar"],
+  "tags": ["shortcuts", "sidebar", "alias"],
   "source_url": "https://github.com/mlava/sidebar-separators",
   "source_repo": "https://github.com/mlava/sidebar-separators.git",
-  "source_commit": "f65c5df1e52f0b8be00c41087594b18af336d47b",
+  "source_commit": "49da1b5bf81f3d430cf0a66f19e035f9199aff13",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
