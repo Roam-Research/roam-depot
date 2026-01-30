@@ -1,10 +1,10 @@
 {
-    "name": "SmartBlocks",
-    "short_description": "Create custom and programmable templates from within Roam!",
-    "author": "RoamJS",
-    "tags": ["templates"],
-    "source_url": "https://github.com/RoamJS/smartblocks",
-    "source_repo": "https://github.com/RoamJS/smartblocks.git",
-    "source_commit": "023f27f6c5185458bdcf262ff1baf1b876b49f44",
-    "stripe_account": "acct_1M0Dn1DxeGt7RpwY"
+  "name": "SmartBlocks",
+  "short_description": "Create custom and programmable templates from within Roam!",
+  "author": "RoamJS",
+  "tags": ["templates"],
+  "source_url": "https://github.com/RoamJS/smartblocks",
+  "source_repo": "https://github.com/RoamJS/smartblocks.git",
+  "source_commit": "023f27f6c5185458bdcf262ff1baf1b876b49f44",
+  "stripe_account": "acct_1MELvlQYwoyGIU13"
 }
