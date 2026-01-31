@@ -1,10 +1,10 @@
 {
-    "name": "Hypothesis",
-    "short_description": "Integrate your Hypothesis account with Roam!",
-    "author": "RoamJS",
-    "tags": [],
-    "source_url": "https://github.com/RoamJS/hypothesis",
-    "source_repo": "https://github.com/RoamJS/hypothesis.git",
-    "source_commit": "446419e3bfb1947c8e4124c9e2ed5d316e178a9b",
-    "stripe_account": "acct_1M0Dn1DxeGt7RpwY"
+  "name": "Hypothesis",
+  "short_description": "Integrate your Hypothesis account with Roam!",
+  "author": "RoamJS",
+  "tags": [],
+  "source_url": "https://github.com/RoamJS/hypothesis",
+  "source_repo": "https://github.com/RoamJS/hypothesis.git",
+  "source_commit": "446419e3bfb1947c8e4124c9e2ed5d316e178a9b",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
 }

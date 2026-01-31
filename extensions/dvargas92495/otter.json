@@ -1,10 +1,10 @@
 {
-    "name": "Otter",
-    "short_description": "Import your audio notes from Otter directly into Roam!",
-    "author": "RoamJS",
-    "tags": [],
-    "source_url": "https://github.com/RoamJS/otter",
-    "source_repo": "https://github.com/RoamJS/otter.git",
-    "source_commit": "479b5054f8bda5512f3512ed469ffb0a244bf843",
-    "stripe_account": "acct_1M0Dn1DxeGt7RpwY"
+  "name": "Otter",
+  "short_description": "Import your audio notes from Otter directly into Roam!",
+  "author": "RoamJS",
+  "tags": [],
+  "source_url": "https://github.com/RoamJS/otter",
+  "source_repo": "https://github.com/RoamJS/otter.git",
+  "source_commit": "479b5054f8bda5512f3512ed469ffb0a244bf843",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
 }
