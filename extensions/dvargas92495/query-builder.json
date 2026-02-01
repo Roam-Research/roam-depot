@@ -1,10 +1,10 @@
 {
-    "name": "Query Builder",
-    "short_description": "Introduces new user interfaces for building queries in Roam",
-    "author": "RoamJS",
-    "tags": ["queries", "widgets"],
-    "source_url": "https://github.com/RoamJS/query-builder",
-    "source_repo": "https://github.com/RoamJS/query-builder.git",
-    "source_commit": "4cec04cfd964087b16688b9176d6f530e024a8b4",
-    "stripe_account": "acct_1M0Dn1DxeGt7RpwY"
+  "name": "Query Builder",
+  "short_description": "Introduces new user interfaces for building queries in Roam",
+  "author": "RoamJS",
+  "tags": ["queries", "widgets"],
+  "source_url": "https://github.com/RoamJS/query-builder",
+  "source_repo": "https://github.com/RoamJS/query-builder.git",
+  "source_commit": "4cec04cfd964087b16688b9176d6f530e024a8b4",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
 }

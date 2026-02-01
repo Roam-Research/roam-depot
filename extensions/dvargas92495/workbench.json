@@ -1,10 +1,10 @@
 {
-    "name": "Workbench",
-    "short_description": "A delightfully fun collection of power user tools for Roam.",
-    "author": "RoamJS",
-    "tags": [],
-    "source_url": "https://github.com/RoamJS/workbench",
-    "source_repo": "https://github.com/RoamJS/workbench.git",
-    "source_commit": "93e55480a16f8b5c675bf7060f35eaaa86082b25",
-    "stripe_account": "acct_1M0Dn1DxeGt7RpwY"
+  "name": "Workbench",
+  "short_description": "A delightfully fun collection of power user tools for Roam.",
+  "author": "RoamJS",
+  "tags": [],
+  "source_url": "https://github.com/RoamJS/workbench",
+  "source_repo": "https://github.com/RoamJS/workbench.git",
+  "source_commit": "93e55480a16f8b5c675bf7060f35eaaa86082b25",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
 }
