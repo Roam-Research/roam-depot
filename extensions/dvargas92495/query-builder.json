@@ -3,20 +3,18 @@
   "short_description": "Visual query builder for Roam: create and save queries via blocks, pages, or a drawer; add advanced logic (OR/NOT), then explore results as sortable/filterable tables or views like Kanban.",
   "author": "RoamJS",
   "tags": [
-    [
-      "queries",
-      "datalog",
-      "query building",
-      "tables",
-      "filters",
-      "sorting",
-      "kanban",
-      "charts",
-      "visualization",
-      "search",
-      "exploration",
-      "discovery"
-    ]
+    "queries",
+    "datalog",
+    "query building",
+    "tables",
+    "filters",
+    "sorting",
+    "kanban",
+    "charts",
+    "visualization",
+    "search",
+    "exploration",
+    "discovery"
   ],
   "source_url": "https://github.com/RoamJS/query-builder",
   "source_repo": "https://github.com/RoamJS/query-builder.git",
