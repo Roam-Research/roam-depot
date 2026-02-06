@@ -1,8 +1,19 @@
 {
   "name": "Oura Ring",
-  "short_description": "Description for oura-ring.",
+  "short_description": "Import Oura Ring daily summaries into Roam. Pull in sleep, activity, and readiness metrics into your Daily Notes as attributes or plain text.",
   "author": "RoamJS",
-  "tags": [],
+  "tags": [
+    "health",
+    "sleep",
+    "activity",
+    "readiness",
+    "tracking",
+    "wellness",
+    "biometrics",
+    "wearables",
+    "oura",
+    "import"
+  ],
   "source_url": "https://github.com/RoamJS/oura-ring",
   "source_repo": "https://github.com/RoamJS/oura-ring.git",
   "source_commit": "a61b2a139add05bffc3b79b1b97b732ab0c53e22",

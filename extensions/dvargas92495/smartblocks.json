@@ -1,8 +1,16 @@
 {
   "name": "SmartBlocks",
-  "short_description": "Create custom and programmable templates from within Roam!",
+  "short_description": "Build powerful, dynamic workflows in Roam—like programmable templates that can write, transform, and fetch data from your graph. Automate daily notes, meeting prep, task flows, and repeatable processes with a rich command system.",
   "author": "RoamJS",
-  "tags": ["templates"],
+  "tags": [
+    "templates",
+    "automation",
+    "workflows",
+    "productivity",
+    "snippets",
+    "scripting",
+    "commands"
+  ],
   "source_url": "https://github.com/RoamJS/smartblocks",
   "source_repo": "https://github.com/RoamJS/smartblocks.git",
   "source_commit": "023f27f6c5185458bdcf262ff1baf1b876b49f44",
