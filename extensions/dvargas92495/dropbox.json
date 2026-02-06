@@ -1,8 +1,20 @@
 {
   "name": "Dropbox",
-  "short_description": "Send file uploads in Roam directly to your Dropbox!",
+  "short_description": "Automatically send Roam file uploads to Dropbox. Intercepts attachments, uploads them to your Dropbox, and replaces the upload with a shareable link (audio/pdf/video supported). Keep your graph light while storing files in the cloud.",
   "author": "RoamJS",
-  "tags": [],
+  "tags": [
+    "files",
+    "media",
+    "uploads",
+    "attachments",
+    "media",
+    "cloud",
+    "storage",
+    "backup",
+    "dropbox",
+    "integrations",
+    "sharing"
+  ],
   "source_url": "https://github.com/RoamJS/dropbox",
   "source_repo": "https://github.com/RoamJS/dropbox.git",
   "source_commit": "a1f31f49d12eeb4fdd65ffe3c79255736b46922f",
