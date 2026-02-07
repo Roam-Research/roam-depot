@@ -1,0 +1,18 @@
+{
+  "name": "Sticky Notes",
+  "short_description": "Quick, ephemeral notes that float on top of your Roam Research graph. Jot something down, drag it wherever you want, and when you're done—remove it. No clutter, no permanent page unless you want one.",
+  "author": "RoamJS",
+  "tags": [
+    "sticky",
+    "notes",
+    "pin",
+    "quick-capture",
+    "sidebar",
+    "temporary",
+    "ephemeral"
+  ],
+  "source_url": "https://github.com/RoamJS/sticky-notes",
+  "source_repo": "https://github.com/RoamJS/sticky-notes.git",
+  "source_commit": "7be3f8bec427587b088e0f902d84409a3e5f345a",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
+}
