@@ -1,10 +1,21 @@
 {
-    "name": "Google",
-    "short_description": "Connect to various Google services to your Roam graph!",
-    "author": "RoamJS",
-    "tags": [],
-    "source_url": "https://github.com/RoamJS/google",
-    "source_repo": "https://github.com/RoamJS/google.git",
-    "source_commit": "dccf37a4a8370acea052ccbfb6cbab74cc56b6e7",
-    "stripe_account": "acct_1M0Dn1DxeGt7RpwY"
+  "name": "Google",
+  "short_description": "Connect Google Calendar + Drive to Roam. Import daily events, create/update Calendar events from blocks, and optionally intercept file uploads to Drive with inline previews for images, PDFs, and videos.",
+  "author": "RoamJS",
+  "tags": [
+    "google",
+    "calendar",
+    "events",
+    "drive",
+    "files",
+    "uploads",
+    "attachments",
+    "media",
+    "integrations",
+    "automation"
+  ],
+  "source_url": "https://github.com/RoamJS/google",
+  "source_repo": "https://github.com/RoamJS/google.git",
+  "source_commit": "dccf37a4a8370acea052ccbfb6cbab74cc56b6e7",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
 }

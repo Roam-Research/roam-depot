@@ -1,9 +1,20 @@
 {
-    "name": "Auto Tag Mode",
-    "short_description": "Automatically tag pages in your graph",
-    "author": "RoamJS",
-    "source_url": "https://github.com/RoamJS/autotag",
-    "source_repo": "https://github.com/RoamJS/autotag.git",
-    "source_commit": "98adb5d80317a95000099f1b4ad227ab6db3c9e3",
-    "stripe_account": "acct_1M0Dn1DxeGt7RpwY"
+  "name": "Auto Tag Mode",
+  "short_description": "Automatically apply your chosen tags to pages as you create them, keeping your graph organized with consistent page tagging.",
+  "author": "RoamJS",
+  "tags": [
+    "links",
+    "references",
+    "alias",
+    "tags",
+    "tagging",
+    "organization",
+    "auto",
+    "automation",
+    "metadata"
+  ],
+  "source_url": "https://github.com/RoamJS/autotag",
+  "source_repo": "https://github.com/RoamJS/autotag.git",
+  "source_commit": "85252e3e6687b1aadc3797c60994ea55a9464925",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
 }
