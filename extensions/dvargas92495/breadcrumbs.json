@@ -1,0 +1,9 @@
+{
+    "name": "Breadcrumbs",
+    "short_description": "Navigation breadcrumbs for Roam Research.",
+    "author": "Michael Gartner",
+    "tags": [],
+    "source_url": "https://github.com/RoamJS/breadcrumbs",
+    "source_repo": "https://github.com/RoamJS/breadcrumbs.git",
+    "source_commit": "41871371f417141a9cb5329be162fc3fb004a251"
+}
