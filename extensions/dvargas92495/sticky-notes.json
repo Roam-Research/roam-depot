@@ -1,0 +1,9 @@
+{
+    "name": "Sticky Notes",
+    "short_description": "Sticky Notes Extension for Roam Research",
+    "author": "Michael Gartner",
+    "tags": [],
+    "source_url": "https://github.com/RoamJS/sticky-notes",
+    "source_repo": "https://github.com/RoamJS/sticky-notes.git",
+    "source_commit": "b87adc3f3ade70b8e48ac5c47e4c7eb19688b752"
+}
