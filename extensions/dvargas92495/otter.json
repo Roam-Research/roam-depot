@@ -1,10 +1,20 @@
 {
   "name": "Otter",
-  "short_description": "Import your audio notes from Otter directly into Roam!",
+  "short_description": "Import Otter.ai recordings into Roam as timestamped transcripts. Pull your latest conversations via the command palette or SmartBlocks, customize label/template formatting, and optionally auto-import new recordings into your Daily Notes.",
   "author": "RoamJS",
-  "tags": [],
+  "tags": [
+    "audio",
+    "transcription",
+    "meetings",
+    "notes",
+    "import",
+    "timestamps",
+    "otter",
+    "smartblocks",
+    "automation"
+  ],
   "source_url": "https://github.com/RoamJS/otter",
   "source_repo": "https://github.com/RoamJS/otter.git",
-  "source_commit": "479b5054f8bda5512f3512ed469ffb0a244bf843",
+  "source_commit": "0ec788b402d29eac25aa0bd767b0c72e4b5444c6",
   "stripe_account": "acct_1SvNcDHhjqZussBl"
 }

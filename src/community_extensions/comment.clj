@@ -17,7 +17,7 @@
   (let [branch  (str "pr-" pr)
         _       (core/sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))
         changes (vec
-                 (for [[mode path] (->> (core/sh "git" "diff" "--name-status" "HEAD" branch)
+                 (for [[mode path] (->> (core/sh "git" "diff" "--name-status" "--merge-base" "HEAD" branch)
                                         (str/split-lines)
                                         (map #(str/split % #"\t")))
                        :when (str/starts-with? path "extensions/")]
