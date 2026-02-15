@@ -1,0 +1,23 @@
+{
+  "name": "Stats",
+  "short_description": "Know your graph in seconds—pages, words, links, and tags in one sleek drawer.",
+  "author": "RoamJS",
+  "tags": [
+    "stats",
+    "graph",
+    "database",
+    "overview",
+    "pages",
+    "words",
+    "links",
+    "tags",
+    "block refs",
+    "content",
+    "analytics",
+    "drawer"
+  ],
+  "source_url": "https://github.com/RoamJS/stats",
+  "source_repo": "https://github.com/RoamJS/stats.git",
+  "source_commit": "6de68c2497a5315e1742852638374cc41684f87f",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
+}
