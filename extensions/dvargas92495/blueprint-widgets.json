@@ -1,0 +1,9 @@
+{
+    "name": "Blueprint Widgets",
+    "short_description": "Stock RoamJS Roam Research Extension base — fork this repo to start new extensions.",
+    "author": "Michael Gartner",
+    "tags": [],
+    "source_url": "https://github.com/RoamJS/blueprint-widgets",
+    "source_repo": "https://github.com/RoamJS/blueprint-widgets.git",
+    "source_commit": "7f2da802e865939882821169b6d8f5c284bd8db5"
+}
