@@ -1,0 +1,10 @@
+{
+  "name": "Quick Capture shortcut",
+  "short_description": "Allows a quick-capture experience without having to change context of whatever you're working on. Just press a hotkey and start typing!",
+  "author": "Vlad Sitalo",
+  "tags": [],
+  "source_url": "https://github.com/Stvad/roam-new-daypage-block",
+  "source_repo": "https://github.com/Stvad/roam-new-daypage-block.git",
+  "source_commit": "f817291cd8c0d520391ac47f7b78df64f7c92c75",
+  "stripe_account": "acct_1LcbYoQmU9n2q3gV"
+}
