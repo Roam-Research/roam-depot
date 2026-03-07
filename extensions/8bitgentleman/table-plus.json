@@ -1,0 +1,14 @@
+{
+    "name": "Table Plus",
+    "short_description": "Enhances roam native tables with direct cell editing, sorting, filtering, and basic excel formulas.",
+    "author": "Matt Vogel",
+    "tags": [
+      "tables",
+      "filters",
+      "sorting"
+    ],
+    "source_url": "https://github.com/8bitgentleman/roam-depot-tables-interop",
+    "source_repo": "https://github.com/8bitgentleman/roam-depot-tables-interop.git",
+    "source_commit": "7fbaf6cfd81da1571709fa1451bfaa3c1e2a5868",
+    "stripe_account": "acct_1LJFEYQmxalymEZL"
+  }
