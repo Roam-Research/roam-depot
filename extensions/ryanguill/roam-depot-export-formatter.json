@@ -1,10 +1,10 @@
 {
-	"name": "Export Formatter",
-	"short_description": "Adds a context menu option to export the selected node with various formatting options, such as removing roam specific syntax, making it suitable to share in emails, slack or other places. A port of my previous project: https://roam-tools.ryanguill.com / https://github.com/ryanguill/roam-tools",
-	"author": "Ryan Guill",
-	"tags": ["export", "formatting"],
-	"source_url": "https://github.com/ryanguill/roam-depot-export-formatter",
-	"source_repo": "https://github.com/ryanguill/roam-depot-export-formatter.git",
-	"source_commit": "c3a2eab59f2e8fd35340c8b285c17381d85c025d",
-	"stripe_account": "acct_1Le7xkQmgYSLp29w"
-  }
+  "name": "Export Formatter",
+  "short_description": "Adds a context menu option to export the selected node with various formatting options, such as removing roam specific syntax, making it suitable to share in emails, slack or other places. A port of my previous project: https://roam-tools.ryanguill.com / https://github.com/ryanguill/roam-tools",
+  "author": "Ryan Guill",
+  "tags": ["export", "formatting"],
+  "source_url": "https://github.com/ryanguill/roam-depot-export-formatter",
+  "source_repo": "https://github.com/ryanguill/roam-depot-export-formatter.git",
+  "source_commit": "3d43a3f17981cda4af9bd8bd4d24fed9e95e6481",
+  "stripe_account": "acct_1Le7xkQmgYSLp29w"
+}
