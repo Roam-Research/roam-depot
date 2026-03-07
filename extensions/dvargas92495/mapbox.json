@@ -1,10 +1,20 @@
 {
   "name": "Mapbox",
-  "short_description": "Render interactive maps directly in your graph!",
+  "short_description": "Embed interactive maps in Roam with `{{maps}}`. Configure center, zoom, and labeled markers via child blocks; click markers to open their pages, and optionally filter visible markers by tag.",
   "author": "RoamJS",
-  "tags": [],
+  "tags": [
+    "maps",
+    "location",
+    "geolocation",
+    "visualization",
+    "markers",
+    "leaflet",
+    "interactive",
+    "navigation",
+    "widgets"
+  ],
   "source_url": "https://github.com/RoamJS/mapbox",
   "source_repo": "https://github.com/RoamJS/mapbox.git",
-  "source_commit": "ce22b6a452da94a2df9d7b079882ac802bfbb530",
+  "source_commit": "bf0b4a3f77f4a2b94e6962e48f3b91cef169d07c",
   "stripe_account": "acct_1SvNcDHhjqZussBl"
 }

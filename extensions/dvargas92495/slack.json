@@ -1,10 +1,19 @@
 {
   "name": "Slack",
-  "short_description": "Description for slack.",
+  "short_description": "Bring Slack into your Roam workflow. Turn tagged people and channels into one-click message targets, and send perfectly formatted snippets (with context and links) from your graph to Slack—great for collaboration, handoffs, and async updates.",
   "author": "RoamJS",
-  "tags": [],
+  "tags": [
+    "slack",
+    "messaging",
+    "chat",
+    "collaboration",
+    "notifications",
+    "integrations",
+    "automation",
+    "team"
+  ],
   "source_url": "https://github.com/RoamJS/slack",
   "source_repo": "https://github.com/RoamJS/slack.git",
-  "source_commit": "f47735040664bf49cd6bd306df2390fcf2f649a3",
+  "source_commit": "9cba96093c16c1499756bd158d305b2575caf3fb",
   "stripe_account": "acct_1SvNcDHhjqZussBl"
 }

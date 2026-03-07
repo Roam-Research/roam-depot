@@ -1,10 +1,20 @@
 {
   "name": "Presentation",
-  "short_description": "Build slideshow presentations from within Roam!",
+  "short_description": "Turn your Roam outlines into polished slide decks. Present your ideas with beautiful themes, speaker notes, transitions, and flexible slide layouts (images, iframes, media) — all powered by the structure you already write in your graph.",
   "author": "RoamJS",
-  "tags": [],
+  "tags": [
+    "presentation",
+    "slides",
+    "deck",
+    "revealjs",
+    "themes",
+    "speaker-notes",
+    "export",
+    "visualization",
+    "writing"
+  ],
   "source_url": "https://github.com/RoamJS/presentation",
   "source_repo": "https://github.com/RoamJS/presentation.git",
-  "source_commit": "d9e5ecd070e59e121f4a1093658d9529e35a9b56",
+  "source_commit": "3508c0e024353ce301f5e3e667016193ad7c761d",
   "stripe_account": "acct_1SvNcDHhjqZussBl"
 }

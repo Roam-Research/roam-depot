@@ -5,6 +5,6 @@
   "tags": ["export", "docx", "pdf", "epub", "rtf", "opendocument", "md", "gfm"],
   "source_url": "https://github.com/mlava/export-document",
   "source_repo": "https://github.com/mlava/export-document.git",
-  "source_commit": "aad2ef2efa63449cf617b45ba29e1e9002ae1e4a",
+  "source_commit": "b16efc7d81f262abb999c2208ce64f3745859aec",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }

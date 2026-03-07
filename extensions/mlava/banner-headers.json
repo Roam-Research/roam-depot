@@ -1,10 +1,10 @@
 {
   "name": "Banner Headers",
-  "short_description": "Define an image to use as a page banner heading image",
+  "short_description": "Define an image to use as a page banner heading image, including import from Unsplash or Pixabay",
   "author": "Mark Lavercombe",
-  "tags": ["images", "header"],
+  "tags": ["images", "header", "unsplash", "pixabay"],
   "source_url": "https://github.com/mlava/banner-headers",
   "source_repo": "https://github.com/mlava/banner-headers.git",
-  "source_commit": "286ccd8824e3796d3f9e41cbaee2d548be72a20d",
+  "source_commit": "a70c36b9412ae9b1abff0c45d91f2591bfa3df10",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
