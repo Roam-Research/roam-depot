@@ -1,0 +1,10 @@
+{
+  "name": "Chief of Staff",
+  "short_description": "AI chief of staff that lives in your graph — manages tasks, schedules, email, and memory so you can focus on thinking.",
+  "author": "Mark Lavercombe",
+  "tags": ["ai", "assistant", "agent", "llm", "mcp", "automation", "tasks", "memory", "email", "calendar"],
+  "source_url": "https://github.com/mlava/chief-of-staff",
+  "source_repo": "https://github.com/mlava/chief-of-staff.git",
+  "source_commit": "bf1297937a46c1b6873b08f33ecf052f732937e1",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
