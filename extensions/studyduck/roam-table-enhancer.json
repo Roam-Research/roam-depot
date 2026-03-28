@@ -1,0 +1,9 @@
+{
+  "name": "Table Enhancer",
+  "short_description": "roam-table-enhancer is an extension designed to enhance Roam Research’s native {{table}} / {{[[table]]}} tables.",
+  "author": "studyduck",
+  "tags": ["table"],
+  "source_url": "https://github.com/studyduck/roam-table-enhancer",
+  "source_repo": "https://github.com/studyduck/roam-table-enhancer.git",
+  "source_commit": "45be213ac0e762071b8bc27b18e55cbd1091840e"
+}
