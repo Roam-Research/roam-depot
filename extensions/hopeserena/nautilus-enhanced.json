@@ -1,0 +1,10 @@
+{
+  "name": "Nautilus Enhanced",
+  "short_description": "An optimized, high-performance daily planner and visual time tracking extension for Roam Research.",
+  "author": "hopeserena",
+  "tags": ["productivity", "agenda", "visual", "planning", "time tracking", "task management"],
+  "source_url": "https://github.com/hopeserena/nautilus-enhanced",
+  "source_repo": "https://github.com/hopeserena/nautilus-enhanced.git",
+  "source_commit": "08027816f2e2338ce0abbe0356d68976bccba829",
+  "stripe_account": ""
+}
