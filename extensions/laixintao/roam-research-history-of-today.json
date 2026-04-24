@@ -1,0 +1,9 @@
+{
+    "name": "History of Today",
+    "short_description": "Adds \"On this day\" buttons to the calendar popover to jump to past years' daily notes pages",
+    "author": "laixintao",
+    "tags": ["navigation", "daily notes", "calendar"],
+    "source_url": "https://github.com/laixintao/roam-research-history-of-today",
+    "source_repo": "https://github.com/laixintao/roam-research-history-of-today.git",
+    "source_commit": "db5b8e76db664654975d2929cd3c5ab9d4d2e6de"
+}
