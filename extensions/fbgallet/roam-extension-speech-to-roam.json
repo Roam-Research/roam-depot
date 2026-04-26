@@ -1,10 +1,10 @@
 {
   "name": "Live AI",
-  "short_description": "AI agentic assistant tailor-made for Roam, instantly working in Roam blocks or Chat panel ! All up-to-date LLMs (including local ones) without limitation, using Roam components (DNPs, sidebar, references, queries...) as context, supporting whole graph queries, Web search, Image generation, PDF, Voice transcription, TTS, Skills...",
+  "short_description": "AI agentic assistant tailor-made for Roam, instantly working in Roam blocks or Chat panel ! All up-to-date LLMs (including local ones) without limitation, using Roam components (DNPs, sidebar, references, queries...) as context, supporting whole graph queries, LLM council & debate, Web search, Image generation, PDF, Voice transcription, TTS, Skills...",
   "author": "Fabrice Gallet",
   "tags": ["speech-to-text", "voice", "transcription", "translation", "AI", "GPT", "Whisper", "Claude", "grok", "groq", "deepkseek", "chat", "post-processing", "context", "llm", "mcp", "critical thinking", "diagram", "pdf", "docx", "pptx"],
   "source_url": "https://github.com/fbgallet/roam-extension-live-ai-assistant",
   "source_repo": "https://github.com/fbgallet/roam-extension-live-ai-assistant.git",
-  "source_commit": "65f3027c04ce38ed87fda721396ab127a66e2714",
+  "source_commit": "e2809746f82e7ef07101ffccddb3d4c17ee4685e",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
