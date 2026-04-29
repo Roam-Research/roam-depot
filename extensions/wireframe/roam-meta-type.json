@@ -1,0 +1,9 @@
+{
+  "name": "Meta Type",
+  "short_description": "Typed pages with one chip per type and a sidebar panel for the fields you care about. Configurable via the settings panel.",
+  "author": "Ryan Sonnek",
+  "tags": ["metadata", "schema", "fields", "structure"],
+  "source_url": "https://github.com/wireframe/roam-meta-type",
+  "source_repo": "https://github.com/wireframe/roam-meta-type.git",
+  "source_commit": "332040f51e72c893d302698b427ff20ed510cd3f"
+}
