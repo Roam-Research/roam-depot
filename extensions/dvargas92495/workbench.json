@@ -1,10 +1,21 @@
 {
-    "name": "Workbench",
-    "short_description": "A delightfully fun collection of power user tools for Roam.",
-    "author": "David Vargas",
-    "tags": [],
-    "source_url": "https://github.com/dvargas92495/roamjs-workbench",
-    "source_repo": "https://github.com/dvargas92495/roamjs-workbench.git",
-    "source_commit": "32fbada45adad71640793660e442aa4aa151533b",
-    "stripe_account": "acct_1MwrLQQn2YMck6pG"
+  "name": "Workbench",
+  "short_description": "The ultimate Roam power-user toolkit: faster navigation, richer command palette, live previews, mind maps, editable tables, OCR, article import, tag cycling, hotkeys, and privacy redaction—choose the modules you want and supercharge your daily workflow.",
+  "author": "RoamJS",
+  "tags": [
+    "productivity",
+    "automation",
+    "navigation",
+    "hotkeys",
+    "command-palette",
+    "tools",
+    "tables",
+    "mindmap",
+    "ocr",
+    "privacy"
+  ],
+  "source_url": "https://github.com/RoamJS/workbench",
+  "source_repo": "https://github.com/RoamJS/workbench.git",
+  "source_commit": "fa8cf0b8fe012a74385009e479bd07159e195706",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
 }

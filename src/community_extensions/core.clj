@@ -13,6 +13,18 @@
    "js"  "application/js"
    "css" "application/css"})
 
+(def safe-id-pattern
+  "Allowlist regex for ext-id to prevent path/namespace injection.
+   Note: Firebase Realtime Database keys cannot contain . $ # [ ] /
+   so we only allow alphanumeric, underscore, hyphen, and plus."
+  #"^[A-Za-z0-9_+-]+$")
+
+(defn validate-ext-id! [ext-id]
+  (when-not (re-matches safe-id-pattern ext-id)
+    (throw (ex-info (str "Invalid ext-id (contains disallowed characters): " ext-id)
+                    {:ext-id ext-id})))
+  ext-id)
+
 (defn sh [& cmd]
   (apply println "[ sh ]" cmd)
   (let [{:keys [out err exit]} (apply shell/sh cmd)]
@@ -39,7 +51,7 @@
                         (map #(str/split % #"\t")))
           :when       (str/starts-with? path "extensions/")
           :let        [[_ user repo] (re-matches #"extensions/([^/]+)/([^/]+)\.json" path)
-                       ext-id        (str user "+" repo)
+                       ext-id        (validate-ext-id! (str user "+" repo))
                        file          (io/file path)
                        data          (when (.exists file)
                                        (json/parse-string (slurp file)))]]

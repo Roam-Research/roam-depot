@@ -1,10 +1,10 @@
 {
   "name": "Page references counter",
-  "short_description": "Page references counter, visible inline and in search box + empty/not empty page indicator.",
+  "short_description": "Page references counter, visible inline and in search box, equivalent to native block refs counter. Also empty/not empty page visual indicator.",
   "author": "Fabrice Gallet",
   "tags": ["page", "reference", "mention", "count", "alias"],
   "source_url": "https://github.com/fbgallet/roam-extension-ref-count",
   "source_repo": "https://github.com/fbgallet/roam-extension-ref-count.git",
-  "source_commit": "5a8b204a023bc8fd65f771a70f6e9992580e214e",
+  "source_commit": "b6ce927ae7bbfe9d52c0afdd3f8a7fde3319b03d",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }

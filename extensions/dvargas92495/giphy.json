@@ -1,10 +1,10 @@
 {
-    "name": "Giphy",
-    "short_description": "Quickly insert GIFs from Giphy into Roam!",
-    "author": "David Vargas",
-    "tags": [],
-    "source_url": "https://github.com/dvargas92495/roamjs-giphy",
-    "source_repo": "https://github.com/dvargas92495/roamjs-giphy.git",
-    "source_commit": "83bd7613a5e400bcd4247a5c8992213b7523a7b1",
-    "stripe_account": "acct_1MwrLQQn2YMck6pG"
+  "name": "Giphy",
+  "short_description": "Quickly insert GIFs and MEMEs into Roam without leaving the editor.",
+  "author": "RoamJS",
+  "tags": ["memes", "gifs", "images", "media", "embeds", "gif", "videos"],
+  "source_url": "https://github.com/RoamJS/giphy",
+  "source_repo": "https://github.com/RoamJS/giphy.git",
+  "source_commit": "2d8c17a171ec4dea08503e44edcfbcb1492b6ab0",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
 }

@@ -7,7 +7,8 @@
     [clojure.string :as str]
     [community-extensions.core :as core])
   (:import
-    [java.io File FileInputStream]
+    [java.io ByteArrayInputStream File FileInputStream]
+    [java.nio.charset StandardCharsets]
     [java.nio.file Files Path]
     [com.google.firebase.auth FirebaseAuth]
     [com.google.auth.oauth2 GoogleCredentials]
@@ -68,7 +69,9 @@
   (vec
     (for [file files
           :when (.exists file)
-          :let [name      (.getName file)
+          :let [_         (when (Files/isSymbolicLink (.toPath file))
+                            (throw (ex-info (str "Refusing to read symlink: " file) {:file file})))
+                name      (.getName file)
                 [_ ext]   (re-matches #".*\.(\w+)" name)
                 o         (str parent "/" version-id "/" name)
                 id        (BlobId/of "firescript-577a2.appspot.com" o)
@@ -156,35 +159,46 @@
 (defn unpublish [db ext-id]
   (ref-remove! (ref db "extensions" ext-id)))
 
+(defn credentials-from-env-or-file
+  "Load Firebase credentials from FIREBASE_SERVICE_KEY env var (preferred)
+   or fall back to --key file path. Using env var avoids writing secrets to disk."
+  [args-map]
+  (if-some [json (System/getenv "FIREBASE_SERVICE_KEY")]
+    (GoogleCredentials/fromStream
+      (ByteArrayInputStream. (.getBytes json StandardCharsets/UTF_8)))
+    (when-some [key-path (get args-map "--key")]
+      (GoogleCredentials/fromStream (io/input-stream key-path)))))
+
 (defn -main [& args]
-  (when (or (empty? args) (odd? (count args)))
-    (println "Usage:")
-    (println)
-    (println "  clojure -M -m community-extensions.publish --key <path-to-key> ([--pr <pr>] | [--from <sha>] [--to <sha>])")
-    (System/exit 1))
-  
   (let [args-map    (apply array-map args)
-        credentials (GoogleCredentials/fromStream (io/input-stream (get args-map "--key")))
-        opts        (-> (FirebaseOptions/builder)
-                      (.setCredentials credentials)
-                      (.setDatabaseUrl (str "https://firescript-577a2.firebaseio.com/"))
-                      (.build))
-        app         (FirebaseApp/initializeApp opts)
-        db          (FirebaseDatabase/getInstance)
-        storage     (-> (StorageOptions/newBuilder)
-                      (.setCredentials credentials)
-                      (.build)
-                      (.getService))]
-    (if-some [pr (get args-map "--pr")]
-      (doseq [[mode ext-id data] (core/diff args-map)]
-        (case mode
-          "A" (publish-pr db storage ext-id pr data)
-          "M" (publish-pr db storage ext-id pr data)
-          nil))
-      (doseq [[mode ext-id data] (core/diff args-map)]
-        (case mode
-          "A" (publish db storage ext-id data)
-          "M" (publish db storage ext-id data)
-          "D" (unpublish db ext-id)
-          nil)))
-    (shutdown-agents)))
+        credentials (credentials-from-env-or-file args-map)]
+    (when (nil? credentials)
+      (println "Usage:")
+      (println)
+      (println "  Either set FIREBASE_SERVICE_KEY env var, or pass --key <path-to-key>")
+      (println)
+      (println "  clojure -M -m community-extensions.publish [--key <path-to-key>] ([--pr <pr>] | [--from <sha>] [--to <sha>])")
+      (System/exit 1))
+    (let [opts    (-> (FirebaseOptions/builder)
+                    (.setCredentials credentials)
+                    (.setDatabaseUrl "https://firescript-577a2.firebaseio.com/")
+                    (.build))
+          _app    (FirebaseApp/initializeApp opts)
+          db      (FirebaseDatabase/getInstance)
+          storage (-> (StorageOptions/newBuilder)
+                    (.setCredentials credentials)
+                    (.build)
+                    (.getService))]
+      (if-some [pr (get args-map "--pr")]
+        (doseq [[mode ext-id data] (core/diff args-map)]
+          (case mode
+            "A" (publish-pr db storage ext-id pr data)
+            "M" (publish-pr db storage ext-id pr data)
+            nil))
+        (doseq [[mode ext-id data] (core/diff args-map)]
+          (case mode
+            "A" (publish db storage ext-id data)
+            "M" (publish db storage ext-id data)
+            "D" (unpublish db ext-id)
+            nil)))
+      (shutdown-agents))))

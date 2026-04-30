@@ -1,10 +1,10 @@
 {
-    "name": "Todo Trigger",
-    "short_description": "Tie special actions to converting between TODOs and DONEs!",
-    "author": "David Vargas",
-    "tags": [],
-    "source_url": "https://github.com/dvargas92495/roamjs-todo-trigger",
-    "source_repo": "https://github.com/dvargas92495/roamjs-todo-trigger.git",
-    "source_commit": "8a53f1cc7dc4b79cc9126fad06b9483545c17c92",
-    "stripe_account": "acct_1MwrLQQn2YMck6pG"
+  "name": "Todo Trigger",
+  "short_description": "Automate what happens when tasks move from TODO → DONE (and back). Append timestamps, replace tags, strike through or style completed items, play a fun 'explode' animation, or auto-file finished tasks to a chosen page/block.",
+  "author": "RoamJS",
+  "tags": ["automations", "automate", "todos", "todo", "done", "trigger"],
+  "source_url": "https://github.com/RoamJS/todo-trigger",
+  "source_repo": "https://github.com/RoamJS/todo-trigger.git",
+  "source_commit": "408a720818b157b69345b560f615f84d9f16ca43",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
 }
