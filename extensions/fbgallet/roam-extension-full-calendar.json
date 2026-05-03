@@ -1,10 +1,10 @@
 {
   "name": "Full Calendar",
-  "short_description": "A complete calendar and tasks manager with Google calendar integration. Year, month, week or day view in main page or sidebar !",
+  "short_description": "A complete calendar and tasks manager with Google calendar integration and Reminders. Year, month, week or day view in main page or sidebar !",
   "author": "Fabrice Gallet",
-  "tags": ["calendar", "GTD", "task", "google"],
+  "tags": ["calendar", "GTD", "task", "google", "reminder", "notification"],
   "source_url": "https://github.com/fbgallet/roam-extension-calendar",
   "source_repo": "https://github.com/fbgallet/roam-extension-calendar.git",
-  "source_commit": "803aed0d63a8dd31c80ddc6ad19210d7c32f7544",
+  "source_commit": "14f33e18a7055e826339d86d5365b943d79336e8",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }

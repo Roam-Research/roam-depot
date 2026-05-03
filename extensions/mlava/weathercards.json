@@ -5,6 +5,6 @@
   "tags": ["weather", "import"],
   "source_url": "https://github.com/mlava/weathercards",
   "source_repo": "https://github.com/mlava/weathercards.git",
-  "source_commit": "6d57fa4767b0091105b2b6552b3ae2888fb96369",
+  "source_commit": "eaef0fff76e8464e44810b843ac3bb50ebbfdf7c",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
