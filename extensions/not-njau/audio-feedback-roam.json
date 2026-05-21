@@ -1,7 +1,10 @@
 {
 "name": "Audio Feedback",
+"short_description": "Adds sound feedback to block interactions — TODO completion, indent/outdent, collapse/expand, navigation, and sidebar.",
 "author": "William Njau",
-"repo": "not-njau/audio-feedback-roam",
-"commit": "dc44cdf64ed7b40821e8c339e3d003061e344112",
+"tags": ["audio", "accessibility", "productivity"],
+"source_url": "https://github.com/not-njau/audio-feedback-roam",
+"source_repo": "https://github.com/not-njau/audio-feedback-roam.git",
+"source_commit": "dc44cdf64ed7b40821e8c339e3d003061e344112",
 "stripe_account_id": "acct_1TZVnZQlEwgovgcr"
 }
