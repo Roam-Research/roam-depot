@@ -4,6 +4,6 @@
   "author": "The Discourse Graphs Project",
   "source_url": "https://github.com/DiscourseGraphs/discourse-graph",
   "source_repo": "https://github.com/DiscourseGraphs/discourse-graph.git",
-  "source_commit": "a301ba712c01d44cf48bff3ec62c4b21e2a609bd",
+  "source_commit": "c51cd7f40ec21ee311866d2a672708967a128b55",
   "source_subdir": "apps/roam"
 }
