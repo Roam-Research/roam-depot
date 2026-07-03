@@ -1,0 +1,9 @@
+{
+    "name": "Pinned Blocks",
+    "short_description": "Keep selected child blocks pinned to the top of their parent.",
+    "author": "Michael Gartner",
+    "tags": [],
+    "source_url": "https://github.com/RoamJS/pinned-blocks",
+    "source_repo": "https://github.com/RoamJS/pinned-blocks.git",
+    "source_commit": "fdb034cb94cf377a7aab9d3722e0c49816b1f9cf"
+}
