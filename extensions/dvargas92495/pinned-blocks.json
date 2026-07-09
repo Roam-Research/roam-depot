@@ -1,0 +1,9 @@
+{
+    "name": "Pinned Blocks",
+    "short_description": "Keep important child blocks fixed at the top of their parent, even as new siblings are added above them.",
+    "author": "Michael Gartner",
+    "tags": [],
+    "source_url": "https://github.com/RoamJS/pinned-blocks",
+    "source_repo": "https://github.com/RoamJS/pinned-blocks.git",
+    "source_commit": "9dc81ded0cbbb79cf0048e330fceac126424f022"
+}
