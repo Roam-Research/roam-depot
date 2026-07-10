@@ -1,10 +1,10 @@
 {
   "name": "Similar Pages",
   "short_description": "uses machine learning and graph theory to help you find connections between ideas",
-  "author": "scott block",
+  "author": "scott block & Matt Vogel",
   "tags": ["machine learning", "natural language processing", "nlp", "graph theory", "universal sentence encoder"],
-  "source_url": "https://github.com/phonetonote/similar-pages",
-  "source_repo": "https://github.com/phonetonote/similar-pages",
-  "source_commit": "3ff405740863f73621cc0c7bccaee5909d2e685e",
-  "stripe_account": "acct_1LKwanQVF0QOKIg5"
+  "source_url": "https://github.com/8bitgentleman/roam-depot-similar-pages",
+  "source_repo": "https://github.com/8bitgentleman/roam-depot-similar-pages.git",
+  "source_commit": "dd85d3962f845a4528a23fb90e6bca3f02bd2be5",
+  "stripe_account": "acct_1LJFEYQmxalymEZL"
 }
