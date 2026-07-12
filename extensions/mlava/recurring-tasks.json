@@ -1,6 +1,6 @@
 {
   "name": "Better Tasks",
-  "short_description": "Recurring and scheduled TODOs for Roam — repeat rules, due dates, inline controls and a review dashboard. Stored as plain Roam blocks, reversible any time.",
+  "short_description": "Recurring and scheduled TODOs for Roam - repeat rules, due dates, inline controls and a review dashboard. Stored as plain Roam blocks, reversible any time.",
   "author": "Mark Lavercombe",
   "tags": ["todo", "tasks", "recurring", "recurring tasks", "due dates", "scheduling", "deadlines", "reminders", "dashboard", "subtasks", "projects", "gtd", "getting things done", "weekly review", "productivity"],
   "source_url": "https://github.com/mlava/better-tasks",
