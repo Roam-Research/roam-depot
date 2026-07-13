@@ -1,0 +1,14 @@
+{
+  "name": "Related Notes",
+  "short_description": "Find notes you forgot you wrote. As you browse, a panel automatically surfaces semantically related pages and blocks, powered by Roam's native semantic engine.",
+  "author": "qcrao",
+  "tags": [
+    "search",
+    "ai",
+    "navigation",
+    "productivity"
+  ],
+  "source_url": "https://github.com/qcrao/roam-related-notes",
+  "source_repo": "https://github.com/qcrao/roam-related-notes.git",
+  "source_commit": "07bf1771fcd374f2459ee90a0ca3a4f6ebd8a5ea"
+}
