@@ -1,10 +1,10 @@
 {
   "name": "Better Tasks",
-  "short_description": "Implement comprehensive task management within Roam Research, including dated and recurring tasks, and other optional attributes like GTD tags, projects and more.",
+  "short_description": "Recurring and scheduled TODOs for Roam - repeat rules, due dates, inline controls and a review dashboard. Stored as plain Roam blocks, reversible any time.",
   "author": "Mark Lavercombe",
-  "tags": ["recurring", "recurrent", "TODO", "tasks", "DONE", "getting things done", "gtd", "review"],
+  "tags": ["todo", "tasks", "recurring", "recurring tasks", "due dates", "scheduling", "deadlines", "reminders", "dashboard", "subtasks", "projects", "gtd", "getting things done", "weekly review", "productivity"],
   "source_url": "https://github.com/mlava/better-tasks",
   "source_repo": "https://github.com/mlava/better-tasks.git",
-  "source_commit": "586694b498148d34edf044c209a4fa684162ec58",
+  "source_commit": "416f5d4749b559da1984040041a12519ef552131",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
