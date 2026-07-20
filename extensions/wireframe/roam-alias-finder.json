@@ -1,0 +1,9 @@
+{
+  "name": "Alias Finder",
+  "short_description": "Find unlinked plain-text mentions of a page's existing aliases and link them in one click.",
+  "author": "Ryan Sonnek",
+  "tags": ["aliases", "links", "references", "linking", "writing"],
+  "source_url": "https://github.com/wireframe/roam-alias-finder",
+  "source_repo": "https://github.com/wireframe/roam-alias-finder.git",
+  "source_commit": "bbebd7209d3aa0d8bcc62cf68c188f2b3bca89f4"
+}

@@ -1,10 +1,10 @@
 {
-  "name": "Export Document",
-  "short_description": "Export a Roam Research page to a variety of file formats using Pandoc. Includes options to flatten the hierarchy and remove paragraphs with specified tags.",
+  "name": "Export or Import Document",
+  "short_description": "Export a Roam Research page to a variety of file formats using Pandoc. Or, import a local file, convert it to markdown and write it to your graph.",
   "author": "Mark Lavercombe",
-  "tags": ["export", "docx", "pdf", "epub", "rtf", "opendocument", "md", "gfm"],
+  "tags": ["export", "docx", "pdf", "epub", "rtf", "opendocument", "md", "gfm", "import"],
   "source_url": "https://github.com/mlava/export-document",
   "source_repo": "https://github.com/mlava/export-document.git",
-  "source_commit": "388a35ba88715cd7b151e90a9b8cde5fd455d87c",
+  "source_commit": "558b3828db65bd299f4ab75f6a9a474e77d1b399",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
