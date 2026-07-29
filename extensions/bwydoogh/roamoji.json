@@ -1,0 +1,9 @@
+{
+  "name": "Roamoji",
+  "short_description": "Insert emoji inline with a shortcode autocomplete, triggered by typing a colon.",
+  "author": "Benny Wydooghe",
+  "tags": ["emoji", "writing", "autocomplete"],
+  "source_url": "https://github.com/bwydoogh/roamoji",
+  "source_repo": "https://github.com/bwydoogh/roamoji.git",
+  "source_commit": "646cf334c72b5627b0955e3272504396a7847ef6"
+}
