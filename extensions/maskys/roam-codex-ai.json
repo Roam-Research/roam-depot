@@ -1,0 +1,9 @@
+{
+  "name": "Roam Codex",
+  "short_description": "Use Codex from Roam blocks and chat with it beside the native editor through a local bridge.",
+  "author": "MaskyS",
+  "tags": ["ai", "codex", "chat", "agent"],
+  "source_url": "https://github.com/MaskyS/roam-codex-ai",
+  "source_repo": "https://github.com/MaskyS/roam-codex-ai.git",
+  "source_commit": "bee67f03b938bb0cb38f188dc7c491528e463633"
+}
