@@ -1,0 +1,9 @@
+{
+    "name": "Workbench",
+    "short_description": "A delightfully fun collection of power user tools for Roam.",
+    "author": "Michael Gartner",
+    "tags": [],
+    "source_url": "https://github.com/RoamJS/workbench",
+    "source_repo": "https://github.com/RoamJS/workbench.git",
+    "source_commit": "91579671bd23110878f5bfa0f5ca121d7844477f"
+}
