@@ -1,0 +1,9 @@
+{
+  "name": "Contribution Graph – Complete History",
+  "short_description": "Render a GitHub-style heatmap for every year of block creation history in a Roam graph.",
+  "author": "404KSG, based on Felix Stocker's original extension",
+  "tags": ["analytics", "activity", "history", "heatmap", "productivity"],
+  "source_url": "https://github.com/404KSG/contribution-graph",
+  "source_repo": "https://github.com/404KSG/contribution-graph.git",
+  "source_commit": "df21bd9e1fa666dd79591a0bf46e33a4f40ce46e"
+}
