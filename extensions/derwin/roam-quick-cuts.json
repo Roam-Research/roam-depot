@@ -1,0 +1,10 @@
+{
+  "name": "QuickCuts",
+  "short_description": "Jump to your left-sidebar Shortcuts with number hotkeys.",
+  "author": "Derwin He",
+  "tags": ["shortcuts", "navigation"],
+  "source_url": "https://github.com/WalnutDerwin/roam-quick-cuts",
+  "source_repo": "https://github.com/WalnutDerwin/roam-quick-cuts.git",
+  "source_commit": "373cbba9eddc00025a00c8a633dc9bf08fd26dee",
+  "stripe_account": "acct_1TvulWQfnUG7gVqv"
+}
