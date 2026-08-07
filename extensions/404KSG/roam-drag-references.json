@@ -1,0 +1,9 @@
+{
+  "name": "Drag References",
+  "short_description": "Create aliases, source citations, and embed paths by modifier-dragging Roam blocks.",
+  "author": "404KSG",
+  "tags": ["drag-and-drop", "references", "blocks", "clipboard", "productivity"],
+  "source_url": "https://github.com/404KSG/roam-drag-references",
+  "source_repo": "https://github.com/404KSG/roam-drag-references.git",
+  "source_commit": "e5389b28cfc47f3dd739f14a830825e7ec96ff6d"
+}
