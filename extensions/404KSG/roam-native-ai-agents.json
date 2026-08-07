@@ -1,0 +1,9 @@
+{
+  "name": "Native AI Agents",
+  "short_description": "Turn Roam blocks into working notes, critiques, and durable atomic notes with three native-feeling AI agents.",
+  "author": "404KSG",
+  "tags": ["AI", "agent", "block", "writing", "zettelkasten", "knowledge management"],
+  "source_url": "https://github.com/404KSG/roam-native-ai-agents",
+  "source_repo": "https://github.com/404KSG/roam-native-ai-agents.git",
+  "source_commit": "3accddb5ecc9ea468ffe190ce6c8d470aa5fd4b6"
+}
