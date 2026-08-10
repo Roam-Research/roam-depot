@@ -1,0 +1,14 @@
+{
+  "name": "Roam Places",
+  "short_description": "Find, save, and insert geocoded places without leaving the Roam block.",
+  "author": "MaskyS",
+  "tags": [
+    "places",
+    "maps",
+    "geocoding",
+    "location"
+  ],
+  "source_url": "https://github.com/MaskyS/roam-places",
+  "source_repo": "https://github.com/MaskyS/roam-places.git",
+  "source_commit": "aa622dcb5d445e2ff8114d9056d47a613ebd0a0c"
+}
