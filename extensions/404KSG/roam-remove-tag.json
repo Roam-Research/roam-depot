@@ -1,0 +1,9 @@
+{
+  "name": "Roam Remove Tag",
+  "short_description": "Safely remove a block's page tag or all tags from one or many Roam blocks.",
+  "author": "404KSG",
+  "tags": ["tags", "blocks", "editing", "productivity"],
+  "source_url": "https://github.com/404KSG/roam-remove-tag",
+  "source_repo": "https://github.com/404KSG/roam-remove-tag.git",
+  "source_commit": "ee3ee5ea1a0c61ada0863a521bc1763092ec3373"
+}
