@@ -1,9 +1,9 @@
 {
   "name": "Roam Logbook – 404KSG",
-  "short_description": "Org-style Roam task clocks with a native dashboard, Pomodoro, and task rollups.",
+  "short_description": "Org-style Roam task clocks with a quiet native dashboard, paused-session recovery, Pomodoro, and task rollups.",
   "author": "forrestchang, 404KSG",
   "tags": ["productivity", "time tracking", "pomodoro", "TODO", "logbook"],
   "source_url": "https://github.com/404KSG/roam-logbook",
   "source_repo": "https://github.com/404KSG/roam-logbook.git",
-  "source_commit": "ec19c68b1fdb269ebd070064887dfc62c8fac2ae"
+  "source_commit": "671f3d20240b47652f5de3ea3fbb799bb647c81b"
 }
