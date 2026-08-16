@@ -1,0 +1,9 @@
+{
+    "name": "Custom Dark Theme",
+    "short_description": "A per-user customizable dark theme for Roam Research.",
+    "author": "Michael Gartner",
+    "tags": [],
+    "source_url": "https://github.com/RoamJS/custom-dark-theme",
+    "source_repo": "https://github.com/RoamJS/custom-dark-theme.git",
+    "source_commit": "97bba2c7971b5e889075bae78ee76d9fd72a3626"
+}
