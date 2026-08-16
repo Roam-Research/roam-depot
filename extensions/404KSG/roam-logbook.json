@@ -1,6 +1,6 @@
 {
   "name": "Roam Logbook – 404KSG",
-  "short_description": "Org-style Roam task clocks with Linear-inspired dashboard panels, paused-session recovery, Pomodoro, and task rollups.",
+  "short_description": "Org-style Roam task clocks with a compact Roam/Linear dashboard, paused-session recovery, Pomodoro, and task rollups.",
   "author": "forrestchang, 404KSG",
   "tags": [
     "productivity",
@@ -11,5 +11,5 @@
   ],
   "source_url": "https://github.com/404KSG/roam-logbook",
   "source_repo": "https://github.com/404KSG/roam-logbook.git",
-  "source_commit": "b32643cb9518bd4cccecb4e86f9f622857c631e6"
+  "source_commit": "bd142ba9349a8e717e250599d6d6693f9293cb87"
 }
