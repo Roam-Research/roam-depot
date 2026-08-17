@@ -1,0 +1,21 @@
+{
+  "name": "Quick Switcher",
+  "short_description": "Jump instantly to saved Roam pages and blocks from a fast, searchable switcher or the command palette, with aliases and right-sidebar support.",
+  "author": "RoamJS",
+  "tags": [
+    "quick-switcher",
+    "navigation",
+    "search",
+    "bookmarks",
+    "pages",
+    "blocks",
+    "command-palette",
+    "sidebar",
+    "aliases",
+    "productivity"
+  ],
+  "source_url": "https://github.com/RoamJS/quick-switcher",
+  "source_repo": "https://github.com/RoamJS/quick-switcher.git",
+  "source_commit": "6cddf3d23f99655379f4cdd510b7b2879afd765a",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
+}
