@@ -1,6 +1,6 @@
 {
   "name": "Roam Logbook – 404KSG",
-  "short_description": "Org-style single-focus task clocks with a compact Active Work panel, 45-minute Pomodoro, recovery, and task rollups.",
+  "short_description": "Org-style single-focus task clocks with a compact Active Threads panel, 45-minute Pomodoro, recovery, and task rollups.",
   "author": "forrestchang, 404KSG",
   "tags": [
     "productivity",
@@ -11,5 +11,5 @@
   ],
   "source_url": "https://github.com/404KSG/roam-logbook",
   "source_repo": "https://github.com/404KSG/roam-logbook.git",
-  "source_commit": "54db3aada5e84e3a5782687cbe20e7965bd7a308"
+  "source_commit": "c96c1c9a42c8664af59dff868339c5d0b9b83f7c"
 }
