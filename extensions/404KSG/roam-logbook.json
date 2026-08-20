@@ -1,15 +1,16 @@
 {
-  "name": "Roam Logbook – 404KSG",
-  "short_description": "Org-style single-focus clocks with Active Threads, a hierarchical Today task pool, 45-minute Pomodoro, recovery, and rollups.",
+  "name": "Task Tracker",
+  "short_description": "Single-focus time tracking with Active Threads, a hierarchical Today task pool, complete context paths, Pomodoro, recovery, and rollups.",
   "author": "forrestchang, 404KSG",
   "tags": [
     "productivity",
     "time tracking",
     "pomodoro",
     "TODO",
+    "task management",
     "logbook"
   ],
   "source_url": "https://github.com/404KSG/roam-logbook",
   "source_repo": "https://github.com/404KSG/roam-logbook.git",
-  "source_commit": "644f48a25f912052b1341f164117c19c94fa1ebe"
+  "source_commit": "0855a5b8ce85701a4f1de236946ad35a9c7643a9"
 }
