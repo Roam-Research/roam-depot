@@ -1,6 +1,6 @@
 {
   "name": "Task Tracker",
-  "short_description": "Single-focus time tracking with Active Threads, a hierarchical Today task pool, Pomodoro, recovery, and task rollups.",
+  "short_description": "Single-focus task and time tracking for Roam Research.",
   "author": "forrestchang, 404KSG",
   "tags": [
     "productivity",
@@ -10,7 +10,7 @@
     "task management",
     "logbook"
   ],
-  "source_url": "https://github.com/404KSG/roam-logbook",
-  "source_repo": "https://github.com/404KSG/roam-logbook.git",
-  "source_commit": "5a3e786af68f899ad9dc0e1188c8a5eb37f927f5"
+  "source_url": "https://github.com/404KSG/roam-task-tracker",
+  "source_repo": "https://github.com/404KSG/roam-task-tracker.git",
+  "source_commit": "155fa3c18d07a5eff0275a686c61c344bd939064"
 }
