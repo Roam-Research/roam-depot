@@ -1,0 +1,15 @@
+{
+  "name": "Roam Map",
+  "short_description": "Turn Roam pages, blocks, queries, and Datalog results into live maps.",
+  "author": "MaskyS",
+  "tags": [
+    "maps",
+    "location",
+    "queries",
+    "datalog",
+    "visualization"
+  ],
+  "source_url": "https://github.com/MaskyS/roam-map",
+  "source_repo": "https://github.com/MaskyS/roam-map.git",
+  "source_commit": "1e5b06a4ce465d1ebf1b0fe7d5feaf4a30ad7bd3"
+}
