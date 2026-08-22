@@ -1,0 +1,9 @@
+{
+  "name": "Nautilus Log",
+  "short_description": "A transparent visual day planner with optional CLOCK timing, task switching, overload visibility, and a lightweight daily review.",
+  "author": "404KSG",
+  "tags": ["time-blocking", "time-tracking", "tasks", "planning", "productivity"],
+  "source_url": "https://github.com/404KSG/roam-nautilus-log",
+  "source_repo": "https://github.com/404KSG/roam-nautilus-log.git",
+  "source_commit": "f5cb32ef912964c0def94ebfe1ac0b13ec7e152c"
+}
