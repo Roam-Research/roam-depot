@@ -1,9 +1,9 @@
 {
-  "name": "Nautilus Flow",
+  "name": "Nautilus Log",
   "short_description": "A transparent visual time-blocking planner that dynamically schedules today's tasks and makes overload visible.",
   "author": "404KSG",
   "tags": ["time-blocking", "tasks", "planning", "productivity", "visualization"],
-  "source_url": "https://github.com/404KSG/roam-nautilus-flow",
-  "source_repo": "https://github.com/404KSG/roam-nautilus-flow.git",
-  "source_commit": "490610f506c124ceda99f1f11d3e4388ce2b6cee"
+  "source_url": "https://github.com/404KSG/roam-nautilus-log",
+  "source_repo": "https://github.com/404KSG/roam-nautilus-log.git",
+  "source_commit": "616cc069cf294bb5c10a629ba6e57206f5cbdd32"
 }
