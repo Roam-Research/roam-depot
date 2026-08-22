@@ -1,0 +1,9 @@
+{
+  "name": "Roam Grid",
+  "short_description": "Turn a native Roam table into a spreadsheet — formulas, merges, charts, comments — cells stay ordinary blocks.",
+  "author": "Svyatoslav Kleshchev",
+  "tags": ["table", "spreadsheet", "formulas", "editing"],
+  "source_url": "https://github.com/Svyk/roam-grid",
+  "source_repo": "https://github.com/Svyk/roam-grid.git",
+  "source_commit": "9f9c27e8d017a46a31369cacc5968d39db0b2844"
+}
