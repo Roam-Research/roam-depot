@@ -1,0 +1,21 @@
+{
+  "name": "Custom Dark Mode",
+  "short_description": "A per-user customizable, color-only dark mode.",
+  "author": "RoamJS",
+  "tags": [
+    "dark mode",
+    "dark theme",
+    "dark CSS",
+    "roam/css",
+    "color theme",
+    "colors",
+    "appearance",
+    "customization",
+    "accessibility",
+    "productivity"
+  ],
+  "source_url": "https://github.com/RoamJS/custom-dark-mode",
+  "source_repo": "https://github.com/RoamJS/custom-dark-mode.git",
+  "source_commit": "2295c7902c025bb652f66c8559a91570e25b5403",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
+}
