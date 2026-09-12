@@ -1,0 +1,8 @@
+{
+  "name": "Input Agent Bridge",
+  "short_description": "Preview: send explicitly selected editor text to a local Pi session. Desktop loading unverified.",
+  "author": "404KSG",
+  "source_url": "https://github.com/404KSG/input-agent-bridge",
+  "source_repo": "https://github.com/404KSG/input-agent-bridge.git",
+  "source_commit": "cbeb31185aaa06652776e699a8b4d921286aeb4d"
+}
