@@ -1,0 +1,9 @@
+{
+  "name": "Inline Autocomplete",
+  "short_description": "Page and block suggestions as you type, without typing [[ first. Built for Chinese, Japanese, and Korean input.",
+  "author": "hkmc",
+  "tags": ["autocomplete", "editing", "search", "productivity"],
+  "source_url": "https://github.com/mmssddss/roam-inline-autocomplete",
+  "source_repo": "https://github.com/mmssddss/roam-inline-autocomplete.git",
+  "source_commit": "a1bc880ea11496f41cb6ebc4209c2f0f27f77241"
+}
