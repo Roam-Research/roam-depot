@@ -5,5 +5,6 @@
   "tags": ["dates", "scheduling", "productivity"],
   "source_url": "https://github.com/bwydoogh/roam-date-randomizer",
   "source_repo": "https://github.com/bwydoogh/roam-date-randomizer.git",
-  "source_commit": "1d2d8047002f8dc065711e1f9b104bed1cc43871"
+  "source_commit": "1d2d8047002f8dc065711e1f9b104bed1cc43871",
+  "stripe_account": "acct_1TzsHJQdGIF0T8Wk"
 }
