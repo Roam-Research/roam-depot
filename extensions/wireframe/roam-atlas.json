@@ -1,0 +1,9 @@
+{
+  "name": "Roam Atlas",
+  "short_description": "Pin pages and blocks with a Location:: attribute on an interactive map — geocoded automatically and cached in your graph.",
+  "author": "Ryan Sonnek",
+  "tags": ["maps", "geolocation"],
+  "source_url": "https://github.com/wireframe/roam-atlas",
+  "source_repo": "https://github.com/wireframe/roam-atlas.git",
+  "source_commit": "f034ca515c0a4f3778a95acf3f5a24f039d6e307"
+}
