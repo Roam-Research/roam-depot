@@ -1,0 +1,18 @@
+{
+  "name": "Pinned Blocks",
+  "short_description": "Keep important child blocks fixed at the top of their parent, even as new siblings are added above them.",
+  "author": "RoamJS",
+  "tags": [
+    "pinned blocks",
+    "pin",
+    "blocks",
+    "outline",
+    "organization",
+    "navigation",
+    "workflow"
+  ],
+  "source_url": "https://github.com/RoamJS/pinned-blocks",
+  "source_repo": "https://github.com/RoamJS/pinned-blocks.git",
+  "source_commit": "acebfc803ee078bddbf03dd6b1db61fea6f2959a",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
+}
