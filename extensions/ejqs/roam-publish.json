@@ -1,0 +1,10 @@
+{
+    "name": "Roam Publish",
+    "short_description": "Share and publish your Roam Research notes to the web.",
+    "author": "Earlan Josh Sabillano",
+    "tags": ["publish", "share", "online", "blog"], 
+    "source_url": "https://github.com/ejqs/roam-publish",
+    "source_repo": "https://github.com/ejqs/roam-publish.git",
+    "source_commit": "309e33a5db6a8c35488a7e1d07452f1a13bdbebf",
+    "stripe_account": "acct_1TGwZVHknJ4uNXFe" 
+  }
