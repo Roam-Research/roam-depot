@@ -1,11 +1,11 @@
 {
-    "name": "Developer",
-    "short_description": "Develop and publish your own Roam extensions with the help of RoamJS!",
-    "author": "David Vargas",
-    "tags": [],
-    "source_url": "https://github.com/dvargas92495/roamjs-developer",
-    "source_repo": "https://github.com/dvargas92495/roamjs-developer.git",
-    "source_commit": "c3d44d3ed027a5afcba8b0364f7e38f5751691d1",
-    "stripe_account": "acct_1MwrLQQn2YMck6pG",
-    "js_eval": true
+  "name": "Developer",
+  "short_description": "Develop and publish your own Roam extensions with the help of RoamJS!",
+  "author": "RoamJS",
+  "tags": [],
+  "source_url": "https://github.com/RoamJS/developer",
+  "source_repo": "https://github.com/RoamJS/developer.git",
+  "source_commit": "c3d44d3ed027a5afcba8b0364f7e38f5751691d1",
+  "stripe_account": "acct_1MELvlQYwoyGIU13",
+  "js_eval": true
 }

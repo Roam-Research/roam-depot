@@ -1,10 +1,10 @@
 {
-  "name": "Reading modes",
-  "short_description": "Read-only, Navigation controls, Focus mode, Click-to-select (instead of edit) and Bionic mode (Bionic reading). Replace Bionic text extension.",
+  "name": "Navigation & Reading modes",
+  "short_description": "Navigation through siblings blocks or DNPs, Read-only, Focus mode, Click-to-select (instead of edit) and Bionic mode (Bionic reading).",
   "author": "Fabrice Gallet",
-  "tags": ["reading", "focus", "navigation", "read only"],
+  "tags": ["reading", "focus", "navigation", "read only", "Daily notes"],
   "source_url": "https://github.com/fbgallet/roam-extension-bionic-text",
   "source_repo": "https://github.com/fbgallet/roam-extension-bionic-text.git",
-  "source_commit": "c9c4fa8f07834605d6d7fb988b049cf2951816d6",
+  "source_commit": "c9535648fce67ce278f1ee29a013b7ddad7d8c03",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }

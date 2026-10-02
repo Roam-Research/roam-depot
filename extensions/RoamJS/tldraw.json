@@ -1,0 +1,23 @@
+{
+  "name": "tldraw",
+  "short_description": "Turn any matching page into a fast, visual whiteboard with draggable page and block nodes, quick linking, and keyboard-friendly canvas controls.",
+  "author": "RoamJS",
+  "tags": [
+    "whiteboard",
+    "canvas",
+    "drawing",
+    "visualization",
+    "page",
+    "block",
+    "link",
+    "keyboard",
+    "control",
+    "drag",
+    "drop",
+    "synthesis"
+  ],
+  "source_url": "https://github.com/RoamJS/tldraw",
+  "source_repo": "https://github.com/RoamJS/tldraw.git",
+  "source_commit": "7eb65e5aed7e4f35172799f7929876db304a1c0e",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
+}
