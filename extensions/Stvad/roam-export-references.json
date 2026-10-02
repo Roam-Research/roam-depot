@@ -1,0 +1,15 @@
+{
+    "name": "Export with References",
+    "short_description": "Export a page or block with all its backlinks to clipboard as markdown. Backlinks include the referencing block and its children, grouped by source page.",
+    "author": "Vlad Sitalo",
+    "tags": [
+        "export",
+        "backlinks",
+        "markdown",
+        "clipboard"
+    ],
+    "source_url": "https://github.com/Stvad/roam-export-references",
+    "source_repo": "https://github.com/Stvad/roam-export-references.git",
+    "source_commit": "63132f9fade3f62a27a95fae5ba889b06302019e",
+    "stripe_account": "acct_1LcbYoQmU9n2q3gV"
+}
