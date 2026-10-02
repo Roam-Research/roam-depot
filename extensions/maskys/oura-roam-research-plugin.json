@@ -1,0 +1,9 @@
+{
+    "name": "Oura Ring",
+    "short_description": "Sync Oura Ring data into your graph as editable, queryable blocks with compact visual summaries.",
+    "author": "MaskyS",
+    "tags": ["health", "wellness", "wearables", "sleep", "activity", "biometrics", "hrv", "tracking", "import", "sync", "oura"],
+    "source_url": "https://github.com/MaskyS/oura-roam-research-plugin",
+    "source_repo": "https://github.com/MaskyS/oura-roam-research-plugin.git",
+    "source_commit": "cae12761942552c493465992345d2d9d0c7c3e49"
+}
