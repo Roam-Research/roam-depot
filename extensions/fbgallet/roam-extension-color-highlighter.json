@@ -1,10 +1,10 @@
 {
   "name": "Color Highlighter",
-  "short_description": "Highlight, write or underline text with different colors easily with keyboard only. Change also blocks background color and set color Card grid.",
+  "short_description": "Highlight, write, underline text or add border box with different colors with keyboard only or Toolbar. Change also blocks background or border color and set color Card grid.",
   "author": "Fabrice Gallet",
-  "tags": ["color", "highlight", "underline"],
+  "tags": ["color", "highlight", "underline", "box", "background"],
   "source_url": "https://github.com/fbgallet/roam-extension-color-highlighter",
   "source_repo": "https://github.com/fbgallet/roam-extension-color-highlighter.git",
-  "source_commit": "78d60be78f23e0042cd4deb69d93034f4fbf8203",
+  "source_commit": "c5f979bf496cbc32135fb295ec8af595157848d5",
   "stripe_account": "acct_1LJHuRQerhPsAmG6"
 }
