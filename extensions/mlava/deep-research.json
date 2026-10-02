@@ -1,0 +1,10 @@
+{
+  "name": "Deep Research",
+  "short_description": "Run deep research jobs from a variety of AI deep research models, right from within Roam Research.",
+  "author": "Mark Lavercombe",
+  "tags": ["deep research", "research", "ai", "gemini", "manus", "perplexity"],
+  "source_url": "https://github.com/mlava/roam-deep-research",
+  "source_repo": "https://github.com/mlava/roam-deep-research.git",
+  "source_commit": "9ca295f33eb65f4c3b18e40c65b3c210421f1518",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}

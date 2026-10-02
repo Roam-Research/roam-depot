@@ -1,8 +1,13 @@
 name: Build Extension Pull Request
 
+# Unprivileged workflow - no write permissions, no secrets access
+# Safe to run on untrusted PR code from forks
+permissions:
+  contents: read
+
 on:
-  pull_request_target:
-    branches:    
+  pull_request:
+    branches:
       - main
     paths:
       - 'extensions/*/*.json'
@@ -10,6 +15,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-24.04
+    timeout-minutes: 5
     steps:
       - run: |
           echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
@@ -20,9 +26,11 @@ jobs:
           chmod +x linux-install-1.11.1.1113.sh
           sudo ./linux-install-1.11.1.1113.sh
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
         with:
+          ref: main
           fetch-depth: 0
+          persist-credentials: false
 
       - run: clojure -P
         name: Fetch deps
@@ -33,7 +41,13 @@ jobs:
         run: |
           ./script/build.sh --pr $PR
 
-      - uses: actions/upload-artifact@v4
+      # Save PR number for the privileged workflow
+      - name: Save PR number
+        run: |
+          mkdir -p ./pr-info
+          echo ${{ github.event.pull_request.number }} > ./pr-info/PR_NUMBER
+
+      - uses: actions/upload-artifact@v6
         with:
           name: checkout
           path: |
@@ -42,35 +56,7 @@ jobs:
             checkout/*/extension.js
             checkout/*/extension.css
 
-  publish:
-    needs: build
-    runs-on: ubuntu-24.04
-    steps:
-      - run: |
-          echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
-          echo "$JAVA_HOME_17_X64/bin" >> $GITHUB_PATH
-
-      - run: |
-          curl -sLO https://download.clojure.org/install/linux-install-1.11.1.1113.sh
-          chmod +x linux-install-1.11.1.1113.sh
-          sudo ./linux-install-1.11.1.1113.sh
-
-      - uses: actions/checkout@v3
+      - uses: actions/upload-artifact@v6
         with:
-          fetch-depth: 0
-
-      - uses: actions/download-artifact@v4
-        with:
-          name: checkout
-          path: checkout
-
-      - run: echo $FIREBASE_SERVICE_KEY > ./firebase-key.json
-        env:
-          FIREBASE_SERVICE_KEY: ${{ secrets.FIREBASE_SERVICE_KEY }}
-
-      - run: clojure -P -M:firebase
-        name: Fetch deps
-
-      - run: ./script/publish.sh --key ./firebase-key.json --pr $PR
-        env:
-          PR: ${{ github.event.pull_request.number }}
+          name: pr-info
+          path: pr-info/

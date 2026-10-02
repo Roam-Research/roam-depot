@@ -1,0 +1,9 @@
+{
+  "name": "Nautilus Log",
+  "short_description": "A visual day planner with optional Google Calendar sync, CLOCK timing, a layered capacity bar, overload visibility, and daily review.",
+  "author": "404KSG",
+  "tags": ["time-blocking", "time-tracking", "tasks", "planning", "productivity", "calendar"],
+  "source_url": "https://github.com/404KSG/roam-nautilus-log",
+  "source_repo": "https://github.com/404KSG/roam-nautilus-log.git",
+  "source_commit": "db88722acd3b75fdb1a3dfde166d72c4a33831a0"
+}
