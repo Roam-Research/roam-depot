@@ -1,0 +1,10 @@
+{
+  "name": "Better Bullets",
+  "short_description": "Replace Roam's default bullet dot with meaningful, user-configurable glyph bullets — triggered by simple prefix markers you type at the start of a block.",
+  "author": "Mark Lavercombe",
+  "tags": ["bullet", "semantic"],
+  "source_url": "https://github.com/mlava/better-bullets",
+  "source_repo": "https://github.com/mlava/better-bullets.git",
+  "source_commit": "1d1abdc4aa2039ec2e7e7d3b815f0f2991b4af78",
+  "stripe_account": "acct_1MI2hiH4zkcxPFzj"
+}
