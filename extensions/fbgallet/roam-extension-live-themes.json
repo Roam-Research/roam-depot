@@ -1,6 +1,6 @@
 {
   "name": "Live Themes - AI-powered theming",
-  "short_description": "Design and tweak your Roam theme with AI, in plain words, no CSS knowledge needed. Instant preview, automatic revert if you don't keep it.",
+  "short_description": "Design and tweak your Roam theme with AI, in plain words, no CSS knowledge needed. Instant preview, automatic revert if you don't keep it. 4 predefined themes included.",
   "author": "Fabrice Gallet",
   "tags": ["theme", "css", "ai", "appearance", "live ai"],
   "source_url": "https://github.com/fbgallet/roam-extension-live-themes",
