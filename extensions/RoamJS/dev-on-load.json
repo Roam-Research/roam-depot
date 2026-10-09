@@ -1,0 +1,21 @@
+{
+  "name": "Dev on Load",
+  "short_description": "Skip the manual reload when you open your graph. Automatically reload developer extensions after a delay you choose, with an optional custom notification.",
+  "author": "RoamJS",
+  "tags": [
+    "developer",
+    "development",
+    "developer-mode",
+    "extensions",
+    "reload",
+    "startup",
+    "automation",
+    "delay",
+    "notifications",
+    "roamjs"
+  ],
+  "source_url": "https://github.com/RoamJS/dev-on-load",
+  "source_repo": "https://github.com/RoamJS/dev-on-load.git",
+  "source_commit": "5cb361857a22c7d8475aa665eea88c0473717d1f",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
+}
