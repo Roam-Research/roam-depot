@@ -1,9 +1,9 @@
 {
-    "name": "Roam Discover Superintelligence",
+    "name": "Roam and Discover Superintelligence",
     "short_description": "Ask AI in Roam with Grok, Claude, or Muse",
     "author": "Jesse Nichols",
     "tags": ["ai", "grok", "claude"],
     "source_url": "https://github.com/jesserayn/roam-and-discover-superintelligence",
     "source_repo": "https://github.com/jesserayn/roam-and-discover-superintelligence.git",
-    "source_commit": "dd96854a3d769fea7948a886de1be4eb3bb95c59"
+    "source_commit": "2af954fb2c24a469acc3e387c53976cf016b4202"
 }
