@@ -1,0 +1,9 @@
+{
+    "name": "Jesse Roam AI",
+    "short_description": "Ask AI in Roam with Grok, Claude, or Muse",
+    "author": "Jesse Nichols",
+    "tags": ["ai", "grok", "claude"],
+    "source_url": "https://github.com/jesserayn/roam-and-discover",
+    "source_repo": "https://github.com/jesserayn/roam-and-discover.git",
+    "source_commit": "9990f856c9fb802bec543e6dbcb16f80e8fb9cc2"
+}
