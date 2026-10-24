@@ -1,9 +1,9 @@
 {
   "name": "YouTube Bilingual Subtitles",
-  "short_description": "Bilingual subtitles directly inside embedded YouTube videos, with a compact toggle. Requires a local companion and your translation API.",
+  "short_description": "YouTube's own translated captions plus synchronized English inside the video. No API key; a local helper fetches the original captions.",
   "author": "404KSG",
   "tags": ["youtube", "translation", "video", "subtitles"],
   "source_url": "https://github.com/404KSG/roam-youtube-bilingual",
   "source_repo": "https://github.com/404KSG/roam-youtube-bilingual.git",
-  "source_commit": "837394878571e2a731b66df958878a2ef150de0b"
+  "source_commit": "c51e5f95bed128960f9b803c43fa3bef5e2471c5"
 }
