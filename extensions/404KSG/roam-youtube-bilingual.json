@@ -1,0 +1,9 @@
+{
+  "name": "YouTube Bilingual Subtitles",
+  "short_description": "Watch embedded YouTube videos with original and translated subtitles. Requires a local companion service and your own translation API.",
+  "author": "404KSG",
+  "tags": ["youtube", "translation", "video", "subtitles"],
+  "source_url": "https://github.com/404KSG/roam-youtube-bilingual",
+  "source_repo": "https://github.com/404KSG/roam-youtube-bilingual.git",
+  "source_commit": "5ccb7d047a480b0cfb0ec5772781f5dfea09f2f9"
+}
