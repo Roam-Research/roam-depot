@@ -1,9 +1,9 @@
 {
   "name": "Nautilus Log",
-  "short_description": "A visual day planner with an inline, draggable Desk view, optional Google Calendar sync, CLOCK timing, a layered capacity bar, and daily review.",
+  "short_description": "A visual day planner with a native-style Desk, outline task ordering, persistent views, Google Calendar sync, CLOCK timing, and daily review.",
   "author": "404KSG",
   "tags": ["time-blocking", "time-tracking", "tasks", "planning", "productivity", "calendar"],
   "source_url": "https://github.com/404KSG/roam-nautilus-log",
   "source_repo": "https://github.com/404KSG/roam-nautilus-log.git",
-  "source_commit": "79de1c49b3df84946d7f2d29eef963b31b0dcd3d"
+  "source_commit": "7f4a3612a68861ebba315e9295582203184037b8"
 }
