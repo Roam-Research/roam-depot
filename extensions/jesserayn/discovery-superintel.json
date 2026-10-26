@@ -1,0 +1,9 @@
+{
+    "name": "Discovery Superintel",
+    "short_description": "Ask AI in Roam with Grok, Claude, Muse, or OpenRouter",
+    "author": "Jesse Nichols",
+    "tags": ["ai", "grok", "claude", "muse", "openrouter"],
+    "source_url": "https://github.com/jesserayn/discovery-superintel",
+    "source_repo": "https://github.com/jesserayn/discovery-superintel.git",
+    "source_commit": "c9d2bc41c574dcf87f2d48e744c7a10f0924c227"
+}
