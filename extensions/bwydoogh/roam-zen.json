@@ -1,0 +1,10 @@
+{
+  "name": "Roam Zen",
+  "short_description": "Keeps the text of a block from jumping when you click into it.",
+  "author": "Benny Wydooghe",
+  "tags": ["editing", "markdown", "formatting"],
+  "source_url": "https://github.com/bwydoogh/roam-zen",
+  "source_repo": "https://github.com/bwydoogh/roam-zen.git",
+  "source_commit": "a86a977ee70d61845171df9d05295f4a863e6e04",
+  "stripe_account": "acct_1TzsHJQdGIF0T8Wk"
+}
