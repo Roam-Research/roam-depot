@@ -1,0 +1,9 @@
+{
+  "name": "Mermaid with Pele",
+  "short_description": "Draws Mermaid diagrams with Pele: {{[[mermaid]]}} blocks at full block width, a new {{[[pele]]}} block that keeps outline indentation, and live previews of Mermaid code blocks.",
+  "author": "sungjin",
+  "tags": ["mermaid", "diagram", "pele", "flowchart", "mindmap", "code block", "visualization"],
+  "source_url": "https://github.com/ujuc/roam-pele",
+  "source_repo": "https://github.com/ujuc/roam-pele.git",
+  "source_commit": "4022fa35df4464b91798bff91dade1bc4adff581"
+}
