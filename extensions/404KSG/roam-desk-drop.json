@@ -1,9 +1,9 @@
 {
   "name": "Roam Drop",
-  "short_description": "Drag blocks onto Daily Notes, Desk, or starred pages as live embeds, keeping originals in place.",
+  "short_description": "Drag blocks to Daily Notes, Desk, or starred pages as live embeds. Originals stay in place.",
   "author": "404KSG",
   "tags": ["desk", "drag-and-drop", "blocks", "embeds", "pages", "productivity"],
   "source_url": "https://github.com/404KSG/roam-desk-drop",
   "source_repo": "https://github.com/404KSG/roam-desk-drop.git",
-  "source_commit": "8b1e35255424d09fe4c6e2265be45a9bc7acf6d2"
+  "source_commit": "21d4471a72793d710916c90dbc7d5655f0bfddf1"
 }
