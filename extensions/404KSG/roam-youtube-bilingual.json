@@ -1,0 +1,9 @@
+{
+  "name": "YouTube Bilingual Subtitles",
+  "short_description": "Bilingual YouTube captions with global styles, local caching, and a macOS helper. No AI API key.",
+  "author": "404KSG",
+  "tags": ["youtube", "translation", "video", "subtitles"],
+  "source_url": "https://github.com/404KSG/roam-youtube-bilingual",
+  "source_repo": "https://github.com/404KSG/roam-youtube-bilingual.git",
+  "source_commit": "15113b80069892c842acb2512dae09da4d0a7d56"
+}
