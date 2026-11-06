@@ -14,8 +14,8 @@
     "ocr",
     "privacy"
   ],
+  "source_commit": "a615cca1bae84b1e3d43780517b897c1c72e1a28",
   "source_url": "https://github.com/RoamJS/workbench",
   "source_repo": "https://github.com/RoamJS/workbench.git",
-  "source_commit": "a615cca1bae84b1e3d43780517b897c1c72e1a28",
   "stripe_account": "acct_1SvNcDHhjqZussBl"
 }
