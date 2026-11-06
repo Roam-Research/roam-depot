@@ -1,0 +1,20 @@
+{
+  "name": "Find In Page",
+  "short_description": "Find every occurrence of a word or phrase on the current page, including folded blocks. Navigate highlighted matches with keyboard shortcuts and select the exact text to edit.",
+  "author": "RoamJS",
+  "tags": [
+    "find-in-page",
+    "search",
+    "navigation",
+    "highlights",
+    "folded-blocks",
+    "blocks",
+    "find",
+    "Ctrl-F",
+    "scan"
+  ],
+  "source_url": "https://github.com/RoamJS/find-in-page",
+  "source_repo": "https://github.com/RoamJS/find-in-page.git",
+  "source_commit": "c4be74fb62156a8208ba88039b5a080b1be97c0d",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
+}
