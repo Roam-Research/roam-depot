@@ -1,0 +1,9 @@
+{
+  "name": "Plexus Diagram",
+  "short_description": "A whiteboard for {{[[diagram]]}} blocks. Cards, sections, and connections stay real Roam blocks.",
+  "author": "Svyatoslav Kleshchev",
+  "tags": ["diagram", "whiteboard", "canvas", "blocks"],
+  "source_url": "https://github.com/Svyk/plexus-diagram",
+  "source_repo": "https://github.com/Svyk/plexus-diagram.git",
+  "source_commit": "56da219a4b3c2c986aeea3bc18d0058429bf28ec"
+}
