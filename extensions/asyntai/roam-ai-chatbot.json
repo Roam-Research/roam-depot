@@ -1,0 +1,9 @@
+{
+  "name": "Asyntai AI Chatbot",
+  "short_description": "Ask questions about your Roam pages with an AI chatbot, keep them in your Asyntai knowledge base, and read your website chats and leads.",
+  "author": "Asyntai",
+  "tags": ["ai", "chatbot", "knowledge base", "assistant", "sync", "customer support"],
+  "source_url": "https://github.com/asyntai/roam-ai-chatbot",
+  "source_repo": "https://github.com/asyntai/roam-ai-chatbot.git",
+  "source_commit": "d19d00463f61eb3415c7807b9a6682b6246f6481"
+}

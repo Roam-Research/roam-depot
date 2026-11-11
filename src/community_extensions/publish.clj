@@ -92,6 +92,15 @@
         (.create storage info bytes (make-array Storage$BlobTargetOption 0))
         name))))
 
+(defn read-build-info
+  "Reads checkout/<ext-id>/build-info.json written by the build step.
+   Returns nil if missing (older builds), which publish treats as a code change."
+  [dir]
+  (let [file (io/file dir "build-info.json")]
+    (when (and (.exists file)
+               (not (Files/isSymbolicLink (.toPath file))))
+      (json/parse-string (slurp file)))))
+
 (defn publish
   "Uploads files to:
 
@@ -100,7 +109,11 @@
    and metadata to:
 
      extensions/<ext-id>
-     extensions_versions/<ext-id>+<version>"
+     extensions_versions/<ext-id>+<version>
+
+   `updated` advances on every publish. `code_updated` only advances when the
+   build step determined that extension code changed (as opposed to docs or
+   metadata only), so that README-only updates do not reset it."
   [db storage ext-id data]
   (let [version    (->> (ref-find (ref db "extension_versions") "extension" ext-id)
                      (vals)
@@ -118,16 +131,34 @@
         _          (when (empty? files)
                      (throw (ex-info (str "No files found for extension " ext-id) {})))
         now        (core/timestamp)
+        prev       (when (pos? version)
+                     (ref-get (ref db "extensions" ext-id)))
+        build-info (read-build-info dir)
+        ;; Only trust a "code unchanged" verdict if the build compared the
+        ;; commit that is actually published against the one we are publishing.
+        ;; Otherwise (e.g. a previous publish failed) count it as a change.
+        baseline-ok?  (and (some? prev)
+                           (= (get build-info "old_commit") (get prev "source_commit"))
+                           (= (get build-info "new_commit") (get data "source_commit")))
+        code-changed? (or (get build-info "code_changed" true)
+                          (not baseline-ok?))
+        code-updated  (if code-changed?
+                        now
+                        (or (get prev "code_updated")
+                            (get prev "updated")
+                            now))
+        _          (println (str "[ code ] " (if code-changed? "changed" "unchanged") ", code_updated = " code-updated))
         data'      (assoc data
-                     "extension" ext-id
-                     "version"   version'
-                     "files"     files
-                     "updated"   now)
+                     "extension"    ext-id
+                     "version"      version'
+                     "files"        files
+                     "updated"      now
+                     "code_updated" code-updated)
         data''     (assoc data' "created"
                      (if (= 0 version)
                        now
-                       (ref-get (ref db "extensions" ext-id "created"))))]
-    (ref-set! (ref db "extension_versions" version-id) data')
+                       (get prev "created")))]
+    (ref-set! (ref db "extension_versions" version-id) (assoc data' "code_changed" code-changed?))
     (ref-set! (ref db "extensions" ext-id) data'')))
 
 (defn publish-pr

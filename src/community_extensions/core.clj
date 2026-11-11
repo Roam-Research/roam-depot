@@ -35,17 +35,33 @@
       (str/trim out)
       (throw (Exception. (str "Command '" (str/join " " cmd) "' failed with exit code " exit))))))
 
-(defn diff [args-map]
-  (let [diff (if-some [pr (get args-map "--pr")]
-               (let [branch (str "pr-" pr)]
-                 (sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))
-                 (sh "git" "checkout" branch)
-                 (sh "git" "diff" "--name-status" "--merge-base" "remotes/origin/main" branch))
-               (let [{sha-from "--from"
-                      sha-to   "--to"
-                      :or {sha-from "HEAD~1"
-                           sha-to   "HEAD"}} args-map]
-                 (sh "git" "diff" "--name-status" sha-from sha-to)))]
+(defn git-show-json
+  "Reads and parses `path` as it was at git revision `rev`.
+   Returns nil if the file did not exist at that revision."
+  [rev path]
+  (try
+    (json/parse-string (sh "git" "show" (str rev ":" path)))
+    (catch Exception _
+      nil)))
+
+(defn diff
+  "Returns a seq of [mode ext-id data old-data] for every extension JSON
+   touched by the diff. `data` is the new content (nil when deleted),
+   `old-data` is the previous content (only populated for modifications)."
+  [args-map]
+  (let [[diff old-rev]
+        (if-some [pr (get args-map "--pr")]
+          (let [branch (str "pr-" pr)]
+            (sh "git" "fetch" "origin" (str "pull/" pr "/head:" branch))
+            (sh "git" "checkout" branch)
+            [(sh "git" "diff" "--name-status" "--merge-base" "remotes/origin/main" branch)
+             "remotes/origin/main"])
+          (let [{sha-from "--from"
+                 sha-to   "--to"
+                 :or {sha-from "HEAD~1"
+                      sha-to   "HEAD"}} args-map]
+            [(sh "git" "diff" "--name-status" sha-from sha-to)
+             sha-from]))]
     (for [[mode path] (->> diff
                         (str/split-lines)
                         (map #(str/split % #"\t")))
@@ -54,8 +70,10 @@
                        ext-id        (validate-ext-id! (str user "+" repo))
                        file          (io/file path)
                        data          (when (.exists file)
-                                       (json/parse-string (slurp file)))]]
-      [mode ext-id data])))
+                                       (json/parse-string (slurp file)))
+                       old-data      (when (= mode "M")
+                                       (git-show-json old-rev path))]]
+      [mode ext-id data old-data])))
 
 (defn slurp-json [path]
   (-> path
