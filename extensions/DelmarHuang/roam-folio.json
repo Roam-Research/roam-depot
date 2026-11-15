@@ -1,0 +1,14 @@
+{
+  "name": "Folio",
+  "short_description": "Magazine-style typography and 29 independently switchable tools for writing, navigation, media and daily notes.",
+  "author": "DelmarHuang",
+  "tags": [
+    "productivity",
+    "writing",
+    "navigation",
+    "reading"
+  ],
+  "source_url": "https://github.com/DelmarHuang/roam-folio",
+  "source_repo": "https://github.com/DelmarHuang/roam-folio.git",
+  "source_commit": "d73d37405eb3a786760a3b8129bf7df31858135c"
+}
