@@ -5,6 +5,6 @@
   "tags": ["todo", "tasks", "recurring", "recurring tasks", "due dates", "scheduling", "deadlines", "reminders", "dashboard", "subtasks", "projects", "gtd", "getting things done", "weekly review", "productivity"],
   "source_url": "https://github.com/mlava/better-tasks",
   "source_repo": "https://github.com/mlava/better-tasks.git",
-  "source_commit": "416f5d4749b559da1984040041a12519ef552131",
+  "source_commit": "5e6d8d6274526e2b7979358b3fa3749c35a537bc",
   "stripe_account": "acct_1MI2hiH4zkcxPFzj"
 }
