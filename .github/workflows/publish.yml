@@ -41,6 +41,7 @@ jobs:
             checkout/*/CHANGELOG.md
             checkout/*/extension.js
             checkout/*/extension.css
+            checkout/*/build-info.json
 
   publish:
     needs: build

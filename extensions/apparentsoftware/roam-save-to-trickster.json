@@ -1,0 +1,9 @@
+{
+  "name": "Save to Trickster",
+  "short_description": "Send the current page to Trickster, the Mac menu bar app that keeps the files and links you just touched one click away.",
+  "author": "Apparent Software",
+  "tags": ["trickster", "mac", "bookmark", "link", "save"],
+  "source_url": "https://github.com/apparentsoftware/roam-save-to-trickster",
+  "source_repo": "https://github.com/apparentsoftware/roam-save-to-trickster.git",
+  "source_commit": "d0f359b15a9b6da75eb183c0d2bf015c52adf21c"
+}
