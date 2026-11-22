@@ -1,0 +1,9 @@
+{
+  "name": "File Manager",
+  "short_description": "See, sort and clean up the files uploaded to your Roam graph.",
+  "author": "Matt Sweeney",
+  "tags": ["files", "uploads", "images", "attachments", "storage", "cleanup"],
+  "source_url": "https://github.com/sweenzor/roam-file-manager",
+  "source_repo": "https://github.com/sweenzor/roam-file-manager.git",
+  "source_commit": "f3bb61fd02e6313e3302fd6aa82efc5742ded892"
+}
