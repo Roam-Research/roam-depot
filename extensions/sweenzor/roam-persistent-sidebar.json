@@ -1,0 +1,9 @@
+{
+  "name": "Persistent Sidebar",
+  "short_description": "Everything in your right sidebar comes back after you restart Roam.",
+  "author": "Matt Sweeney",
+  "tags": ["sidebar", "right sidebar", "pin", "restore", "workspace"],
+  "source_url": "https://github.com/sweenzor/roam-persistent-sidebar",
+  "source_repo": "https://github.com/sweenzor/roam-persistent-sidebar.git",
+  "source_commit": "1e53520e0f6bd208b34f8bff8cc643c6eaf5eea9"
+}
