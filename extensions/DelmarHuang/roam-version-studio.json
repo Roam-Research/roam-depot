@@ -1,0 +1,13 @@
+{
+  "name": "Version Studio",
+  "short_description": "Compare native block versions, follow changes in your thinking, and continue writing from any draft.",
+  "author": "DelmarHuang",
+  "tags": [
+    "versions",
+    "writing",
+    "editing"
+  ],
+  "source_url": "https://github.com/DelmarHuang/roam-version-studio",
+  "source_repo": "https://github.com/DelmarHuang/roam-version-studio.git",
+  "source_commit": "e33f2068e847fdfe24be92ffc431f615f164ecb0"
+}
