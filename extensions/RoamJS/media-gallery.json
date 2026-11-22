@@ -1,0 +1,17 @@
+{
+  "name": "Media Gallery",
+  "short_description": "Browse media across your graph, find images by visual meaning, and jump to the blocks that reference them.",
+  "author": "RoamJS",
+  "tags": [
+    "media",
+    "gallery",
+    "images",
+    "files",
+    "search",
+    "semantic search"
+  ],
+  "source_url": "https://github.com/RoamJS/media-gallery",
+  "source_repo": "https://github.com/RoamJS/media-gallery.git",
+  "source_commit": "d2be1918741cc6f8b3bb7bede606bd2eca6756f2",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
+}
