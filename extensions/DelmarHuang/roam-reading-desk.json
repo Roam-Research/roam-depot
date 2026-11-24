@@ -1,0 +1,13 @@
+{
+  "name": "Reading Desk",
+  "short_description": "Navigate long Roam pages, annotate beside the source, collect questions and create connected reading notes.",
+  "author": "DelmarHuang",
+  "tags": [
+    "reading",
+    "annotations",
+    "epub"
+  ],
+  "source_url": "https://github.com/DelmarHuang/roam-reading-desk",
+  "source_repo": "https://github.com/DelmarHuang/roam-reading-desk.git",
+  "source_commit": "7c7a951ac69e16a8d42b0bb0da5c236ad05d531a"
+}
