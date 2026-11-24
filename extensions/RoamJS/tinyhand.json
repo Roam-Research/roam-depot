@@ -1,0 +1,16 @@
+{
+  "name": "TinyHand",
+  "short_description": "Give your audience a hand. Point at a block, circle a phrase, or draw an arrow as you screen-share your Roam graph.",
+  "author": "RoamJS",
+  "tags": [
+    "screen sharing",
+    "presentations",
+    "live annotation",
+    "laser pointer",
+    "teaching"
+  ],
+  "source_url": "https://github.com/RoamJS/tinyhand",
+  "source_repo": "https://github.com/RoamJS/tinyhand.git",
+  "source_commit": "762dca44096dde75bc44113f871d705dafadcd56",
+  "stripe_account": "acct_1SvNcDHhjqZussBl"
+}
