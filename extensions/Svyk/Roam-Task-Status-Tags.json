@@ -1,0 +1,9 @@
+{
+  "name": "Task Status Tags",
+  "short_description": "Workflow statuses for TODOs, stored as queryable tags and shown as icons on the native checkbox.",
+  "author": "Svyatoslav Kleshchev",
+  "tags": ["tasks", "todo", "status", "workflow"],
+  "source_url": "https://github.com/Svyk/Roam-Task-Status-Tags",
+  "source_repo": "https://github.com/Svyk/Roam-Task-Status-Tags.git",
+  "source_commit": "0fd2269bf6ad8737d970b8a5008479b19b3eb474"
+}
