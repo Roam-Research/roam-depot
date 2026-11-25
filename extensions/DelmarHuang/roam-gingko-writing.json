@@ -1,0 +1,13 @@
+{
+  "name": "Gingko Writing",
+  "short_description": "A theme-adaptive horizontal writing workspace with native Roam editing and focused branch navigation.",
+  "author": "Yongbin Huang",
+  "tags": [
+    "writing",
+    "focus",
+    "navigation"
+  ],
+  "source_url": "https://github.com/DelmarHuang/roam-gingko-writing",
+  "source_repo": "https://github.com/DelmarHuang/roam-gingko-writing.git",
+  "source_commit": "1ef5619548db59bba7071b2a54a906b20a580b80"
+}
